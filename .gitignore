@@ -1,0 +1,23 @@
+# Plan / session files (do not push)
+.mavis/
+.opencode/
+node_modules/
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temp / scratch
+*.tmp
+*.bak
+*_temp.*
+*.log
+debug_*.txt
+
+# mavis working artifacts
+args.json
+search_args.json
+scratch_*.json
