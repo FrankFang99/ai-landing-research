@@ -122,7 +122,9 @@ jobs:
           - [ ] 资产分类正确（01-08 哪个目录）
           - [ ] 没有泄密（公开信息为准）
 
-          merge 后会自动部署 GitHub Pages。" \
-            --label "weekly-update,auto")
+          merge 后会自动部署 GitHub Pages。")
           echo "PR: $PR_URL"
+          # 尝试加 label（不阻塞主流程，label 不存在也不挂）
+          gh pr edit "$PR_URL" --add-label "weekly-update" 2>/dev/null || true
+          gh pr edit "$PR_URL" --add-label "auto" 2>/dev/null || true
         shell: bash
