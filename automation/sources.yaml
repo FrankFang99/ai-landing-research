@@ -17,39 +17,51 @@
 
 sources:
 
-  # ---------- A. 公开网页 / 内容站点 ----------
-  - type: web
-    name: 36氪 AI 频道
-    url: https://36kr.com/information/AI
-    keywords: [AI落地, 行业应用, 大模型, 企业级AI]
-    enabled: true
+  # ---------- A. 公开网页 / 内容站点（已弃用） ----------
+  # 这些源用 web type + 正则抓链接，但 36氪/虎嗅/量子位 都已经反爬到
+  # 抓不到正文了；改用下方 C 区标准 RSS 源。
+  # 保留注释以备历史追溯。
+  # - type: web
+  #   name: 36氪 AI 频道（已替换为 RSS）
+  #   url: https://36kr.com/information/AI
+  # - type: web
+  #   name: 机器之心（SPA 无 RSS，已弃）
+  #   url: https://www.jiqizhixin.com
+  # - type: web
+  #   name: 量子位（无 RSS，已弃）
+  #   url: https://www.qbitai.com
+  # - type: web
+  #   name: 虎嗅 AI 频道（连接超时，已弃）
+  #   url: https://www.huxiu.com/ai
 
-  - type: web
-    name: 机器之心
-    url: https://www.jiqizhixin.com
-    keywords: [行业落地, 案例, 解决方案]
-    enabled: true
+  # ---------- A+. 视频站（B 站暂停） ----------
+  # RSSHub 公开实例 + B 站搜索 API 在本机都拉不到数据
+  # （RSSHub 全部超时/挂，搜索 API 直接 412 风控）
+  # 后续如需恢复，需要登录态 cookie 或 wbi 签名
+  - type: bilibili_user
+    name: 马想聊AI
+    mid: 3546675022924733
+    keywords: [AI落地, 大模型, 行业应用]
+    enabled: false  # 暂停：B 站 API 412 风控
 
-  - type: web
-    name: 量子位
-    url: https://www.qbitai.com
-    keywords: [AI应用, 行业案例, 大模型落地]
-    enabled: true
+  - type: bilibili_user
+    name: Jason程前
+    mid: 3493095467387119
+    keywords: [AI, 创业, 行业]
+    enabled: false  # 暂停：B 站 API 412 风控
 
-  - type: web
-    name: 虎嗅 AI 频道
-    url: https://www.huxiu.com/ai
-    keywords: [AI落地, 行业应用]
-    enabled: true
+  - type: bilibili_user
+    name: 程前朋友圈
+    mid: 393780888
+    keywords: [AI, 商业, 行业]
+    enabled: false  # 暂停：B 站 API 412 风控
 
-  # ---------- A+. 视频站（占位，按需启用） ----------
-  # 哔哩哔哩科技区 UP 主投稿
-  # 注意：抓 B 站视频需要登录态 / 第三方 API，目前用 web_search + 关键词触发
-  - type: web
-    name: 哔哩哔哩科技区 AI 标签
-    url: https://search.bilibili.com/all?keyword=AI%E8%90%BD%E5%9C%B0
-    keywords: [AI落地, 行业案例, 大模型应用]
-    enabled: false  # 先关，需要配合 web_search 关键词使用
+  - type: bilibili_user
+    name: 光羽的平行世界
+    # 注：B 站搜索 API 返回的真实 mid；用户最初给的 354671130014396 是错位的
+    mid: 3546571130014396
+    keywords: [AI, 科技, 未来]
+    enabled: false  # 暂停：B 站 API 412 风控
 
   # 微信公众号：搜狗微信搜索作为入口（仅公开文章）
   - type: web
@@ -78,6 +90,32 @@ sources:
     enabled: true
 
   # ---------- C. RSS（标准 feed） ----------
+  # 中文 AI 落地优质源（实测 RSS 可达）
+  - type: rss
+    name: 36氪
+    url: https://36kr.com/feed
+    enabled: true
+    # 创业/商业视角，AI 落地报道密度高
+
+  - type: rss
+    name: InfoQ 中文
+    url: https://www.infoq.cn/feed.xml
+    enabled: true
+    # 企业技术/架构/AI 落地方法论
+
+  - type: rss
+    name: 人人都是产品经理
+    url: https://www.woshipm.com/feed
+    enabled: true
+    # 接地气的产品/落地分析
+
+  - type: rss
+    name: 雷锋网
+    url: https://www.leiphone.com/feed
+    enabled: true
+    # AI/智能硬件/产业应用
+
+  # 国际英文 AI 源（参考用）
   - type: rss
     name: Hugging Face Blog
     url: https://huggingface.co/blog/feed.xml
