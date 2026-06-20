@@ -1,0 +1,47 @@
+[
+  {
+    "title": "智谱新高，MiniMax承压，“大模型双雄”命运殊途",
+    "url": "https://36kr.com/p/3858455690804102",
+    "reason": "原文内容为空无法判断实质价值，仅凭标题无法确认是否有具体落地场景或数据支撑"
+  },
+  {
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "reason": "这是一篇 AI 代理安全性的学术研究文章，属于大模型安全/隐私保护领域，但缺乏具体的行业落地场景和实际应用案例"
+  },
+  {
+    "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+    "url": "https://huggingface.co/blog/peft-beyond-lora",
+    "reason": "文章聚焦于 LoRA 微调技术的对比讨论，属于通用技术方法论，未涉及具体行业落地场景"
+  },
+  {
+    "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+    "url": "https://huggingface.co/blog/is-it-agentic-enough",
+    "reason": "文章主题是模型评测方法论（非具体行业应用），属于技术工具类内容，不符合行业落地案例标准"
+  },
+  {
+    "title": "MolmoMotion: Language-guided 3D motion forecasting",
+    "url": "https://huggingface.co/blog/allenai/molmomotion",
+    "reason": "该内容是技术模型/研究项目发布（MolmoMotion），缺乏明确的行业落地场景和验证数据，不符合入库标准。"
+  },
+  {
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "reason": "该内容为GLM-5.2模型发布的技术介绍，缺乏具体行业应用场景、落地案例和验证数据，属于模型功能宣传而非行业落地案例"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "reason": "LifeSciBench 是 OpenAI 发布的评测基准工具，而非具体的行业落地案例或解决方案，缺少实际应用场景和成果数据"
+  },
+  {
+    "title": "Predicting model behavior before release by simulating deployment",
+    "url": "https://openai.com/index/deployment-simulation",
+    "reason": "这是 OpenAI 自身的技术开发方法介绍（模型测试/安全评估），而非 AI 在具体行业的应用落地案例"
+  },
+  {
+    "title": "Securing the future of AI agents",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "reason": "文章讨论AI agent安全性通用框架，缺乏具体行业落地场景、案例数据或可验证的业务成果"
+  }
+]

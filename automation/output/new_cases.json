@@ -1,0 +1,145 @@
+[
+  {
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "industry": "制造",
+    "asset_type": "案例-成功",
+    "summary": "Hugging Face 与 AWS 合作，展示如何通过 Strands Agents 和 LeRobot 框架将 Hugging Face Hub 上的 AI 模型部署到机器人硬件，实现从云端 AI 到实体机器人的端到端解决方案，支持开源机器人学习模型的落地应用。",
+    "tags": [
+      "机器人",
+      "开源框架",
+      "AI部署",
+      "LeRobot",
+      "AWS"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-06-20",
+    "file": "06_案例库/成功案例_v2/From_the_Hugging_Face_Hub_to_robot_hardware_with_Strands_Age_18919aebf74805fa.md",
+    "fingerprint": "18919aebf74805fa"
+  },
+  {
+    "title": "Agentic Resource Discovery: Let agents search",
+    "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "Hugging Face 推出 Agentic Resource Discovery 功能，允许 AI Agent 自主搜索和发现平台上的 ML 资源（模型、数据集、论文等），展示了大模型 Agent 能力在信息检索场景的具体应用实现。",
+    "tags": [
+      "Agent",
+      "Hugging Face",
+      "资源发现",
+      "AI应用"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-06-20",
+    "file": "01_行业地图/Agentic_Resource_Discovery__Let_agents_search_da0fc9547a613d48.md",
+    "fingerprint": "da0fc9547a613d48"
+  },
+  {
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "OpenAI 为 ChatGPT Enterprise 推出新的使用分析和支出控制功能，帮助企业客户更精细地管理 AI 成本、监控使用情况，从而有信心地扩展 AI 应用。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT Enterprise",
+      "企业AI",
+      "成本管理",
+      "产品更新"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-06-20",
+    "file": "01_行业地图/New_usage_analytics_and_updated_spend_controls_for_enterpris_5063c8e0431b411e.md",
+    "fingerprint": "5063c8e0431b411e"
+  },
+  {
+    "title": "Improving health intelligence in ChatGPT",
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "industry": "医疗",
+    "asset_type": "行业洞察",
+    "summary": "OpenAI 发布 GPT-5.5 Instant 对 ChatGPT 健康与保健功能的改进，包括更强推理能力、更好上下文理解、更清晰沟通方式，以及引入医生参与的评估机制，旨在提升 AI 健康响应的准确性和可靠性。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "健康医疗",
+      "大模型",
+      "AI助手"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-06-20",
+    "file": "01_行业地图/Improving_health_intelligence_in_ChatGPT_f3b1868c3fb27afc.md",
+    "fingerprint": "f3b1868c3fb27afc"
+  },
+  {
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "industry": "医疗",
+    "asset_type": "案例-成功",
+    "summary": "OpenAI研究人员使用其推理模型帮助诊断儿童罕见遗传疾病，在此前无法解决的病例中成功识别出18个新诊断案例，展示了大模型在医学诊断领域的实际应用价值。",
+    "tags": [
+      "罕见病诊断",
+      "儿科",
+      "基因疾病",
+      "OpenAI",
+      "推理模型"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-06-20",
+    "file": "06_案例库/成功案例_v2/Using_AI_to_help_physicians_diagnose_rare_genetic_diseases_a_1593126ce382e218.md",
+    "fingerprint": "1593126ce382e218"
+  },
+  {
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "industry": "医疗",
+    "asset_type": "案例-成功",
+    "summary": "OpenAI与Molecule.one合作，展示了接近自主化的AI化学家在药物化学中的应用。AI系统使用GPT-5.4优化了一个具有挑战性的药物合成反应，为药物研发提供了新的自动化解决方案。",
+    "tags": [
+      "AI化学",
+      "药物研发",
+      "GPT-5.4",
+      "自动化合成",
+      "Molecule.one"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-06-20",
+    "file": "06_案例库/成功案例_v2/A_near-autonomous_AI_chemist_improves_a_challenging_reaction_6e5914a74913af7a.md",
+    "fingerprint": "6e5914a74913af7a"
+  },
+  {
+    "title": "Introducing the OpenAI Partner Network",
+    "url": "https://openai.com/index/introducing-openai-partner-network",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "OpenAI推出合作伙伴网络，计划投资1.5亿美元帮助全球合作伙伴加速企业级AI的采用、部署和数字化转型，这是OpenAI推动AI落地的生态化布局。",
+    "tags": [
+      "OpenAI",
+      "合作伙伴网络",
+      "企业AI",
+      "AI生态",
+      "战略投资"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-06-20",
+    "file": "01_行业地图/Introducing_the_OpenAI_Partner_Network_bfbcc2169770bdcc.md",
+    "fingerprint": "bfbcc2169770bdcc"
+  },
+  {
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "industry": "政务",
+    "asset_type": "行业洞察",
+    "summary": "英国政府与 Google DeepMind 合作开发 AI 原型系统，用于加速住房规划审批决策。该项目旨在通过 AI 技术提升政府规划审批效率，解决英国住房建设速度缓慢的问题，是 AI 在政府政务场景落地的典型案例。",
+    "tags": [
+      "政府服务",
+      "规划审批",
+      "AI落地",
+      "DeepMind",
+      "住房"
+    ],
+    "source": "Google DeepMind Blog",
+    "date": "2026-06-20",
+    "file": "01_行业地图/Unlocking_UK_house-building_with_AI-accelerated_planning_e071f35190e95350.md",
+    "fingerprint": "e071f35190e95350"
+  }
+]
