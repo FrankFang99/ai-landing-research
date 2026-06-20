@@ -38,19 +38,16 @@ def main() -> int:
     src = DATA_JS.read_text(encoding="utf-8")
 
     # 解析已有数据。data.js 形如：
-    #   /* 注释，可能含花括号/分号 */
+    #   /* 注释，可能含花括号/分号和 "window.SITE_DATA" 字样 */
     #   window.SITE_DATA = { ... };
-    # 用 sentinel 法：从第一个 "window.SITE_DATA" 起，括号配对找完整 JSON 对象
+    # sentinel 必须出现在注释之外 —— 用 " = " 后的 "{" 作为锚点
+    # 找到行首以 "window.SITE_DATA" 开头的赋值行（用 MULTILINE + 行首 ^）
     import re
-    sentinel = "window.SITE_DATA"
-    idx = src.find(sentinel)
-    if idx < 0:
-        log("data.js 解析失败：找不到 window.SITE_DATA")
+    m = re.search(r"^window\.SITE_DATA\s*=\s*\{", src, re.MULTILINE)
+    if not m:
+        log("data.js 解析失败：找不到赋值行")
         return 1
-    brace_start = src.find("{", idx)
-    if brace_start < 0:
-        log("data.js 解析失败：找不到 {")
-        return 1
+    brace_start = m.end() - 1   # m.end() 指向 '{'
     depth = 0
     end = -1
     in_str = False
