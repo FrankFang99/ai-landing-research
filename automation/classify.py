@@ -40,7 +40,8 @@ ASSET_DIRS = {
 
 
 def now_cn() -> str:
-    return datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M:%S%08:00")
+    # ISO8601 with +08:00 offset
+    return datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M:%S+08:00")
 
 
 def log(*args):

@@ -22,7 +22,8 @@ CN_TZ = timezone(timedelta(hours=8))
 
 
 def now_cn() -> str:
-    return datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M:%S%08:00")
+    # ISO8601 with +08:00 offset
+    return datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M:%S+08:00")
 
 
 def log(*args):
@@ -36,13 +37,47 @@ def main() -> int:
 
     src = DATA_JS.read_text(encoding="utf-8")
 
-    # 解析已有数据（直接 eval 提取 window.SITE_DATA，因为是我们自己生成的）
+    # 解析已有数据。data.js 形如：
+    #   /* 注释，可能含花括号/分号 */
+    #   window.SITE_DATA = { ... };
+    # 用 sentinel 法：从第一个 "window.SITE_DATA" 起，括号配对找完整 JSON 对象
     import re
-    m = re.search(r"window\.SITE_DATA\s*=\s*(\{.*?\});", src, re.DOTALL)
-    if not m:
-        log("data.js 解析失败")
+    sentinel = "window.SITE_DATA"
+    idx = src.find(sentinel)
+    if idx < 0:
+        log("data.js 解析失败：找不到 window.SITE_DATA")
         return 1
-    data = json.loads(m.group(1))
+    brace_start = src.find("{", idx)
+    if brace_start < 0:
+        log("data.js 解析失败：找不到 {")
+        return 1
+    depth = 0
+    end = -1
+    in_str = False
+    esc = False
+    for i in range(brace_start, len(src)):
+        ch = src[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                end = i
+                break
+    if end < 0:
+        log("data.js 解析失败：花括号未闭合")
+        return 1
+    data = json.loads(src[brace_start : end + 1])
 
     # 读新案例
     new_cases: list[dict] = []
