@@ -34,34 +34,37 @@ sources:
   #   name: 虎嗅 AI 频道（连接超时，已弃）
   #   url: https://www.huxiu.com/ai
 
-  # ---------- A+. 视频站（B 站暂停） ----------
-  # RSSHub 公开实例 + B 站搜索 API 在本机都拉不到数据
-  # （RSSHub 全部超时/挂，搜索 API 直接 412 风控）
-  # 后续如需恢复，需要登录态 cookie 或 wbi 签名
+  # ---------- A+. B 站 up 主（4 位访谈 KOL） ----------
+  # 2026-06-20 启用。本机走 B 站搜索 API 可能 412 风控（CI 环境一般 OK）。
+  # 若 fetch 阶段持续失败，fetch.py 会只打日志不报错，周更不至于挂。
+  # 这 4 个 up 主的真实身份与价值：
+  #   - 马想聊AI：得到的 COO/新商学负责人，B 站主要访谈 100+ 位 AI 落地/AI 赚钱的老板（确认）
+  #   - 程前朋友圈：一目十行创始人程前主理的商业访谈号（抖音 600w+，访谈 200+ 创业者）
+  #   - Jason程前：程前个人思考号（与「程前朋友圈」同主体）—— 现在这两个号基本同源，保留是因为分开运营
+  #   - 光羽的平行世界：程前合伙人/团队成员，「一目十行」光羽端侧 AI 芯片创始人（待 B 站 API 验证简介）
   - type: bilibili_user
     name: 马想聊AI
     mid: 3546675022924733
-    keywords: [AI落地, 大模型, 行业应用]
-    enabled: false  # 暂停：B 站 API 412 风控
-
-  - type: bilibili_user
-    name: Jason程前
-    mid: 3493095467387119
-    keywords: [AI, 创业, 行业]
-    enabled: false  # 暂停：B 站 API 412 风控
+    keywords: [AI落地, AI赚钱, AI应用, 大模型, 行业]
+    enabled: true
 
   - type: bilibili_user
     name: 程前朋友圈
     mid: 393780888
-    keywords: [AI, 商业, 行业]
-    enabled: false  # 暂停：B 站 API 412 风控
+    keywords: [AI, 商业, 创业, 访谈]
+    enabled: true
+
+  - type: bilibili_user
+    name: Jason程前
+    mid: 3493095467387119
+    keywords: [AI, 创业, 商业, 思考]
+    enabled: true
 
   - type: bilibili_user
     name: 光羽的平行世界
-    # 注：B 站搜索 API 返回的真实 mid；用户最初给的 354671130014396 是错位的
     mid: 3546571130014396
-    keywords: [AI, 科技, 未来]
-    enabled: false  # 暂停：B 站 API 412 风控
+    keywords: [AI, 芯片, 科技]
+    enabled: true
 
   # 微信公众号：搜狗微信搜索作为入口（仅公开文章）
   - type: web
