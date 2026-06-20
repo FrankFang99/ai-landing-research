@@ -1,0 +1,114 @@
+# ============================================
+# AI 项目落地研究 · 信息源清单
+# ============================================
+# 由周更 cron 读取。
+# 想加新源？直接加一条，开 PR 即可，下次 cron 自动生效。
+#
+# 支持三种 type：
+#   1) web        - 公开网页 / RSS / 视频站 / 公众号链接
+#                    通过 web_search 或 RSS 抓取
+#   2) github_repo- GitHub 仓库（release / commit / issue）
+#                    通过 GitHub REST API 抓取
+#   3) rss        - 标准 RSS / Atom feed
+#                    通过 feedparser 抓取
+#
+# 去重：脚本会用 URL + title 做 SHA1 去重，已经入库的不会重复抓。
+# ============================================
+
+sources:
+
+  # ---------- A. 公开网页 / 内容站点 ----------
+  - type: web
+    name: 36氪 AI 频道
+    url: https://36kr.com/information/AI
+    keywords: [AI落地, 行业应用, 大模型, 企业级AI]
+    enabled: true
+
+  - type: web
+    name: 机器之心
+    url: https://www.jiqizhixin.com
+    keywords: [行业落地, 案例, 解决方案]
+    enabled: true
+
+  - type: web
+    name: 量子位
+    url: https://www.qbitai.com
+    keywords: [AI应用, 行业案例, 大模型落地]
+    enabled: true
+
+  - type: web
+    name: 虎嗅 AI 频道
+    url: https://www.huxiu.com/ai
+    keywords: [AI落地, 行业应用]
+    enabled: true
+
+  # ---------- A+. 视频站（占位，按需启用） ----------
+  # 哔哩哔哩科技区 UP 主投稿
+  # 注意：抓 B 站视频需要登录态 / 第三方 API，目前用 web_search + 关键词触发
+  - type: web
+    name: 哔哩哔哩科技区 AI 标签
+    url: https://search.bilibili.com/all?keyword=AI%E8%90%BD%E5%9C%B0
+    keywords: [AI落地, 行业案例, 大模型应用]
+    enabled: false  # 先关，需要配合 web_search 关键词使用
+
+  # 微信公众号：搜狗微信搜索作为入口（仅公开文章）
+  - type: web
+    name: 微信公众号聚合（搜狗微信）
+    url: https://weixin.sogou.com/weixin?type=2&query=AI%E8%90%BD%E5%9C%B0
+    keywords: [AI落地, 行业案例, AI应用]
+    enabled: false  # 搜狗微信反爬较严，先关
+
+  # ---------- B. GitHub 仓库（API 抓取） ----------
+  - type: github_repo
+    name: awesome-industrial-ai
+    url: https://github.com/Industrial-AI/awesome-industrial-ai
+    track: releases
+    enabled: true
+
+  - type: github_repo
+    name: awesome-ai-in-finance
+    url: https://github.com/georgezouq/awesome-ai-in-finance
+    track: releases
+    enabled: true
+
+  - type: github_repo
+    name: awesome-medical-ai
+    url: https://github.com/analysiscenter/awesome-medical-ai
+    track: releases
+    enabled: true
+
+  # ---------- C. RSS（标准 feed） ----------
+  - type: rss
+    name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    enabled: true
+
+  - type: rss
+    name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    enabled: true
+
+  - type: rss
+    name: Google DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+
+
+# ============================================
+# 全局过滤（可选）
+# ============================================
+# 抓下来的内容如果标题/摘要包含以下关键词会被丢弃
+filters:
+  exclude_keywords:
+    - 招聘
+    - 求职
+    - 课程优惠
+    - 限时折扣
+    - 招股说明书
+    - 财报
+
+# 抓取时间窗（天）：只抓过去 N 天的内容
+window_days: 7
+
+# 每源最多抓多少条
+max_per_source: 20

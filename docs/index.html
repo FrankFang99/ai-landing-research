@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 项目落地研究 · 研究资产仓库</title>
+<meta name="description" content="8 大行业 AI 落地研究资产库 · 周更自动入库">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-row">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AI 项目落地研究</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#latest">最新更新</a>
+        <a href="#industries">行业地图</a>
+        <a href="#assets">研究资产</a>
+        <a href="#pipeline">自动化流水线</a>
+        <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener" class="nav-github">GitHub ↗</a>
+      </nav>
+    </div>
+    <div class="header-meta">
+      <span class="meta-pill" id="meta-updated">最近更新：—</span>
+      <span class="meta-pill" id="meta-count">案例数：—</span>
+      <span class="meta-pill" id="meta-cycle">更新周期：周更</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">研究资产仓库 · 周更自动入库</p>
+      <h1>把每个行业的 AI 落地路径，<br><span class="accent">讲清楚、能复用、可量化</span>。</h1>
+      <p class="lede">
+        覆盖金融、医疗、零售、教育、制造、政务、文娱、物流 <strong>8 大行业</strong>。
+        每周自动抓取公开案例 → LLM 分类 → 自动 PR 等你 review。
+      </p>
+      <div class="hero-actions">
+        <a href="#industries" class="btn btn-primary">浏览 8 行业</a>
+        <a href="#pipeline" class="btn btn-ghost">了解自动化流水线</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="latest">
+    <div class="container">
+      <div class="section-head">
+        <h2>最新更新</h2>
+        <p class="section-sub">由 GitHub Actions 周更 cron 自动入库，等待 review。</p>
+      </div>
+      <div id="latest-grid" class="latest-grid">
+        <div class="empty">暂无最新更新 — 等下周 cron 第一次跑完就有了。</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="industries">
+    <div class="container">
+      <div class="section-head">
+        <h2>行业地图</h2>
+        <p class="section-sub">8 行业重投优先级总表，鼠标悬停看每个行业的命中场景。</p>
+      </div>
+      <div class="industries-grid" id="industries-grid">
+        <!-- JS 渲染 -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="assets">
+    <div class="container">
+      <div class="section-head">
+        <h2>研究资产 · 4 大类</h2>
+        <p class="section-sub">全部沉淀在 GitHub 仓库的 7 个目录里，链接直达。</p>
+      </div>
+      <div class="assets-grid">
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/01_行业地图" target="_blank" rel="noopener">
+          <span class="asset-num">01</span>
+          <h3>行业地图</h3>
+          <p>8 行业全景扫描，重投优先级、决策人画像、价值密度。</p>
+        </a>
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/02_重点行业深度报告" target="_blank" rel="noopener">
+          <span class="asset-num">02</span>
+          <h3>深度报告</h3>
+          <p>金融 / 医疗 / 零售 / 教育 / 制造 / 政务 / 文娱 / 物流 八份独立深度报告。</p>
+        </a>
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/03_场景落地剧本" target="_blank" rel="noopener">
+          <span class="asset-num">03</span>
+          <h3>场景剧本</h3>
+          <p>可执行的落地剧本，7 步从立项到复盘。</p>
+        </a>
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/04_甲方决策评估" target="_blank" rel="noopener">
+          <span class="asset-num">04</span>
+          <h3>决策评估</h3>
+          <p>甲方决策路径图：识别 → 评估 → 立项 → 验收。</p>
+        </a>
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/06_案例库" target="_blank" rel="noopener">
+          <span class="asset-num">06</span>
+          <h3>案例库</h3>
+          <p>成功 / 失败案例双轨记录，沉淀反共识洞察。</p>
+        </a>
+        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/07_红队质询" target="_blank" rel="noopener">
+          <span class="asset-num">07</span>
+          <h3>红队质询</h3>
+          <p>对每个行业主流叙事反向拷问，避免被共识误导。</p>
+        </a>
+        <a class="asset-card asset-card-bc" href="https://github.com/FrankFang99/ai-landing-research/tree/main/08_销售BattleCard" target="_blank" rel="noopener">
+          <span class="asset-num">08</span>
+          <h3>销售 BattleCard</h3>
+          <p>8 行业销售弹药库，对客户分层 + 异议库 + 价值主张。</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="pipeline">
+    <div class="container">
+      <div class="section-head">
+        <h2>自动化流水线</h2>
+        <p class="section-sub">每周一 09:00 (UTC+8) 自动跑一次，结果以 PR 形式等你 review。</p>
+      </div>
+
+      <div class="pipeline">
+        <div class="pipe-step">
+          <span class="pipe-num">1</span>
+          <h4>读 sources.yaml</h4>
+          <p>信息源清单：公开网页、GitHub 仓库、公众号、视频站都可加入。</p>
+        </div>
+        <div class="pipe-arrow">→</div>
+        <div class="pipe-step">
+          <span class="pipe-num">2</span>
+          <h4>抓取新内容</h4>
+          <p>web_search + GitHub API 双通道拉取过去 7 天的更新。</p>
+        </div>
+        <div class="pipe-arrow">→</div>
+        <div class="pipe-step">
+          <span class="pipe-num">3</span>
+          <h4>LLM 分类</h4>
+          <p>判断是否值得入库、归到 8 行业哪个、补到哪个资产目录。</p>
+        </div>
+        <div class="pipe-arrow">→</div>
+        <div class="pipe-step">
+          <span class="pipe-num">4</span>
+          <h4>生成 PR</h4>
+          <p>自动开 PR 标 <code>weekly-update</code>，等人工 review 后 merge。</p>
+        </div>
+        <div class="pipe-arrow">→</div>
+        <div class="pipe-step">
+          <span class="pipe-num">5</span>
+          <h4>Pages 重部署</h4>
+          <p>merge 后 GitHub Actions 自动重新部署此页面。</p>
+        </div>
+      </div>
+
+      <div class="pipeline-config">
+        <h4>想加新信息源？</h4>
+        <p>编辑仓库根目录的 <code>automation/sources.yaml</code>，加一条就行。三种类型：</p>
+<pre><code>- type: web
+  name: 36氪 AI 频道
+  url: https://36kr.com/information/AI
+  keywords: [AI落地, 行业应用, 大模型]
+
+- type: github_repo
+  name: awesome-industry-ai
+  url: https://github.com/xxx/awesome-industry-ai
+  track: releases        # releases | commits | issues
+
+- type: web
+  name: 哔哩哔哩科技区 UP 主
+  url: https://space.bilibili.com/xxx
+  keywords: [AI落地, 行业案例]</code></pre>
+        <p>提交 PR 即可，下次 cron 自动生效。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>AI 项目落地研究 · 由 GitHub Actions 自动驱动 · <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener">仓库地址</a></p>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/render.js"></script>
+</body>
+</html>

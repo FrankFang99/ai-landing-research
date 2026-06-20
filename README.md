@@ -151,3 +151,51 @@
 | README v2 | 当前文件——门面升级 |
 | 收尾清理 | 11 份过期 v1 入回收站（含路线图 v1 / 行业地图 v1 / 决策评估 v1 / 案例库 v1 索引 / 一线员工反馈整目录）+ README 修错引用 1 行 |
 
+---
+
+## 九、GitHub Pages 站点（第五轮新增）
+
+**在线地址**：https://FrankFang99.github.io/ai-landing-research/
+
+> 站点源：`docs/` 目录，由 `.github/workflows/pages.yml` 自动部署。
+> 风格：专业深色 + 蓝色 accent，包含「最新更新 / 行业地图 / 4 类研究资产 / 自动化流水线」4 大模块。
+
+## 十、自动化流水线（每周一入库）
+
+整套由 GitHub Actions 周更 cron 驱动，**自动抓 → 自动分类 → 自动开 PR → 人工 review → 自动部署**。
+
+```
+周一 09:00 (UTC+8)
+        ↓
+[1] 读 automation/sources.yaml（你维护的信息源清单）
+        ↓
+[2] fetch.py        抓过去 7 天的新内容（公开网页 + GitHub API + RSS）
+        ↓
+[3] classify.py     LLM 判断：要不要入库？归 8 行业哪个？进哪个资产目录？
+        ↓
+[4] build_index.py  生成 docs/assets/data.js，更新页面「最新更新」区块
+        ↓
+[5] 开 PR 标 weekly-update，等你 review → merge → Pages 自动重部署
+```
+
+### 想加新的信息源？
+
+直接编辑 `automation/sources.yaml` 加一条，开 PR 即可。三种类型：
+
+| Type | 适用 | 抓取方式 |
+|---|---|---|
+| `web` | 公开网页 / B站 / 公众号聚合 / 公司官网 | HTTP GET + 链接抽取 |
+| `github_repo` | GitHub 仓库（跟踪 release/commit/issue）| GitHub REST API |
+| `rss` | 标准 RSS / Atom feed | feedparser |
+
+### 想换 LLM？
+
+在仓库 Settings → Secrets and variables → Actions 加：
+- `LLM_API_KEY`（必填）
+- `LLM_BASE_URL`（默认 `http://localhost:11434/v1`，生产用 OpenAI / DeepSeek / 月之暗面）
+- `LLM_MODEL`（默认 `qwen2.5:7b`）
+
+### 想换更新频率？
+
+编辑 `.github/workflows/weekly-update.yml` 的 `cron` 字段（默认 `'0 1 * * 1'` = 周一 01:00 UTC）。
+

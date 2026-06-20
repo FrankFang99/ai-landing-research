@@ -21,3 +21,10 @@ debug_*.txt
 args.json
 search_args.json
 scratch_*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
