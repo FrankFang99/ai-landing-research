@@ -131,7 +131,44 @@ sources:
 
   - type: rss
     name: Google DeepMind Blog
-    url: https://deepmind.google/blog/rss.xml
+    url: https://deepmind.google/blog/feed.xml
+    enabled: true
+
+
+  # ============================================
+  # D. 求职 / 创业信号源（2026-06-22 启用）
+  # ============================================
+  # signal_type 取值：
+  #   - job_signal          → 招聘动向（AI 产品岗、大厂 AI 团队组建）
+  #   - startup_signal      → 创业信号（融资、PMF、上下游缺口）
+  #   - industry_trend      → 行业趋势（监管、模型能力、格局变化）
+  #
+  # 现有 sources 的全局过滤（filters.exclude_keywords）里有「招聘 / 求职」会被排除。
+  # signal 类源需要在 fetch.py 里走白名单通道（见 FETCHERS['rss'] signal_type 处理）。
+  # 新增 signal 源时，必须在 fetch.py 的 _signal_whitelist 中显式登记。
+  # ============================================
+
+  # ---------- D1. 招聘动向（job_signal） ----------
+  - type: rss
+    name: V2EX 招聘频道（AI 相关）
+    url: https://www.v2ex.com/feed/tab/jobs.xml
+    signal_type: job_signal
+    keywords: [AI, 产品, 算法, 大模型, Agent]
+    enabled: true
+
+  - type: rss
+    name: 电鸭社区（远程 + AI 岗）
+    url: https://eleduck.com/feed.xml
+    signal_type: job_signal
+    keywords: [AI, 产品经理, 大模型, Prompt, Agent]
+    enabled: true
+
+  # ---------- D2. 创业信号（startup_signal） ----------
+  - type: rss
+    name: 创业邦
+    url: https://www.cyzone.cn/feed
+    signal_type: startup_signal
+    keywords: [AI, 大模型, 融资, 创业]
     enabled: true
 
 

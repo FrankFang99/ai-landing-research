@@ -65,7 +65,12 @@ def fingerprint(title: str, url: str) -> str:
     return hashlib.sha1(f"{title.strip()}|{url.strip()}".encode("utf-8")).hexdigest()[:16]
 
 
-def passes_filter(title: str, summary: str, exclude_kw: list[str]) -> bool:
+def passes_filter(title: str, summary: str, exclude_kw: list[str], bypass: bool = False) -> bool:
+    """全局关键词过滤。signal 类源（job_signal / startup_signal / industry_trend）
+    设置 bypass=True，跳过 exclude_keywords 检查（招聘/求职关键词不再误杀）。
+    """
+    if bypass:
+        return True
     text = f"{title} {summary}".lower()
     return not any(kw.lower() in text for kw in exclude_kw)
 
@@ -395,18 +400,23 @@ def main() -> int:
             log(f"未知 type: {src['type']} - {src.get('name')}")
             continue
         src["max"] = max_per_source
+        # signal 类源绕过全局 exclude_keywords（招聘 / 求职 关键词不再误杀）
+        is_signal = src.get("signal_type") in {"job_signal", "startup_signal", "industry_trend"}
         raw = fetcher(src, window_days)
         kept = []
         for it in raw:
-            if not passes_filter(it["title"], it.get("summary", ""), exclude_kw):
+            if not passes_filter(it["title"], it.get("summary", ""), exclude_kw, bypass=is_signal):
                 continue
             fp = fingerprint(it["title"], it["url"])
             if fp in seen:
                 continue
             seen.add(fp)
             it["fingerprint"] = fp
+            # 把 signal_type 透传到 candidate，classify.py 据此路由
+            if is_signal:
+                it["signal_type"] = src["signal_type"]
             kept.append(it)
-        log(f"{src['name']:30s} {len(raw):3d} -> {len(kept):3d}")
+        log(f"{src['name']:30s} {len(raw):3d} -> {len(kept):3d}{'[signal]' if is_signal else ''}")
         candidates.extend(kept)
 
     save_seen(seen)
