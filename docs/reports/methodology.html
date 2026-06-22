@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第三轮研究方法论 v1 · AI 项目落地研究</title>
+<meta name="description" content="4 步法 + 5 评分模板">
+<link rel="stylesheet" href="../assets/report.css">
+</head>
+<body>
+
+<header class="report-header">
+  <div class="container">
+    <div class="header-row">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AI 项目落地研究</span>
+      </a>
+      <nav class="report-nav">
+        <a href="../index.html#highlights">← 回到首页</a>
+        <a href="../index.html#latest">最新更新</a>
+        <a href="../index.html#industries">行业地图</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="report-layout">
+  <aside class="report-toc">
+    <div class="toc-title">目录</div>
+    <ul class="toc"><li class="toc-h2"><a href="#1-研究框架">1. 研究框架</a></li>
+<li class="toc-h3"><a href="#11-总流程4-步法">1.1 总流程（4 步法）</a></li>
+<li class="toc-h3"><a href="#12-step-1转型友好度-4-维评分法">1.2 Step 1：转型友好度 4 维评分法</a></li>
+<li class="toc-h3"><a href="#13-step-2竞争烈度-3-维评估法">1.3 Step 2：竞争烈度 3 维评估法</a></li>
+<li class="toc-h3"><a href="#14-step-3新护城河-12-种类型库">1.4 Step 3：新护城河 12 种类型库</a></li>
+<li class="toc-h3"><a href="#15-step-4护城河变迁深度分析5-章节-6-字段">1.5 Step 4：护城河变迁深度分析（5 章节 6 字段）</a></li>
+<li class="toc-h3"><a href="#16-step-5无护城河预警法3-大类-16-条">1.6 Step 5：无护城河预警法（3 大类 16 条）</a></li>
+<li class="toc-h2"><a href="#2-工具与模板">2. 工具与模板</a></li>
+<li class="toc-h3"><a href="#模板-1转型友好度评分模板">模板 1：转型友好度评分模板</a></li>
+<li class="toc-h3"><a href="#模板-2竞争烈度评估模板">模板 2：竞争烈度评估模板</a></li>
+<li class="toc-h3"><a href="#模板-3护城河评分卡v2-改进项">模板 3：护城河评分卡（v2 改进项）</a></li>
+<li class="toc-h3"><a href="#模板-4无护城河预警条目模板">模板 4：无护城河预警条目模板</a></li>
+<li class="toc-h2"><a href="#企业类型-行业">{企业类型 / 行业}</a></li>
+<li class="toc-h3"><a href="#模板-5护城河变迁深度报告模板10-15-页-5-章节">模板 5：护城河变迁深度报告模板（10-15 页 5 章节）</a></li>
+<li class="toc-h2"><a href="#3-数据来源8-大类可信度评级">3. 数据来源（8 大类可信度评级）</a></li>
+<li class="toc-h2"><a href="#4-局限与风险诚实承认-3-项">4. 局限与风险（诚实承认 3 项）</a></li>
+<li class="toc-h3"><a href="#41-评分主观性">4.1 评分主观性</a></li>
+<li class="toc-h3"><a href="#42-案例幸存者偏差">4.2 案例幸存者偏差</a></li>
+<li class="toc-h3"><a href="#43-预测时间尺度限制">4.3 预测时间尺度限制</a></li>
+<li class="toc-h3"><a href="#44-18-行业样本偏差">4.4 18 行业样本偏差</a></li>
+<li class="toc-h3"><a href="#45-数据时效">4.5 数据时效</a></li>
+<li class="toc-h2"><a href="#5-未来研究方向v4-建议">5. 未来研究方向（v4 建议）</a></li>
+<li class="toc-h3"><a href="#51-v4-应补什么">5.1 v4 应补什么</a></li>
+<li class="toc-h3"><a href="#52-哪类行业需要更深研究">5.2 哪类行业需要更深研究</a></li>
+<li class="toc-h3"><a href="#53-需要新增的-agent-能力-数据源">5.3 需要新增的 agent 能力 / 数据源</a></li>
+<li class="toc-h2"><a href="#6-使用指南给老板销售驻场">6. 使用指南（给老板/销售/驻场）</a></li>
+<li class="toc-h3"><a href="#61-老板做战略决策">6.1 老板（做战略决策）</a></li>
+<li class="toc-h3"><a href="#62-销售打单一线">6.2 销售（打单一线）</a></li>
+<li class="toc-h3"><a href="#63-驻场交付一线">6.3 驻场（交付一线）</a></li>
+<li class="toc-h2"><a href="#7-一句话总结背给团队">7. 一句话总结（背给团队）</a></li>
+<li class="toc-h2"><a href="#8-附录第三轮核心交付物索引">8. 附录：第三轮核心交付物索引</a></li>
+<li class="toc-h2"><a href="#9-附录第三轮工作流时间线2026-06-11-一天跑完">9. 附录：第三轮工作流时间线（2026-06-11 一天跑完）</a></li>
+<li class="toc-h2"><a href="#10-附录本方法论的下一步v2-计划">10. 附录：本方法论的下一步（v2 计划）</a></li></ul>
+  </aside>
+
+  <article class="report-body">
+    <div class="report-meta">
+      <span class="meta-tag">方法论</span>
+      <span class="meta-updated">最后更新：2026-06-22</span>
+    </div>
+    <h1 id="ai-行业护城河变迁研究方法论-v1" class="md-h1"><a href="#ai-行业护城河变迁研究方法论-v1" class="anchor">#</a> AI 行业护城河变迁研究方法论 v1</h1>
+<blockquote class="md-quote"><strong>目标读者</strong>：咨询公司老板 / 行业专家 / 销售 / 驻场顾问</blockquote>
+<blockquote class="md-quote"><strong>配套文件</strong>：<a href="D:\Learning\AI\AI项目落地研究\01_行业地图\行业转型友好度评分_v1.md" target="_blank" rel="noopener">行业转型友好度评分 v1</a> | <a href="D:\Learning\AI\AI项目落地研究\07_红队质询\转型竞争烈度评估_v1.md" target="_blank" rel="noopener">转型竞争烈度评估 v1</a> | <a href="D:\Learning\AI\AI项目落地研究\01_行业地图\新兴护城河类型清单_v1.md" target="_blank" rel="noopener">新兴护城河类型清单 v1</a> | <a href="D:\Learning\AI\AI项目落地研究\02_重点行业深度报告\护城河分析_*.md" target="_blank" rel="noopener">护城河分析 Top5 v2</a> | <a href="D:\Learning\AI\AI项目落地研究\07_红队质询\无护城河预警清单_v1.md" target="_blank" rel="noopener">无护城河预警清单 v1</a></blockquote>
+<blockquote class="md-quote"><strong>信息截止</strong>：2026 Q2</blockquote>
+<blockquote class="md-quote"><strong>本方法适用范围</strong>：18 个被研究的 AI 落地行业 + 任何新行业的初步扫描</blockquote>
+<blockquote class="md-quote"><strong>一句话总结</strong>：用 4 维"好转型评分"挑赛道 + 3 维"竞争烈度"挑对手 + 12 种"新护城河类型库"找立身之本 + 16 条"无护城河预警"避雷——四张图拼出"接不接 + 怎么接 + 立什么"的全景。</blockquote>
+<hr class="md-hr">
+<h2 id="1-研究框架" class="md-h2"><a href="#1-研究框架" class="anchor">#</a> 1. 研究框架</h2>
+<h3 id="11-总流程4-步法" class="md-h3"><a href="#11-总流程4-步法" class="anchor">#</a> 1.1 总流程（4 步法）</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<h3 id="12-step-1转型友好度-4-维评分法" class="md-h3"><a href="#12-step-1转型友好度-4-维评分法" class="anchor">#</a> 1.2 Step 1：转型友好度 4 维评分法</h3>
+<p class="md-p"><strong>目的</strong>：判断行业"好不好接"。</p>
+<p class="md-p"><strong>4 个评分维度</strong>（每维 1-5 分，总分 4-20）：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>评估问题</th>
+<th>0 分锚点</th>
+<th>5 分锚点</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>数字化基础</td>
+<td>行业信息化程度？</td>
+<td>全纸质 / 无 SaaS / 私有 ERP</td>
+<td>全链路 SaaS / 公有云 / 数据中台成熟</td>
+</tr>
+<tr>
+<td>数据可得性</td>
+<td>数据沉淀质量？</td>
+<td>无结构化数据 / 数据孤岛严重</td>
+<td>全结构化 / 开放训练集 / 标准 schema</td>
+</tr>
+<tr>
+<td>决策可逆性</td>
+<td>AI 错一次后果？</td>
+<td>错一次就完蛋（医疗/金融核心）</td>
+<td>错了能改（客服/营销/内容）</td>
+</tr>
+<tr>
+<td>容错空间</td>
+<td>客户对错误容忍？</td>
+<td>出错一次就丢客户（私人律师/医疗）</td>
+<td>错了客户也能接受（公共客服/批量生产）</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<p class="md-p"><strong>输出</strong>：</p>
+<ul class="md-ul">
+<li>18 行业 × 4 维评分表（每行业 4 维 + 总分 + 综合定位 + 卡点 + 跳板 + 真实案例）</li>
+<li>Top5 "好转型" 行业（总分 ≥ 17）</li>
+<li>5 个"难转型但不得不转"（监管驱动型）</li>
+<li>3 个"难转型且可不做"（不值得冒险）</li>
+</ul>
+<p class="md-p"><strong>使用提示</strong>：</p>
+<ul class="md-ul">
+<li>总分高 + 卡点少 = 必投；总分高 + 卡点多 = 找专业伙伴突破</li>
+<li>总分低 + 必须转 = 选 1-2 个深耕做专家，不铺量</li>
+<li>总分低 + 可不做 = 拒绝客户</li>
+</ul>
+<h3 id="13-step-2竞争烈度-3-维评估法" class="md-h3"><a href="#13-step-2竞争烈度-3-维评估法" class="anchor">#</a> 1.3 Step 2：竞争烈度 3 维评估法</h3>
+<p class="md-p"><strong>目的</strong>：判断行业"接的人多不多"。</p>
+<p class="md-p"><strong>3 个评估维度</strong>（每维 高/中/低）：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>评估问题</th>
+<th>高（红海）</th>
+<th>低（蓝海）</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>AI 厂商扎堆度</td>
+<td>大厂/初创在不在卷？</td>
+<td>百度/阿里/腾讯/华为/字节/第四范式重投</td>
+<td>大厂没进 / 进了但小</td>
+</tr>
+<tr>
+<td>同质化程度</td>
+<td>大家方案像不像？</td>
+<td>"四小龙"同款 chat-on-doc</td>
+<td>垂域微调 / 私有部署 / 行业 know-how</td>
+</tr>
+<tr>
+<td>价格战烈度</td>
+<td>客户在比价吗？</td>
+<td>公开招标 / 毛利 < 30%</td>
+<td>一单一议 / 毛利 > 50%</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<p class="md-p"><strong>4 类定位</strong>：</p>
+<ul class="md-ul">
+<li><strong>咨询友好</strong>（低 + 低 + 低）：大厂没进 + 差异化空间大 + 客户买单意愿强——首推</li>
+<li><strong>大厂主战场</strong>（高 + 中 + 高）：咨询 95% 别去当炮灰——拒绝</li>
+<li><strong>无人区</strong>（低 + 高 + 中）：客户有需求但没人做，窗口期 1-3 年——抢窗口</li>
+<li><strong>必放弃</strong>（高 + 高 + 高）：同质化 + 价格战 = 卖不出价——拒绝</li>
+</ul>
+<p class="md-p"><strong>与 Step 1 组合</strong>：</p>
+<ul class="md-ul">
+<li>第一象限（好转型 + 咨询友好）= 重投</li>
+<li>第二象限（好转型 + 大厂主战场）= 差异化打法</li>
+<li>第三象限（难转型 + 咨询友好）= 选 1-2 个深耕做专家</li>
+<li>第四象限（难转型 + 大厂主战场）= 不投</li>
+</ul>
+<h3 id="14-step-3新护城河-12-种类型库" class="md-h3"><a href="#14-step-3新护城河-12-种类型库" class="anchor">#</a> 1.4 Step 3：新护城河 12 种类型库</h3>
+<p class="md-p"><strong>目的</strong>：判断"接了之后能立什么"——AI 时代的新护城河长什么样。</p>
+<p class="md-p"><strong>三层分类</strong>：</p>
+<p class="md-p"><strong>A 数据层（最硬护城河，3-5 年有效）</strong></p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：用户越多 → 数据越多 → 模型越好 → 越多用户</li>
+<li><strong>垂域微调能力</strong>：行业 know-how + 私有数据微调 + 持续训练</li>
+<li><strong>数据合规能力</strong>：满足 GDPR / 个保法 / 数据出境要求</li>
+</ol>
+<p class="md-p"><strong>B 能力层（中等护城河，1-3 年有效）</strong></p>
+<ol class="md-ol">
+<li><strong>行业 know-how 沉淀</strong>：驻场经验 → 可复用 SOP / 提示词库 / 评估集</li>
+<li><strong>Agent 编排能力</strong>：把多模型/工具/数据源组合成解决方案</li>
+<li><strong>私有部署能力</strong>：数据不出域的客户必须私有部署</li>
+<li><strong>算力 / 基础设施规模</strong>：模型微调 / 推理 / 向量数据库的成本壁垒</li>
+</ol>
+<p class="md-p"><strong>C 客户层（最易建立，1-2 年有效）</strong></p>
+<ol class="md-ol">
+<li><strong>客户关系深度</strong>：一次性卖产品 → 长期陪跑 / 续费</li>
+<li><strong>渠道 / 触点控制</strong>：谁能更快触达客户谁就有护城河</li>
+<li><strong>生态合作</strong>：和 SaaS / 平台 / 行业 ISV 捆绑</li>
+<li><strong>品牌信任</strong>：客户买 AI 服务的"安全信号"</li>
+<li><strong>监管牌照 / 合规能力</strong>：能搞定医疗/金融/教育的牌照</li>
+</ol>
+<p class="md-p"><strong>18 行业 × 12 类型热力图</strong>：每行业哪 2-3 种新护城河最容易建立（基于行业数字化基础 + 数据可得性）。</p>
+<h3 id="15-step-4护城河变迁深度分析5-章节-6-字段" class="md-h3"><a href="#15-step-4护城河变迁深度分析5-章节-6-字段" class="anchor">#</a> 1.5 Step 4：护城河变迁深度分析（5 章节 6 字段）</h3>
+<p class="md-p"><strong>每份 Top5 行业报告结构</strong>：</p>
+<ol class="md-ol">
+<li><strong>旧护城河解剖</strong>（3-4 页）：过去 10 年这个行业的护城河是什么（3-5 种：渠道/规模/客户关系/技术壁垒/牌照）</li>
+<li><strong>AI 拆解路径</strong>（2-3 页）：每种旧护城河被 AI 怎么削弱（替代 / 摊薄 / 绕过）</li>
+<li><strong>新护城河长什么样</strong>（3-4 页）：3-5 种新护城河 + 类型 + 谁易建 + 真实案例</li>
+<li><strong>旧→新过渡策略</strong>（2-3 页）：在位 / 新进入 / 咨询公司三方视角</li>
+<li><strong>老板判断</strong>（1-2 页）：3 年护城河格局 + 咨询公司定位 + 不做什么</li>
+</ol>
+<h3 id="16-step-5无护城河预警法3-大类-16-条" class="md-h3"><a href="#16-step-5无护城河预警法3-大类-16-条" class="anchor">#</a> 1.6 Step 5：无护城河预警法（3 大类 16 条）</h3>
+<p class="md-p"><strong>目的</strong>：判断"接了会死吗"——哪些企业/行业 AI 时代正在失去护城河。</p>
+<p class="md-p"><strong>3 大类</strong>：</p>
+<ul class="md-ul">
+<li><strong>旧护城河崩塌</strong>（6 条）：信息差中介 / 基础翻译 / 客服外包 / 基础文案 / 数据标注 / 基础咨询</li>
+<li><strong>新护城河青黄不接</strong>（5 条）：传统呼叫中心 / 单一渠道 SaaS / 简单 RPA / 传统 ERP / 规则驱动金融基础</li>
+<li><strong>伪护城河</strong>（5 条）：自研大模型 / 通用软件 / 工具换皮 / AI 课程 / 表面战略咨询</li>
+</ul>
+<p class="md-p"><strong>每条预警 6 字段</strong>：</p>
+<ol class="md-ol">
+<li>旧护城河是什么</li>
+<li>AI 如何拆掉 / 削弱</li>
+<li>当前还剩多少优势（1-5 年寿命）</li>
+<li>真实案例（具体公司 + 数据 + 来源）</li>
+<li>我们该不该接（接 = 帮转型赚快钱 / 不接 = 客户跑路收不回款）</li>
+<li>销售话术参考（识别信号 + 谈边界话术）</li>
+</ol>
+<p class="md-p"><strong>老板拒绝客户画像</strong>：≥ 10 条（AI 工具焦虑症 / 短视频忽悠型 / 组织问题包装技术型 / 3 个月要 ROI / 等等）</p>
+<hr class="md-hr">
+<h2 id="2-工具与模板" class="md-h2"><a href="#2-工具与模板" class="anchor">#</a> 2. 工具与模板</h2>
+<h3 id="模板-1转型友好度评分模板" class="md-h3"><a href="#模板-1转型友好度评分模板" class="anchor">#</a> 模板 1：转型友好度评分模板</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<h3 id="模板-2竞争烈度评估模板" class="md-h3"><a href="#模板-2竞争烈度评估模板" class="anchor">#</a> 模板 2：竞争烈度评估模板</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<h3 id="模板-3护城河评分卡v2-改进项" class="md-h3"><a href="#模板-3护城河评分卡v2-改进项" class="anchor">#</a> 模板 3：护城河评分卡（v2 改进项）</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<h3 id="模板-4无护城河预警条目模板" class="md-h3"><a href="#模板-4无护城河预警条目模板" class="anchor">#</a> 模板 4：无护城河预警条目模板</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<h3 id="模板-5护城河变迁深度报告模板10-15-页-5-章节" class="md-h3"><a href="#模板-5护城河变迁深度报告模板10-15-页-5-章节" class="anchor">#</a> 模板 5：护城河变迁深度报告模板（10-15 页 5 章节）</h3>
+<pre class="md-code"><code class="lang-text"></code></pre>
+<hr class="md-hr">
+<h2 id="3-数据来源8-大类可信度评级" class="md-h2"><a href="#3-数据来源8-大类可信度评级" class="anchor">#</a> 3. 数据来源（8 大类可信度评级）</h2>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>大类</th>
+<th>渠道示例</th>
+<th>可信度</th>
+<th>局限</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>行业峰会</td>
+<td>CIO 时代 / 数据中台 / 跨境电商 / 法律科技</td>
+<td>高</td>
+<td>时间滞后 6-12 月</td>
+</tr>
+<tr>
+<td>企业发布会</td>
+<td>公司财报 / 战略发布会 / 客户案例</td>
+<td>高</td>
+<td>报喜不报忧</td>
+</tr>
+<tr>
+<td>CEO 表态</td>
+<td>行业大会演讲 / 媒体访谈 / 致股东信</td>
+<td>中高</td>
+<td>公关修饰</td>
+</tr>
+<tr>
+<td>UP 主</td>
+<td>抖音/B 站/小红书/知乎行业 KOL</td>
+<td>中</td>
+<td>主观偏差</td>
+</tr>
+<tr>
+<td>失败案例库</td>
+<td>法院文书 / 监管处罚 / 媒体调查</td>
+<td>高</td>
+<td>样本偏差（成功案例少曝光）</td>
+</tr>
+<tr>
+<td>内部驻场</td>
+<td>客户内部数据 + 现场观察</td>
+<td>最高</td>
+<td>受委托范围限制</td>
+</tr>
+<tr>
+<td>销售一线</td>
+<td>销售 BD 反馈 / 客户对话</td>
+<td>中高</td>
+<td>个人经验主义</td>
+</tr>
+<tr>
+<td>财务公告</td>
+<td>上市公司季报 / 招股书 / 券商研报</td>
+<td>高</td>
+<td>解读成本高</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<p class="md-p"><strong>使用原则</strong>：</p>
+<ul class="md-ul">
+<li>高 + 高交叉验证（如：财报 + 监管处罚）</li>
+<li>UP 主 / 销售一线 做"信号"，不做"判断"</li>
+<li>行业峰会做"趋势"，不做"具体行业判断"</li>
+<li>内部驻场做"事实"，其他做"补充"</li>
+</ul>
+<hr class="md-hr">
+<h2 id="4-局限与风险诚实承认-3-项" class="md-h2"><a href="#4-局限与风险诚实承认-3-项" class="anchor">#</a> 4. 局限与风险（诚实承认 3 项）</h2>
+<h3 id="41-评分主观性" class="md-h3"><a href="#41-评分主观性" class="anchor">#</a> 4.1 评分主观性</h3>
+<ul class="md-ul">
+<li>4 维评分依赖研究者经验，<strong>不同人评同一行业可能差 3-5 分</strong></li>
+<li>缓解：交叉验证（2-3 人独立评分取平均）+ 案例佐证（每条评分配 1-2 个真实公司）</li>
+</ul>
+<h3 id="42-案例幸存者偏差" class="md-h3"><a href="#42-案例幸存者偏差" class="anchor">#</a> 4.2 案例幸存者偏差</h3>
+<ul class="md-ul">
+<li>18 行业研究的"成功案例"（如顺丰、京东物流）<strong>是幸存者，未必代表行业平均</strong></li>
+<li>失败案例（自研大模型 / 工具换皮）虽然有 22 条素材，但<strong>全行业失败率可能更高</strong></li>
+<li>缓解：每条结论都标"案例来源 + 失败反例"；不夸大成功率</li>
+</ul>
+<h3 id="43-预测时间尺度限制" class="md-h3"><a href="#43-预测时间尺度限制" class="anchor">#</a> 4.3 预测时间尺度限制</h3>
+<ul class="md-ul">
+<li>护城河预测<strong>最长可靠 3 年</strong>——AI 技术演进 6-12 月一代，3 年后格局可能完全变</li>
+<li>1 年内预测较可靠，3 年内趋势可看，5 年+ 纯属猜测</li>
+<li>缓解：每份报告标"信息截止时间"+ 客户使用建议"每 6 个月重新评估一次"</li>
+</ul>
+<h3 id="44-18-行业样本偏差" class="md-h3"><a href="#44-18-行业样本偏差" class="anchor">#</a> 4.4 18 行业样本偏差</h3>
+<ul class="md-ul">
+<li>当前 18 行业都是 AI 已经有 3+ 年商业化落地的（客服/内容/物流/财税/法律/医疗等）</li>
+<li><strong>没覆盖</strong>：传统重工业（钢铁/化工/造船）、农业、深海/极地/航天等极小样本行业</li>
+<li>缓解：方法论可复用到新行业，但 4 维评分锚点需要重新校准</li>
+</ul>
+<h3 id="45-数据时效" class="md-h3"><a href="#45-数据时效" class="anchor">#</a> 4.5 数据时效</h3>
+<ul class="md-ul">
+<li>2026 Q2 截止的素材，<strong>2027 Q1 之前建议重新评估</strong></li>
+<li>AI 行业变化太快，1 年前的"红海"可能变蓝海（如 2024 年的通用大模型 vs 2026 年的垂域模型）</li>
+<li>缓解：方法论文档每 6 个月小版本更新，每年大版本重写</li>
+</ul>
+<hr class="md-hr">
+<h2 id="5-未来研究方向v4-建议" class="md-h2"><a href="#5-未来研究方向v4-建议" class="anchor">#</a> 5. 未来研究方向（v4 建议）</h2>
+<h3 id="51-v4-应补什么" class="md-h3"><a href="#51-v4-应补什么" class="anchor">#</a> 5.1 v4 应补什么</h3>
+<ol class="md-ol">
+<li><strong>扩展行业到 30+</strong>：当前 18 行业 = 一线 + 二线，<strong>v4 应补 12 个三线行业</strong>（农业/建筑/教育深水区/能源/军工等）</li>
+<li><strong>增加 5A 原则的具体化</strong>：现 5A 原则（算法/算力/数据/应用/治理）较抽象，<strong>v4 应给每原则配 3-5 个可落地评估指标</strong></li>
+<li><strong>加强跨境/出海视角</strong>：当前 18 行业都是国内，<strong>v4 应加 5-8 个出海导向行业</strong>（东南亚/中东/欧洲合规要求）</li>
+<li><strong>加入 AI Agent 经济视角</strong>：2026 年 AI Agent 是新护城河类别，<strong>v4 应拆分为独立"Agent 编排能力"维度</strong></li>
+<li><strong>量化方法升级</strong>：当前评分都是 1-5 主观，<strong>v4 应引入数据权重（如：每行业从客户真实数据反推评分锚点）</strong></li>
+</ol>
+<h3 id="52-哪类行业需要更深研究" class="md-h3"><a href="#52-哪类行业需要更深研究" class="anchor">#</a> 5.2 哪类行业需要更深研究</h3>
+<ol class="md-ol">
+<li><strong>医疗</strong>（监管驱动 + 数据敏感 + 决策不可逆——3 大护城河全反向）——需要 5 份子报告（药品/器械/医院/诊所/养老）</li>
+<li><strong>法律</strong>（5A 原则全有 + 大厂主战场——但 Crosby 580 万美元验证蓝海）——需要拆"蓝海"细分（合同审查/合规咨询/诉讼支持）</li>
+<li><strong>跨境电商</strong>（数据极好 + 决策快 + 容错高 = Top1）——需要 5 份子报告（亚马逊/独立站/TikTok Shop/Shopee/中东本土）</li>
+<li><strong>宠物经济</strong>（消费升级 + 行业 know-how 缺失）——需要 3 份子报告（食品/医疗/用品）</li>
+</ol>
+<h3 id="53-需要新增的-agent-能力-数据源" class="md-h3"><a href="#53-需要新增的-agent-能力-数据源" class="anchor">#</a> 5.3 需要新增的 agent 能力 / 数据源</h3>
+<ol class="md-ol">
+<li><strong>数据 agent</strong>：自动从财报/招股书提取行业数据，作为评分锚点校准</li>
+<li><strong>跨境 agent</strong>：覆盖出海合规/海外渠道/跨境支付</li>
+<li><strong>失败案例 agent</strong>：专门做"反例"挖掘，避免幸存者偏差</li>
+<li><strong>法务 agent</strong>：覆盖监管动态/合规要求，作为行业"必转 vs 可不做"判断的硬约束</li>
+</ol>
+<hr class="md-hr">
+<h2 id="6-使用指南给老板销售驻场" class="md-h2"><a href="#6-使用指南给老板销售驻场" class="anchor">#</a> 6. 使用指南（给老板/销售/驻场）</h2>
+<h3 id="61-老板做战略决策" class="md-h3"><a href="#61-老板做战略决策" class="anchor">#</a> 6.1 老板（做战略决策）</h3>
+<ol class="md-ol">
+<li><strong>季度回顾</strong>：每季度看一次 4 步法 12 张图，识别行业优先级变化</li>
+<li><strong>接单判断</strong>：每个新客户用 Step 4 预警 + Step 1-3 评分看 30 分钟</li>
+<li><strong>团队配置</strong>：根据象限图（重投/抢窗口/试水/拒绝）配销售/驻场</li>
+</ol>
+<h3 id="62-销售打单一线" class="md-h3"><a href="#62-销售打单一线" class="anchor">#</a> 6.2 销售（打单一线）</h3>
+<ol class="md-ol">
+<li><strong>打单前 30 分钟</strong>：跑 Step 1-3 评分（总分 ≥ 17 才打）</li>
+<li><strong>拒绝话术</strong>：从 Step 4 拒绝客户画像 12 条选 3-5 条对应</li>
+<li><strong>接单后</strong>：转驻场，跑 Step 5 老板判断</li>
+</ol>
+<h3 id="63-驻场交付一线" class="md-h3"><a href="#63-驻场交付一线" class="anchor">#</a> 6.3 驻场（交付一线）</h3>
+<ol class="md-ol">
+<li><strong>入场前 2 小时</strong>：读 Top5 行业护城河分析 v2 5 份</li>
+<li><strong>入场 1 周内</strong>：沉淀行业 know-how 进案例库</li>
+<li><strong>退出前</strong>：用 Step 4 预警看客户是不是伪需求，决定是否承接续费</li>
+</ol>
+<hr class="md-hr">
+<h2 id="7-一句话总结背给团队" class="md-h2"><a href="#7-一句话总结背给团队" class="anchor">#</a> 7. 一句话总结（背给团队）</h2>
+<blockquote class="md-quote">"好接的 + 没人抢的 + 立得住的 = 重投；差一样 = 抢窗口或试水；差两样 = 拒绝。"</blockquote>
+<blockquote class="md-quote">4 步法 12 张图 + 5 个评分模板 + 8 类数据源 + 3 项诚实承认 + v4 5 条建议 = 这套方法论的全貌。</blockquote>
+<hr class="md-hr">
+<h2 id="8-附录第三轮核心交付物索引" class="md-h2"><a href="#8-附录第三轮核心交付物索引" class="anchor">#</a> 8. 附录：第三轮核心交付物索引</h2>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>交付物</th>
+<th>路径</th>
+<th>用途</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>行业转型友好度评分 v1</td>
+<td><code class="md-inline-code">01_行业地图/行业转型友好度评分_v1.md</code></td>
+<td>Step 1 评分依据</td>
+</tr>
+<tr>
+<td>转型竞争烈度评估 v1</td>
+<td><code class="md-inline-code">07_红队质询/转型竞争烈度评估_v1.md</code></td>
+<td>Step 2 评估依据</td>
+</tr>
+<tr>
+<td>新兴护城河类型清单 v1</td>
+<td><code class="md-inline-code">01_行业地图/新兴护城河类型清单_v1.md</code></td>
+<td>Step 3 类型库</td>
+</tr>
+<tr>
+<td>Top5 护城河深度 v2</td>
+<td><code class="md-inline-code">02_重点行业深度报告/护城河分析_*.md</code></td>
+<td>Step 3 行业细化</td>
+</tr>
+<tr>
+<td>Top5 护城河物流 v3</td>
+<td><code class="md-inline-code">02_重点行业深度报告/护城河分析_物流仓储_v3.md</code></td>
+<td>物流行业深度补充</td>
+</tr>
+<tr>
+<td>无护城河预警清单 v1</td>
+<td><code class="md-inline-code">07_红队质询/无护城河预警清单_v1.md</code></td>
+<td>Step 4 预警依据</td>
+</tr>
+<tr>
+<td>老板战略路线图 v1</td>
+<td><code class="md-inline-code">04_甲方决策评估/老板战略路线图_v1.md</code></td>
+<td>4 步法输出 → 12 个月行动</td>
+</tr>
+<tr>
+<td>案例库 v2（35+ 条）</td>
+<td><code class="md-inline-code">06_案例库/案例_v2/</code></td>
+<td>4 步法所有评分 + 真实案例佐证</td>
+</tr>
+<tr>
+<td>信息源档案 v1</td>
+<td><code class="md-inline-code">06_案例库/信息源档案_v1.md</code></td>
+<td>数据来源 8 大类依据</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h2 id="9-附录第三轮工作流时间线2026-06-11-一天跑完" class="md-h2"><a href="#9-附录第三轮工作流时间线2026-06-11-一天跑完" class="anchor">#</a> 9. 附录：第三轮工作流时间线（2026-06-11 一天跑完）</h2>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>时段</th>
+<th>产出</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>13:00-13:30</td>
+<td>启动 plan_5235208b / plan_a6146dcd / plan_b5837e0b（3 轮 plan）</td>
+</tr>
+<tr>
+<td>13:30-14:00</td>
+<td>评分/竞争/护城河类型 3 份并行落地</td>
+</tr>
+<tr>
+<td>14:00-15:00</td>
+<td>Top5 护城河 v1（首版，被评审抓"页数虚报"）</td>
+</tr>
+<tr>
+<td>15:00-17:00</td>
+<td>护城河 v2 修正 + 预警清单第 1-2 次超时</td>
+</tr>
+<tr>
+<td>17:00-18:00</td>
+<td>预警清单 v3 强制 SOP 出成；护城河 v3 物流 57KB bonus</td>
+</tr>
+<tr>
+<td>18:00-18:42</td>
+<td>老板战略路线图落地；方法论 3 次超时 → 收尾</td>
+</tr>
+<tr>
+<td>18:42-19:00</td>
+<td>owner 自写方法论 v1（本文档），第三轮收官</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h2 id="10-附录本方法论的下一步v2-计划" class="md-h2"><a href="#10-附录本方法论的下一步v2-计划" class="anchor">#</a> 10. 附录：本方法论的下一步（v2 计划）</h2>
+<ul class="md-ul">
+<li>v2 应把 4 维评分锚点从"主观 1-5"升级为"数据驱动 0-100"（参考行业财报 + 案例库量化）</li>
+<li>v2 应加入 5-8 个新行业（农业/建筑/教育深水区/能源/军工等）样本</li>
+<li>v2 应出"AI Agent 经济"独立章节（Agent 编排能力作为新护城河子类）</li>
+<li>v2 应把数据来源 8 大类扩到 12 大类（加 监管动态 / 学术论文 / 行业 ISV / 失败案例库细分）</li>
+<li>v2 应提供"客户使用指南"操作手册（按 老板 / 销售 / 驻场 3 角色拆解使用步骤）</li>
+</ul>
+<blockquote class="md-quote">"好接的 + 没人抢的 + 立得住的 = 重投；差一样 = 抢窗口或试水；差两样 = 拒绝。"</blockquote>
+<blockquote class="md-quote">4 步法 12 张图 + 5 个评分模板 + 8 类数据源 + 3 项诚实承认 + v4 5 条建议 = 这套方法论的全貌。</blockquote>
+  </article>
+</div>
+
+<footer class="report-footer">
+  <div class="container">
+    <p>本报告由 AI 项目落地研究仓库产出 · <a href="../index.html">回到首页</a> · <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener">仓库地址</a></p>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const toc = document.querySelector('.report-toc');
+  if (!toc) return;
+  const title = toc.querySelector('.toc-title');
+  if (!title) return;
+  title.addEventListener('click', () => toc.classList.toggle('toc-open'));
+})();
+</script>
+
+</body>
+</html>
