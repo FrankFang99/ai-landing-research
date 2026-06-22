@@ -175,8 +175,8 @@ def md_to_html(md_text):
             i += 1
             continue
 
-        # 整行 HTML 标签块（<details>、<div> 等）→ 原样输出
-        if re.match(r'^<(details|summary|div|/div|/details|/summary)\b', stripped) or stripped in ('</details>', '</div>', '</summary>'):
+        # 整行 HTML 标签块（<details>、<div>、<h5> 等）→ 原样输出
+        if re.match(r'^<(details|summary|div|/div|/details|/summary|h[1-6]|/h[1-6])\b', stripped):
             close_state()
             out.append(stripped)
             i += 1
