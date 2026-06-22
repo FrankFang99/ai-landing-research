@@ -5,3 +5,4 @@ python-dateutil>=2.8
 openai>=1.30  # 兼容所有 OpenAI 协议 LLM（OpenAI / DeepSeek / 月之暗面 / 本地 Ollama）
 beautifulsoup4>=4.12
 lxml>=5.0
+python-dotenv>=1.0  # 本地从 .env 自动加载 LLM_API_KEY / BASE_URL / MODEL（CI 走 env var，不依赖 .env）
