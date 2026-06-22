@@ -73,6 +73,8 @@
 > 完整信号清单见 `09_求职信号/本周信号/本周信号_YYYYMMDD.md`。
 
 <!-- AUTO:WEEKLY_SIGNAL_START -->
+_最后更新：2026-06-22 · 本次 cron 跑过但本周无新信号_
+
 > 暂无本周信号 —— 周一 09:00 (UTC+8) 周更 cron 跑完后会自动更新。
 <!-- AUTO:WEEKLY_SIGNAL_END -->
 

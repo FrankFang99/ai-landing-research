@@ -27,6 +27,9 @@ import requests
 import yaml
 from dateutil import parser as dtp
 
+from _env import load_env
+load_env()
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ROOT / "automation" / "sources.yaml"
 OUT_DIR = ROOT / "automation" / "output"

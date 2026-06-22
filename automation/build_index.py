@@ -16,6 +16,9 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from _env import load_env
+load_env()
+
 ROOT = Path(__file__).resolve().parents[1]
 NEW_CASES = ROOT / "automation" / "output" / "new_cases.json"
 SIGNALS_JSON = ROOT / "automation" / "output" / "signals.json"

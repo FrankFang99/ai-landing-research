@@ -1,192 +1,130 @@
-# ============================================
-# AI 项目落地研究 · 信息源清单
-# ============================================
-# 由周更 cron 读取。
-# 想加新源？直接加一条，开 PR 即可，下次 cron 自动生效。
-#
-# 支持三种 type：
-#   1) web        - 公开网页 / RSS / 视频站 / 公众号链接
-#                    通过 web_search 或 RSS 抓取
-#   2) github_repo- GitHub 仓库（release / commit / issue）
-#                    通过 GitHub REST API 抓取
-#   3) rss        - 标准 RSS / Atom feed
-#                    通过 feedparser 抓取
-#
-# 去重：脚本会用 URL + title 做 SHA1 去重，已经入库的不会重复抓。
-# ============================================
-
 sources:
-
-  # ---------- A. 公开网页 / 内容站点（已弃用） ----------
-  # 这些源用 web type + 正则抓链接，但 36氪/虎嗅/量子位 都已经反爬到
-  # 抓不到正文了；改用下方 C 区标准 RSS 源。
-  # 保留注释以备历史追溯。
-  # - type: web
-  #   name: 36氪 AI 频道（已替换为 RSS）
-  #   url: https://36kr.com/information/AI
-  # - type: web
-  #   name: 机器之心（SPA 无 RSS，已弃）
-  #   url: https://www.jiqizhixin.com
-  # - type: web
-  #   name: 量子位（无 RSS，已弃）
-  #   url: https://www.qbitai.com
-  # - type: web
-  #   name: 虎嗅 AI 频道（连接超时，已弃）
-  #   url: https://www.huxiu.com/ai
-
-  # ---------- A+. B 站 up 主（4 位访谈 KOL） ----------
-  # 2026-06-20 启用。本机走 B 站搜索 API 可能 412 风控（CI 环境一般 OK）。
-  # 若 fetch 阶段持续失败，fetch.py 会只打日志不报错，周更不至于挂。
-  # 这 4 个 up 主的真实身份与价值：
-  #   - 马想聊AI：得到的 COO/新商学负责人，B 站主要访谈 100+ 位 AI 落地/AI 赚钱的老板（确认）
-  #   - 程前朋友圈：一目十行创始人程前主理的商业访谈号（抖音 600w+，访谈 200+ 创业者）
-  #   - Jason程前：程前个人思考号（与「程前朋友圈」同主体）—— 现在这两个号基本同源，保留是因为分开运营
-  #   - 光羽的平行世界：程前合伙人/团队成员，「一目十行」光羽端侧 AI 芯片创始人（待 B 站 API 验证简介）
-  - type: bilibili_user
-    name: 马想聊AI
-    mid: 3546675022924733
-    keywords: [AI落地, AI赚钱, AI应用, 大模型, 行业]
-    enabled: true
-
-  - type: bilibili_user
-    name: 程前朋友圈
-    mid: 393780888
-    keywords: [AI, 商业, 创业, 访谈]
-    enabled: true
-
-  - type: bilibili_user
-    name: Jason程前
-    mid: 3493095467387119
-    keywords: [AI, 创业, 商业, 思考]
-    enabled: true
-
-  - type: bilibili_user
-    name: 光羽的平行世界
-    mid: 3546571130014396
-    keywords: [AI, 芯片, 科技]
-    enabled: true
-
-  # 微信公众号：搜狗微信搜索作为入口（仅公开文章）
-  - type: web
-    name: 微信公众号聚合（搜狗微信）
-    url: https://weixin.sogou.com/weixin?type=2&query=AI%E8%90%BD%E5%9C%B0
-    keywords: [AI落地, 行业案例, AI应用]
-    enabled: false  # 搜狗微信反爬较严，先关
-
-  # ---------- B. GitHub 仓库（API 抓取） ----------
-  - type: github_repo
-    name: awesome-industrial-ai
-    url: https://github.com/Industrial-AI/awesome-industrial-ai
-    track: releases
-    enabled: true
-
-  - type: github_repo
-    name: awesome-ai-in-finance
-    url: https://github.com/georgezouq/awesome-ai-in-finance
-    track: releases
-    enabled: true
-
-  - type: github_repo
-    name: awesome-medical-ai
-    url: https://github.com/analysiscenter/awesome-medical-ai
-    track: releases
-    enabled: true
-
-  # ---------- C. RSS（标准 feed） ----------
-  # 中文 AI 落地优质源（实测 RSS 可达）
-  - type: rss
-    name: 36氪
-    url: https://36kr.com/feed
-    enabled: true
-    # 创业/商业视角，AI 落地报道密度高
-
-  - type: rss
-    name: InfoQ 中文
-    url: https://www.infoq.cn/feed.xml
-    enabled: true
-    # 企业技术/架构/AI 落地方法论
-
-  - type: rss
-    name: 人人都是产品经理
-    url: https://www.woshipm.com/feed
-    enabled: true
-    # 接地气的产品/落地分析
-
-  - type: rss
-    name: 雷锋网
-    url: https://www.leiphone.com/feed
-    enabled: true
-    # AI/智能硬件/产业应用
-
-  # 国际英文 AI 源（参考用）
-  - type: rss
-    name: Hugging Face Blog
-    url: https://huggingface.co/blog/feed.xml
-    enabled: true
-
-  - type: rss
-    name: OpenAI Blog
-    url: https://openai.com/blog/rss.xml
-    enabled: true
-
-  - type: rss
-    name: Google DeepMind Blog
-    url: https://deepmind.google/blog/feed.xml
-    enabled: true
-
-
-  # ============================================
-  # D. 求职 / 创业信号源（2026-06-22 启用）
-  # ============================================
-  # signal_type 取值：
-  #   - job_signal          → 招聘动向（AI 产品岗、大厂 AI 团队组建）
-  #   - startup_signal      → 创业信号（融资、PMF、上下游缺口）
-  #   - industry_trend      → 行业趋势（监管、模型能力、格局变化）
-  #
-  # 现有 sources 的全局过滤（filters.exclude_keywords）里有「招聘 / 求职」会被排除。
-  # signal 类源需要在 fetch.py 里走白名单通道（见 FETCHERS['rss'] signal_type 处理）。
-  # 新增 signal 源时，必须在 fetch.py 的 _signal_whitelist 中显式登记。
-  # ============================================
-
-  # ---------- D1. 招聘动向（job_signal） ----------
-  - type: rss
-    name: V2EX 招聘频道（AI 相关）
-    url: https://www.v2ex.com/feed/tab/jobs.xml
-    signal_type: job_signal
-    keywords: [AI, 产品, 算法, 大模型, Agent]
-    enabled: true
-
-  - type: rss
-    name: 电鸭社区（远程 + AI 岗）
-    url: https://eleduck.com/feed.xml
-    signal_type: job_signal
-    keywords: [AI, 产品经理, 大模型, Prompt, Agent]
-    enabled: true
-
-  # ---------- D2. 创业信号（startup_signal） ----------
-  - type: rss
-    name: 创业邦
-    url: https://www.cyzone.cn/feed
-    signal_type: startup_signal
-    keywords: [AI, 大模型, 融资, 创业]
-    enabled: true
-
-
-# ============================================
-# 全局过滤（可选）
-# ============================================
-# 抓下来的内容如果标题/摘要包含以下关键词会被丢弃
+- type: bilibili_user
+  name: 马想聊AI
+  mid: 3546675022924733
+  keywords:
+  - AI落地
+  - AI赚钱
+  - AI应用
+  - 大模型
+  - 行业
+  enabled: true
+- type: bilibili_user
+  name: 程前朋友圈
+  mid: 393780888
+  keywords:
+  - AI
+  - 商业
+  - 创业
+  - 访谈
+  enabled: true
+- type: bilibili_user
+  name: Jason程前
+  mid: 3493095467387119
+  keywords:
+  - AI
+  - 创业
+  - 商业
+  - 思考
+  enabled: true
+- type: bilibili_user
+  name: 光羽的平行世界
+  mid: 3546571130014396
+  keywords:
+  - AI
+  - 芯片
+  - 科技
+  enabled: true
+- type: web
+  name: 微信公众号聚合（搜狗微信）
+  url: https://weixin.sogou.com/weixin?type=2&query=AI%E8%90%BD%E5%9C%B0
+  keywords:
+  - AI落地
+  - 行业案例
+  - AI应用
+  enabled: false
+- type: github_repo
+  name: awesome-industrial-ai
+  url: https://github.com/Industrial-AI/awesome-industrial-ai
+  track: releases
+  enabled: true
+- type: github_repo
+  name: awesome-ai-in-finance
+  url: https://github.com/georgezouq/awesome-ai-in-finance
+  track: releases
+  enabled: true
+- type: github_repo
+  name: awesome-medical-ai
+  url: https://github.com/analysiscenter/awesome-medical-ai
+  track: releases
+  enabled: true
+- type: rss
+  name: 36氪
+  url: https://36kr.com/feed
+  enabled: true
+- type: rss
+  name: InfoQ 中文
+  url: https://www.infoq.cn/feed.xml
+  enabled: true
+- type: rss
+  name: 人人都是产品经理
+  url: https://www.woshipm.com/feed
+  enabled: true
+- type: rss
+  name: 雷锋网
+  url: https://www.leiphone.com/feed
+  enabled: true
+- type: rss
+  name: Hugging Face Blog
+  url: https://huggingface.co/blog/feed.xml
+  enabled: true
+- type: rss
+  name: OpenAI Blog
+  url: https://openai.com/blog/rss.xml
+  enabled: true
+- type: rss
+  name: Google DeepMind Blog
+  url: https://deepmind.google/blog/feed.xml
+  enabled: true
+- type: rss
+  name: V2EX 招聘频道（AI 相关）
+  url: https://www.v2ex.com/feed/tab/jobs.xml
+  signal_type: job_signal
+  keywords:
+  - AI
+  - 产品
+  - 算法
+  - 大模型
+  - Agent
+  enabled: true
+- type: rss
+  name: 电鸭社区（远程 + AI 岗）
+  url: https://eleduck.com/feed.xml
+  signal_type: job_signal
+  keywords:
+  - AI
+  - 产品经理
+  - 大模型
+  - Prompt
+  - Agent
+  enabled: true
+- type: rss
+  name: 创业邦
+  url: https://www.cyzone.cn/feed
+  signal_type: startup_signal
+  keywords:
+  - AI
+  - 大模型
+  - 融资
+  - 创业
+  enabled: true
 filters:
   exclude_keywords:
-    - 招聘
-    - 求职
-    - 课程优惠
-    - 限时折扣
-    - 招股说明书
-    - 财报
-
-# 抓取时间窗（天）：只抓过去 N 天的内容
-window_days: 7
-
-# 每源最多抓多少条
+  - 招聘
+  - 求职
+  - 课程优惠
+  - 限时折扣
+  - 招股说明书
+  - 财报
+window_days: 14
 max_per_source: 20

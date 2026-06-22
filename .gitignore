@@ -17,6 +17,10 @@ Thumbs.db
 *.log
 debug_*.txt
 
+# Local LLM secrets（用户 key，CI 走 Secrets）
+.env
+.env.local
+
 # mavis working artifacts
 args.json
 search_args.json

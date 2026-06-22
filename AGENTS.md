@@ -50,8 +50,9 @@
 - **三种 type**：`web` / `github_repo` / `rss`（见 sources.yaml 顶部注释）
 
 ### LLM 配置
-- 通过 GitHub Secrets 注入：`LLM_API_KEY` / `LLM_BASE_URL` / `LLM_MODEL`
-- 默认本地 Ollama `qwen2.5:7b`，生产建议换 OpenAI / DeepSeek
+- **CI（GitHub Actions cron）**：通过 GitHub Secrets 注入：`LLM_API_KEY` / `LLM_BASE_URL` / `LLM_MODEL`
+- **本地试跑**：在仓库根写 `.env`（已被 `.gitignore` 排除），格式 `LLM_API_KEY=sk-xxx`；automation 脚本用 `python-dotenv` 自动加载（如未装，需 `pip install python-dotenv`）
+- 默认本地 Ollama `qwen2.5:7b`，生产建议换 OpenAI / DeepSeek / MiniMax
 - 分类标准、JSON schema 见 `automation/classify.py` 顶部 PROMPT
 
 ### 去重与幂等
