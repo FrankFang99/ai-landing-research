@@ -465,3 +465,78 @@ a:hover { color: var(--accent-soft); }
 .hl-card-featured .hl-stat {
   border-color: rgba(47, 129, 247, 0.2);
 }
+
+/* ===== 30 秒速读 · 业务 leader 视角 ===== */
+.thirty-sec {
+  margin: 24px 0 32px 0;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, rgba(47, 129, 247, 0.08) 0%, var(--bg-elev) 100%);
+  border: 1px solid rgba(47, 129, 247, 0.3);
+  border-radius: 8px;
+  position: relative;
+}
+.ts-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.ts-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 16px;
+}
+.ts-block {
+  padding: 14px 16px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+}
+.ts-block-conclusion {
+  background: linear-gradient(135deg, rgba(63, 185, 80, 0.06) 0%, var(--bg-alt) 100%);
+  border-color: rgba(63, 185, 80, 0.3);
+}
+.ts-block h4 {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.ts-block p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.ts-block p:last-child {
+  margin-bottom: 0;
+}
+.ts-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ts-block li {
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--text);
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--border-soft);
+}
+.ts-block li:last-child {
+  border-bottom: 0;
+}
+.ts-block li strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+.ts-block-conclusion li strong {
+  color: var(--success);
+}
+@media (max-width: 900px) {
+  .ts-grid { grid-template-columns: 1fr; }
+}

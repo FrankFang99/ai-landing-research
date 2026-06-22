@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 项目落地研究 · 研究资产仓库</title>
-<meta name="description" content="8 大行业 AI 落地研究资产库 · 周更自动入库">
+<title>AI 项目落地研究 · 行业智库</title>
+<meta name="description" content="8 大行业 AI 落地的真实路径、案例与数据。给业务 leader 与转型企业家的专业智库。">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -14,14 +14,13 @@
     <div class="header-row">
       <a href="index.html" class="logo">
         <span class="logo-mark">◆</span>
-        <span class="logo-text">AI 项目落地研究</span>
+        <span class="logo-text">AI 项目落地研究 · 行业智库</span>
       </a>
       <nav class="site-nav">
         <a href="#latest">最新更新</a>
         <a href="#industries">行业地图</a>
-        <a href="#assets">研究资产</a>
-        <a href="reports/index.html">报告</a>
-        <a href="#highlights">重点文档</a>
+        <a href="#deep-dives">行业深度</a>
+        <a href="reports/index.html">报告库</a>
         <a href="#pipeline">自动化流水线</a>
         <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener" class="nav-github">GitHub ↗</a>
       </nav>
@@ -38,15 +37,15 @@
 
   <section class="hero">
     <div class="container">
-      <p class="eyebrow">研究资产仓库 · 周更自动入库</p>
-      <h1>把每个行业的 AI 落地路径，<br><span class="accent">讲清楚、能复用、可量化</span>。</h1>
+      <p class="eyebrow">8 大行业 · 真实案例 · 周更自动入库</p>
+      <h1>AI 在你行业，<br><span class="accent">现在能落地到哪一步？</span></h1>
       <p class="lede">
-        覆盖金融、医疗、零售、教育、制造、政务、文娱、物流 <strong>8 大行业</strong>。
-        每周自动抓取公开案例 → LLM 分类 → 自动 PR 等你 review。
+        每个行业一份独立深度报告：<strong>决策链路、AI 渗透率、ROI 数据、踩过的坑</strong>。
+        不讲 PPT 概念，只看<strong>谁做了什么、效果如何、还能不能做</strong>。
       </p>
       <div class="hero-actions">
-        <a href="#industries" class="btn btn-primary">浏览 8 行业</a>
-        <a href="#pipeline" class="btn btn-ghost">了解自动化流水线</a>
+        <a href="#deep-dives" class="btn btn-primary">看 8 行业深度报告</a>
+        <a href="#industries" class="btn btn-ghost">看行业地图总览</a>
       </div>
     </div>
   </section>
@@ -54,8 +53,8 @@
   <section class="section" id="latest">
     <div class="container">
       <div class="section-head">
-        <h2>最新更新</h2>
-        <p class="section-sub">由 GitHub Actions 周更 cron 自动入库，等待 review。</p>
+        <h2>最新入库案例</h2>
+        <p class="section-sub">每周一 09:00 (UTC+8) 自动抓取 → LLM 分类 → 入库，等 review 后展示。</p>
       </div>
       <div id="latest-grid" class="latest-grid">
         <div class="empty">暂无最新更新 — 等下周 cron 第一次跑完就有了。</div>
@@ -66,8 +65,8 @@
   <section class="section section-alt" id="industries">
     <div class="container">
       <div class="section-head">
-        <h2>行业地图</h2>
-        <p class="section-sub">8 行业重投优先级总表，鼠标悬停看每个行业的命中场景。</p>
+        <h2>行业地图 · 8 行业总览</h2>
+        <p class="section-sub">从「友好度 × ROI × 决策链长度」三维度给每个行业打分，判断哪个值得重投。</p>
       </div>
       <div class="industries-grid" id="industries-grid">
         <!-- JS 渲染 -->
@@ -75,93 +74,129 @@
     </div>
   </section>
 
-  <section class="section" id="assets">
+  <section class="section section-highlights" id="deep-dives">
     <div class="container">
       <div class="section-head">
-        <h2>研究资产 · 4 大类</h2>
-        <p class="section-sub">全部沉淀在 GitHub 仓库的 7 个目录里，链接直达。</p>
+        <h2>行业深度报告 · 8 大行业</h2>
+        <p class="section-sub">每份报告：3-9 大方向 + 真实案例 + ROI 数据 + 落地剧本 + 失败案例警示。</p>
       </div>
-      <div class="assets-grid">
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/01_行业地图" target="_blank" rel="noopener">
-          <span class="asset-num">01</span>
-          <h3>行业地图</h3>
-          <p>8 行业全景扫描，重投优先级、决策人画像、价值密度。</p>
+
+      <div class="deep-grid">
+        <a class="deep-card deep-card-ready" href="reports/finance.html">
+          <span class="deep-tag deep-tag-finance">金融</span>
+          <h3>金融 AI 应用方向总览 v2</h3>
+          <p class="deep-desc">从信贷审批到数字人民币智能合约，9 大方向 + 14 个 2025-2026 真实案例（含网商银行 AI 信贷专家 / 中国银行反欺诈 99.2% / 央行智能合约逆回购首秀等）。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">9</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">14</span><span class="ds-lab">真实案例</span></div>
+            <div class="ds"><span class="ds-num">2</span><span class="ds-lab">失败警示</span></div>
+            <div class="ds"><span class="ds-num">2025-2026</span><span class="ds-lab">最新数据</span></div>
+          </div>
+          <div class="deep-cta">打开报告 →</div>
         </a>
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/02_重点行业深度报告" target="_blank" rel="noopener">
-          <span class="asset-num">02</span>
-          <h3>深度报告</h3>
-          <p>金融 / 医疗 / 零售 / 教育 / 制造 / 政务 / 文娱 / 物流 八份独立深度报告。</p>
-        </a>
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/03_场景落地剧本" target="_blank" rel="noopener">
-          <span class="asset-num">03</span>
-          <h3>场景剧本</h3>
-          <p>可执行的落地剧本，7 步从立项到复盘。</p>
-        </a>
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/04_甲方决策评估" target="_blank" rel="noopener">
-          <span class="asset-num">04</span>
-          <h3>决策评估</h3>
-          <p>甲方决策路径图：识别 → 评估 → 立项 → 验收。</p>
-        </a>
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/06_案例库" target="_blank" rel="noopener">
-          <span class="asset-num">06</span>
-          <h3>案例库</h3>
-          <p>成功 / 失败案例双轨记录，沉淀反共识洞察。</p>
-        </a>
-        <a class="asset-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/07_红队质询" target="_blank" rel="noopener">
-          <span class="asset-num">07</span>
-          <h3>红队质询</h3>
-          <p>对每个行业主流叙事反向拷问，避免被共识误导。</p>
-        </a>
-        <a class="asset-card asset-card-bc" href="https://github.com/FrankFang99/ai-landing-research/tree/main/08_销售BattleCard" target="_blank" rel="noopener">
-          <span class="asset-num">08</span>
-          <h3>销售 BattleCard</h3>
-          <p>8 行业销售弹药库，对客户分层 + 异议库 + 价值主张。</p>
-        </a>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-medical">医疗</span>
+          <h3>医疗 AI 应用方向总览</h3>
+          <p class="deep-desc">影像 / 病历 / 科研 / 药物四大主线，决策链长、合规严、ROI 慢但壁垒高。先发优势难撼动。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 8</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 12</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中 · 预计下月</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-retail">零售</span>
+          <h3>零售 AI 应用方向总览</h3>
+          <p class="deep-desc">选品 / 营销 / 供应链 / 门店四大主线，场景标准化、复用度高。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 6</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 10</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中 · 预计下月</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-edu">教育</span>
+          <h3>教育 AI 应用方向总览</h3>
+          <p class="deep-desc">K12 双减后向素质 + 高校 + 职教转移，付费意愿分层。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 5</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 8</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-mfg">制造</span>
+          <h3>制造 AI 应用方向总览</h3>
+          <p class="deep-desc">工业视觉 / 工艺优化 / 设备预测维护，POC 周期长、客单价高。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 5</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 8</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-gov">政务</span>
+          <h3>政务 AI 应用方向总览</h3>
+          <p class="deep-desc">城市治理 / 政务热线 / 政务文档，采购周期长但项目稳。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 4</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 6</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-media">文娱</span>
+          <h3>文娱 AI 应用方向总览</h3>
+          <p class="deep-desc">内容生成 / 个性化推荐 / 虚拟主播，付费转化弱但用户增长快。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 4</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 6</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中</div>
+        </div>
+
+        <div class="deep-card deep-card-soon">
+          <span class="deep-tag deep-tag-log">物流</span>
+          <h3>物流 AI 应用方向总览</h3>
+          <p class="deep-desc">调度 / 路径优化 / 仓储 / 最后一公里，场景集中、ROI 量化清晰。</p>
+          <div class="deep-stats">
+            <div class="ds"><span class="ds-num">计划 5</span><span class="ds-lab">大方向</span></div>
+            <div class="ds"><span class="ds-num">预计 7</span><span class="ds-lab">真实案例</span></div>
+          </div>
+          <div class="deep-cta deep-cta-soon">计划中</div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section section-highlights" id="highlights">
+  <section class="section section-alt" id="assets">
     <div class="container">
       <div class="section-head">
-        <h2>重点文档 · 求职入口</h2>
-        <p class="section-sub">从 50+ 份研究文档里挑出最能体现「行业理解 + AI 落地」深度的 5 份。</p>
+        <h2>通用工具 · 跨行业能力</h2>
+        <p class="section-sub">除了按行业的深度报告，仓库还有几份通用工具书：方法论 / 行业地图 / 案例库 / 失败警示。</p>
       </div>
       <div class="highlights-grid">
-        <a class="hl-card hl-card-featured" href="reports/index.html">
-          <span class="hl-tag hl-tag-portfolio">求职入口</span>
-          <h3>研究报告 · 全部 HTML 版</h3>
-          <p class="hl-desc">3 份核心研究报告（金融总览 / 行业地图 / 方法论）全 HTML 化，浏览器直接看：侧边目录跳转 + 表格可折叠 + 引用/代码块配色。</p>
-          <div class="hl-meta">
-            <span class="hl-stat">3 份核心报告</span>
-            <span class="hl-stat">HTML 化</span>
-            <span class="hl-stat">站内跳转</span>
-          </div>
-        </a>
-        <a class="hl-card" href="reports/finance.html">
-          <span class="hl-tag hl-tag-finance">金融</span>
-          <h3>金融 AI 应用方向总览 v2</h3>
-          <p class="hl-desc">9 大方向 + 14 个 2025-2026 真实案例（网商 AI 信贷专家 / 中国银行反欺诈 99.2% / 央行智能合约逆回购等）。</p>
-          <div class="hl-meta">
-            <span class="hl-stat">9 大方向</span>
-            <span class="hl-stat">14 个真实案例</span>
-            <span class="hl-stat">2 个失败案例</span>
-          </div>
-        </a>
         <a class="hl-card" href="reports/industry-map.html">
           <span class="hl-tag hl-tag-map">行业地图</span>
           <h3>AI 落地行业地图 v2</h3>
-          <p class="hl-desc">18 个行业 × 4 维评分基线（友好度 × 烈度 × 监管 × 窗口期），6 象限决策矩阵。</p>
+          <p class="hl-desc">18 个行业 × 4 维评分基线（友好度 × 烈度 × 监管 × 窗口期），6 象限决策矩阵。从「转型友好度」挑赛道，从「竞争烈度」挑对手。</p>
           <div class="hl-meta">
             <span class="hl-stat">18 行业</span>
             <span class="hl-stat">4 维评分</span>
+            <span class="hl-stat">6 象限矩阵</span>
             <span class="hl-stat">34 张表</span>
           </div>
         </a>
         <a class="hl-card" href="reports/methodology.html">
           <span class="hl-tag hl-tag-method">方法论</span>
           <h3>4 步法 + 5 评分模板</h3>
-          <p class="hl-desc">界定 → 数据采集 → 多维评分 → 落地剧本。证明「换一个新行业 2 周内能上手」。</p>
+          <p class="hl-desc">界定 → 数据采集 → 多维评分 → 落地剧本。任何新行业 2 周内可上桌的研究初稿。</p>
           <div class="hl-meta">
             <span class="hl-stat">4 步法</span>
             <span class="hl-stat">5 评分模板</span>
@@ -171,39 +206,60 @@
         <a class="hl-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/06_案例库" target="_blank" rel="noopener">
           <span class="hl-tag hl-tag-cases">案例库</span>
           <h3>35+ 条真实案例（成功 + 失败）</h3>
-          <p class="hl-desc">成功案例库 + 失败案例库双轨记录。每条都有 5A 拆解 + ROI 数据 + 时间线 + 来源链接。</p>
+          <p class="hl-desc">成功 + 失败双轨记录，每条 5A 拆解 + ROI 数据 + 时间线 + 来源链接。失败案例特别值得看 —— 它们能告诉你哪里会死。</p>
           <div class="hl-meta">
             <span class="hl-stat">35+ 条案例</span>
             <span class="hl-stat">8 大行业</span>
             <span class="hl-stat">5A 拆解</span>
+            <span class="hl-stat">含失败案例</span>
           </div>
         </a>
-        <a class="hl-card" href="https://github.com/FrankFang99/ai-landing-research/blob/main/automation/sources.yaml" target="_blank" rel="noopener">
-          <span class="hl-tag hl-tag-auto">自动化</span>
-          <h3>周更流水线 sources.yaml</h3>
-          <p class="hl-desc">完整展示：信息源清单 + fetch.py + classify.py + build_index.py，周一 09:00 UTC+8 自动跑。</p>
+        <a class="hl-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/07_红队质询" target="_blank" rel="noopener">
+          <span class="hl-tag hl-tag-red">红队质询</span>
+          <h3>反共识拷问 · 主流叙事避雷</h3>
+          <p class="hl-desc">每个行业的主流叙事反向拷问，避免被 PPT 共识误导。3 年趋势压力测试 + 伪需求识别。</p>
           <div class="hl-meta">
-            <span class="hl-stat">cron 周更</span>
-            <span class="hl-stat">LLM 分类</span>
-            <span class="hl-stat">自动开 PR</span>
+            <span class="hl-stat">8 行业</span>
+            <span class="hl-stat">反共识洞察</span>
+            <span class="hl-stat">避雷清单</span>
+          </div>
+        </a>
+        <a class="hl-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/04_甲方决策评估" target="_blank" rel="noopener">
+          <span class="hl-tag hl-tag-boss">甲方决策</span>
+          <h3>老板战略路线图 · 12 个月版</h3>
+          <p class="hl-desc">识别 → 评估 → 立项 → 验收。给老板的 AI 落地决策路径图。</p>
+          <div class="hl-meta">
+            <span class="hl-stat">4 阶段</span>
+            <span class="hl-stat">12 个月</span>
+            <span class="hl-stat">可执行版</span>
+          </div>
+        </a>
+        <a class="hl-card" href="https://github.com/FrankFang99/ai-landing-research/tree/main/08_销售BattleCard" target="_blank" rel="noopener">
+          <span class="hl-tag hl-tag-bc">销售 BattleCard</span>
+          <h3>8 行业销售弹药库</h3>
+          <p class="hl-desc">客户分层 + 异议库 + 价值主张。ToB 销售一线弹药。</p>
+          <div class="hl-meta">
+            <span class="hl-stat">8 行业</span>
+            <span class="hl-stat">异议应答</span>
+            <span class="hl-stat">价值主张</span>
           </div>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="section section-alt" id="pipeline">
+  <section class="section" id="pipeline">
     <div class="container">
       <div class="section-head">
-        <h2>自动化流水线</h2>
-        <p class="section-sub">每周一 09:00 (UTC+8) 自动跑一次，结果以 PR 形式等你 review。</p>
+        <h2>数据驱动 · 周更自动流水线</h2>
+        <p class="section-sub">每周一 09:00 (UTC+8) 自动跑一次：抓公开案例 → LLM 分类 → 自动开 PR → review 后入库。本网页由同一仓库的 GitHub Actions 自动部署。</p>
       </div>
 
       <div class="pipeline">
         <div class="pipe-step">
           <span class="pipe-num">1</span>
           <h4>读 sources.yaml</h4>
-          <p>信息源清单：公开网页、GitHub 仓库、公众号、视频站都可加入。</p>
+          <p>信息源清单：公开网页、GitHub 仓库、RSS、公众号、视频站都可加入。</p>
         </div>
         <div class="pipe-arrow">→</div>
         <div class="pipe-step">
@@ -226,8 +282,8 @@
         <div class="pipe-arrow">→</div>
         <div class="pipe-step">
           <span class="pipe-num">5</span>
-          <h4>Pages 重部署</h4>
-          <p>merge 后 GitHub Actions 自动重新部署此页面。</p>
+          <h4>本页重部署</h4>
+          <p>merge 后 GitHub Actions 自动重新部署本页。</p>
         </div>
       </div>
 

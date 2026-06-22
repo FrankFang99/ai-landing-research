@@ -557,6 +557,135 @@ a:hover { color: var(--accent-soft); }
   .highlights-grid { grid-template-columns: 1fr; }
 }
 
+/* ===== Deep Dives · 行业深度报告 ===== */
+.deep-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.deep-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 26px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  color: var(--text);
+  transition: all 0.2s;
+  position: relative;
+  min-height: 220px;
+}
+.deep-card:hover {
+  border-color: var(--accent);
+  background: var(--bg-alt);
+  transform: translateY(-2px);
+  color: var(--text);
+}
+.deep-card-ready {
+  border-color: rgba(63, 185, 80, 0.4);
+  background: linear-gradient(135deg, rgba(63, 185, 80, 0.06) 0%, var(--bg-elev) 100%);
+}
+.deep-card-ready:hover {
+  border-color: var(--success);
+  background: linear-gradient(135deg, rgba(63, 185, 80, 0.1) 0%, var(--bg-elev) 100%);
+}
+.deep-card-soon {
+  opacity: 0.65;
+}
+.deep-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+}
+.deep-tag-finance { background: rgba(63, 185, 80, 0.2); color: var(--success); }
+.deep-tag-medical { background: rgba(248, 81, 73, 0.18); color: var(--danger); }
+.deep-tag-retail { background: rgba(47, 129, 247, 0.2); color: var(--accent); }
+.deep-tag-edu { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
+.deep-tag-mfg { background: rgba(210, 153, 34, 0.2); color: var(--warning); }
+.deep-tag-gov { background: rgba(56, 139, 253, 0.2); color: #388bfd; }
+.deep-tag-media { background: rgba(244, 114, 182, 0.2); color: #f472b6; }
+.deep-tag-log { background: rgba(20, 184, 166, 0.2); color: #14b8a6; }
+.deep-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.deep-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 16px;
+  flex: 1;
+}
+.deep-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 12px;
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+}
+.deep-card-soon .deep-stats {
+  grid-template-columns: repeat(2, 1fr);
+}
+.ds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ds-num {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--mono);
+  line-height: 1.2;
+}
+.deep-card-ready .ds-num {
+  color: var(--success);
+}
+.deep-card-soon .ds-num {
+  color: var(--text-dim);
+}
+.ds-lab {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+.deep-cta {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  margin-top: auto;
+}
+.deep-cta-soon {
+  color: var(--text-dim);
+  font-weight: 400;
+  font-style: italic;
+}
+.deep-card-ready .deep-cta {
+  color: var(--success);
+}
+@media (max-width: 768px) {
+  .deep-grid { grid-template-columns: 1fr; }
+  .deep-stats { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== New HL-Tag colors for general tools ===== */
+.hl-tag-red { background: rgba(248, 81, 73, 0.15); color: var(--danger); }
+.hl-tag-boss { background: rgba(210, 153, 34, 0.2); color: var(--warning); }
+.hl-tag-bc { background: rgba(244, 114, 182, 0.2); color: #f472b6; }
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .hero h1 { font-size: 36px; }
