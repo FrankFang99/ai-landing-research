@@ -1,0 +1,155 @@
+[
+  {
+    "title": "大模型公司的“收入幻觉”",
+    "url": "https://36kr.com/p/3862676976712582",
+    "summary": "",
+    "source": "36氪 AI 频道",
+    "source_type": "web",
+    "fetched_at": "2026-06-22T14:22:570000%08:00",
+    "fingerprint": "be053ae31beb229a"
+  },
+  {
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "b2b7b9a9fc8c4dcd"
+  },
+  {
+    "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+    "url": "https://huggingface.co/blog/peft-beyond-lora",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "98c02a50a2205e06"
+  },
+  {
+    "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+    "url": "https://huggingface.co/blog/is-it-agentic-enough",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "2a21974e76466268"
+  },
+  {
+    "title": "MolmoMotion: Language-guided 3D motion forecasting",
+    "url": "https://huggingface.co/blog/allenai/molmomotion",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "b84c50d1b61c6cc9"
+  },
+  {
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "18919aebf74805fa"
+  },
+  {
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "074bd13183c6ed11"
+  },
+  {
+    "title": "Agentic Resource Discovery: Let agents search",
+    "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "summary": "",
+    "source": "Hugging Face Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:030000%08:00",
+    "fingerprint": "da0fc9547a613d48"
+  },
+  {
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "8f1f766367d241a6"
+  },
+  {
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "5063c8e0431b411e"
+  },
+  {
+    "title": "Improving health intelligence in ChatGPT",
+    "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "f3b1868c3fb27afc"
+  },
+  {
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "1593126ce382e218"
+  },
+  {
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "6e5914a74913af7a"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "a05e6ba15bdf8ea6"
+  },
+  {
+    "title": "Predicting model behavior before release by simulating deployment",
+    "url": "https://openai.com/index/deployment-simulation",
+    "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "source": "OpenAI Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "996dcb2156d22c83"
+  },
+  {
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "source": "Google DeepMind Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "e071f35190e95350"
+  },
+  {
+    "title": "Securing the future of AI agents",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "source": "Google DeepMind Blog",
+    "source_type": "rss",
+    "fetched_at": "2026-06-22T14:23:040000%08:00",
+    "fingerprint": "f0034043ca9b27b6"
+  }
+]

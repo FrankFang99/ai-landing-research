@@ -1,0 +1,32 @@
+[
+  {
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "reason": "这是一篇 AI 安全研究论文，探讨 LLM agent 的隐私泄露问题，而非 AI 在具体行业的应用落地案例或解决方案"
+  },
+  {
+    "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+    "url": "https://huggingface.co/blog/peft-beyond-lora",
+    "reason": "内容为 LoRA 与其他 PEFT 微调技术的对比博客，缺乏具体行业的落地应用案例或实际部署数据"
+  },
+  {
+    "title": "MolmoMotion: Language-guided 3D motion forecasting",
+    "url": "https://huggingface.co/blog/allenai/molmomotion",
+    "reason": "该项目为技术研究/模型发布博客，主题为3D运动预测的技术方法，未明确指向具体行业应用场景或落地案例"
+  },
+  {
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "reason": "这是智谱AI发布GLM-5.2模型的技术博客，属于模型能力介绍而非具体行业落地案例"
+  },
+  {
+    "title": "Agentic Resource Discovery: Let agents search",
+    "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "reason": "这是 Hugging Face 平台的功能发布介绍，缺乏具体行业应用场景和实质落地数据"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "reason": "LifeSciBench 是 OpenAI 发布的 AI 评估基准测试工具，属于技术工具发布而非行业落地案例，缺乏具体应用场景和实际部署数据"
+  }
+]
