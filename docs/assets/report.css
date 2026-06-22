@@ -394,3 +394,74 @@ a:hover { color: var(--accent-soft); }
   .header-row { flex-wrap: wrap; gap: 12px; }
   .md-table th, .md-table td { padding: 8px 10px; font-size: 12px; }
 }
+
+/* ===== HL-Card (used in reports/index.html) ===== */
+.hl-card {
+  display: block;
+  padding: 22px 24px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  color: var(--text);
+  transition: all 0.2s;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.hl-card:hover {
+  border-color: var(--accent);
+  background: var(--bg-alt);
+  transform: translateY(-2px);
+  color: var(--text);
+}
+.hl-card-featured {
+  background: linear-gradient(135deg, rgba(47, 129, 247, 0.08) 0%, var(--bg-elev) 100%);
+  border-color: rgba(47, 129, 247, 0.3);
+}
+.hl-card-featured:hover {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, rgba(47, 129, 247, 0.12) 0%, var(--bg-elev) 100%);
+}
+.hl-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+.hl-tag-portfolio { background: rgba(47, 129, 247, 0.2); color: var(--accent); }
+.hl-tag-finance { background: rgba(63, 185, 80, 0.2); color: var(--success); }
+.hl-tag-map { background: rgba(210, 153, 34, 0.2); color: var(--warning); }
+.hl-tag-method { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
+.hl-tag-cases { background: rgba(248, 81, 73, 0.15); color: var(--danger); }
+.hl-tag-auto { background: rgba(56, 139, 253, 0.2); color: #388bfd; }
+.hl-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.hl-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+.hl-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.hl-stat {
+  font-size: 11px;
+  padding: 3px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  border-radius: 3px;
+  color: var(--text-dim);
+  font-family: var(--mono);
+}
+.hl-card-featured .hl-stat {
+  border-color: rgba(47, 129, 247, 0.2);
+}
