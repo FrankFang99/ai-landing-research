@@ -432,6 +432,13 @@ a:hover { color: var(--accent-soft); }
 }
 .hl-tag-portfolio { background: rgba(47, 129, 247, 0.2); color: var(--accent); }
 .hl-tag-finance { background: rgba(63, 185, 80, 0.2); color: var(--success); }
+.hl-tag-medical { background: rgba(56, 178, 172, 0.2); color: #38b2ac; }
+.hl-tag-edu { background: rgba(236, 72, 153, 0.2); color: #ec4899; }
+.hl-tag-retail { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
+.hl-tag-mfg { background: rgba(99, 102, 241, 0.2); color: #6366f1; }
+.hl-tag-gov { background: rgba(220, 38, 38, 0.2); color: #dc2626; }
+.hl-tag-media { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
+.hl-tag-log { background: rgba(14, 165, 233, 0.2); color: #0ea5e9; }
 .hl-tag-map { background: rgba(210, 153, 34, 0.2); color: var(--warning); }
 .hl-tag-method { background: rgba(168, 85, 247, 0.2); color: #a855f7; }
 .hl-tag-cases { background: rgba(248, 81, 73, 0.15); color: var(--danger); }
