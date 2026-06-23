@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>物流 · AI 应用方向总览 v1 · AI 项目落地研究</title>
+<meta name="description" content="智能调度 / 仓储自动化 / AMR 机器人 三大落地最深方向 + 5A 深拆">
+<link rel="stylesheet" href="../assets/report.css">
+</head>
+<body>
+
+<header class="report-header">
+  <div class="container">
+    <div class="header-row">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AI 项目落地研究</span>
+      </a>
+      <nav class="report-nav">
+        <a href="../index.html#highlights">← 回到首页</a>
+        <a href="../index.html#latest">最新更新</a>
+        <a href="../index.html#industries">行业地图</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="report-layout">
+  <aside class="report-toc">
+    <div class="toc-title">目录</div>
+    <ul class="toc"><li class="toc-h2"><a href="#总览">总览</a></li>
+<li class="toc-h2"><a href="#方向-1智能调度运单分配-路径优化">方向 1：智能调度（运单分配 + 路径优化）</a></li>
+<li class="toc-h2"><a href="#方向-2仓储自动化立体仓库-自动分拣">方向 2：仓储自动化（立体仓库 + 自动分拣）</a></li>
+<li class="toc-h2"><a href="#方向-3amr-agv-机器人移动机器人">方向 3：AMR / AGV 机器人（移动机器人）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-1-智能调度-顺丰丰知-41-亿降本">深度拆解：方向 1 智能调度 · 顺丰丰知 4.1 亿降本</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-2-仓储自动化-京东-41-座亚洲一号">深度拆解：方向 2 仓储自动化 · 京东 41 座亚洲一号</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-3-amr-极智嘉-geek-1000-客户">深度拆解：方向 3 AMR · 极智嘉 Geek+ 1000+ 客户</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#横向对比3-个深拆标杆的可学-不可学边界">横向对比：3 个深拆标杆的可学 / 不可学边界</a></li>
+<li class="toc-h2"><a href="#给业务-leader-的-3-条核心建议">给业务 leader 的 3 条核心建议</a></li>
+<li class="toc-h2"><a href="#数据来源">数据来源</a></li></ul>
+  </aside>
+
+  <article class="report-body">
+    <div class="report-meta">
+      <span class="meta-tag">行业研究报告 · 物流</span>
+      <span class="meta-updated">最后更新：2026-06-23</span>
+    </div>
+    <h1 id="物流-ai-应用方向总览-v1" class="md-h1"><a href="#物流-ai-应用方向总览-v1" class="anchor">#</a> 物流 · AI 应用方向总览 v1</h1>
+<blockquote class="md-quote"><strong>目标读者</strong>：业务 leader（物流集团 AI 战略部 / 快递公司 CTO / 仓储自动化负责人 / 跨境物流公司 COO / 物流 SaaS 创业者），作为「行业判断 + 案例 + ROI 数据」参考</blockquote>
+<blockquote class="md-quote"></blockquote>
+<blockquote class="md-quote"><strong>v1 范围</strong>：聚焦「智能调度 / 仓储自动化 / AMR 机器人」三大落地最深的方向。每个方向挑 1 个深拆标杆，拆解 5A + 可复制 + 踩坑 + 上下游 + 12 个月趋势。后续 v2 会扩到路径优化 / 末端配送 / 跨境物流 / 数字孪生等方向。</blockquote>
+<div class="thirty-sec">
+<div class="ts-title">⏱ 30 秒速读 · 业务 leader 视角</div>
+<div class="ts-grid">
+<div class="ts-block ts-block-conclusion">
+<h4>结论</h4>
+<p class="md-p"><p>物流 AI 已从「单仓试点」进入「全网铺开」阶段。<strong>2024 年顺丰 AI 降本 4.1 亿</strong>、<strong>京东昆山智狼仓入库效率 ↑5-6 倍</strong>、<strong>菜鸟无锡未来园区 700+ AGV</strong>协同作业。</p></p>
+<p class="md-p"><p>未布局的物流企业，窗口期还有 <strong>12-24 个月</strong>。</p></p>
+</div>
+<div class="ts-block">
+<h4>3 个判断题</h4>
+<p class="md-p"><ul></p>
+<p class="md-p"><li><strong>做不做？</strong>头部都做了（顺丰丰知 5000+ 智能体 / 京东 41 座亚洲一号 / 菜鸟 200+ 仓），不做 = 落后</li></p>
+<p class="md-p"><li><strong>何时做？</strong>现在是窗口期（DeepSeek 平权 + 5G + 边缘计算 + 物流大模型成熟）</li></p>
+<p class="md-p"><li><strong>谁来做？</strong>智能调度 / 仓储自动化 / AMR 3 块最成熟</li></p>
+<p class="md-p"></ul></p>
+</div>
+<div class="ts-block">
+<h4>3 个数字</h4>
+<p class="md-p"><ul></p>
+<p class="md-p"><li><strong>4.1 亿</strong> · 顺丰 AI 降本金额（2024 年报披露）</li></p>
+<p class="md-p"><li><strong>41 座</strong> · 京东物流亚洲一号智能仓数量</li></p>
+<p class="md-p"><li><strong>5-6 倍</strong> · 京东昆山智狼仓入库效率提升</li></p>
+<p class="md-p"></ul></p>
+</div>
+</div>
+</div>
+<blockquote class="md-quote"><strong>可视化</strong>：网页式目录（非思维导图，更清爽）</blockquote>
+<blockquote class="md-quote"><strong>配套文件</strong>：<a href="../../01_行业地图/AI落地行业地图_v2.md" target="_blank" rel="noopener">AI 落地行业地图 v2</a> | <a href="金融_应用方向总览_v2.md" target="_blank" rel="noopener">金融应用方向总览 v2</a> | <a href="医疗_应用方向总览_v1.md" target="_blank" rel="noopener">医疗应用方向总览 v1</a> | <a href="教育_应用方向总览_v1.md" target="_blank" rel="noopener">教育应用方向总览 v1</a> | <a href="零售_应用方向总览_v1.md" target="_blank" rel="noopener">零售应用方向总览 v1</a> | <a href="制造_应用方向总览_v1.md" target="_blank" rel="noopener">制造应用方向总览 v1</a></blockquote>
+<blockquote class="md-quote"><strong>最后更新</strong>：2026-06-23</blockquote>
+<blockquote class="md-quote"><strong>v1 → v2 路线</strong>：v2 会扩到 8 大方向（加路径优化 / 末端配送 / 跨境物流 / 数字孪生），每个方向再加 1-2 个标杆深拆</blockquote>
+<hr class="md-hr">
+<h2 id="总览" class="md-h2"><a href="#总览" class="anchor">#</a> 总览</h2>
+<p class="md-p">物流 AI 落地有 <strong>8 大方向</strong>，按「监管成熟度 + 商业化深度」排序：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>序</th>
+<th>大方向</th>
+<th>监管状态</th>
+<th>国内代表</th>
+<th>国外代表</th>
+<th>落地深度</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>智能调度（运单分配 + 路径优化）</strong></td>
+<td>✅ 合规清晰</td>
+<td>顺丰丰知 / 京东物流 / 菜鸟</td>
+<td>UPS ORION / FedEx</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>仓储自动化（立体仓库 + 自动分拣）</strong></td>
+<td>✅ 合规清晰</td>
+<td>京东 41 座亚洲一号 / 顺丰杭州枢纽 / 菜鸟未来园区</td>
+<td>Ocado / Symbotic</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>AMR / AGV 机器人（移动机器人）</strong></td>
+<td>✅ 合规清晰</td>
+<td>极智嘉 Geek+ / 海康机器人 / 智库 / 九识 AMR</td>
+<td>Locus Robotics / Fetch</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>路径优化（实时路径规划）</strong></td>
+<td>✅ 合规清晰</td>
+<td>顺丰丰知 / 美团智能调度 / 滴滴</td>
+<td>UPS ORION / Google Maps</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>末端配送（无人车 / 无人机）</strong></td>
+<td>🟡 政策试点</td>
+<td>美团无人车 / 京东无人配送 / 顺丰无人机</td>
+<td>Nuro / Zipline / Starship</td>
+<td>★★★☆☆</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>跨境物流 AI（清关 + 海外仓调度）</strong></td>
+<td>✅ 合规清晰</td>
+<td>菜鸟全球 200+ 仓 / 顺丰国际 / DHL</td>
+<td>DHL 全球 / FedEx</td>
+<td>★★★☆☆</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>数字孪生（仓库 / 园区仿真）</strong></td>
+<td>✅ 合规清晰</td>
+<td>京东物流 / 菜鸟 / 顺丰</td>
+<td>Siemens / PTC</td>
+<td>★★★☆☆</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>AI 客服（物流客服 + 异常处理）</strong></td>
+<td>✅ 合规清晰</td>
+<td>顺丰 AI 客服 / 京东咚咚 / 菜鸟 AI 客服</td>
+<td>Shopify AI / Zendesk AI</td>
+<td>★★★☆☆</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<blockquote class="md-quote"><strong>本版 v1 重点</strong>：深拆方向 1 / 2 / 3（智能调度 / 仓储自动化 / AMR）。这 3 个方向监管最清晰 + 商业化最深 + ROI 最可量化。</blockquote>
+<hr class="md-hr">
+<h2 id="方向-1智能调度运单分配-路径优化" class="md-h2"><a href="#方向-1智能调度运单分配-路径优化" class="anchor">#</a> 方向 1：智能调度（运单分配 + 路径优化）</h2>
+<p class="md-p"><strong>一句话</strong>：用 AI 调度算法 + 实时数据 + 多智能体协同，做「运单 × 网点 × 车辆 × 人员」四维调度决策——把单票成本降低 10-30%，把时效波动降低 50%+。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>运单分配</strong>：基于网点 / 路线 / 时效 / 重量</li>
+<li><strong>路径优化</strong>：实时路况 + 天气 + 客户偏好</li>
+<li><strong>车辆调度</strong>：车型匹配 + 满载率优化</li>
+<li><strong>人员调度</strong>：快递员排班 + 提成激励</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>顺丰丰知</strong></td>
+<td>物流决策大模型 + 多智能体</td>
+<td>30+ 业务场景 / 5000+ 智能体 / 4.1 亿 AI 降本 / 178% ROI</td>
+<td>顺丰 2024 年报</td>
+</tr>
+<tr>
+<td><strong>京东物流</strong></td>
+<td>智能调度 + 路径优化</td>
+<td>41 座亚洲一号 / 178 亿订单 / 1300+ 仓库</td>
+<td>京东物流 2024</td>
+</tr>
+<tr>
+<td><strong>菜鸟</strong></td>
+<td>全球调度 + 跨境协同</td>
+<td>200+ 仓 / 跨境 565 亿 / 10+ 海外分拨</td>
+<td>菜鸟 2024</td>
+</tr>
+<tr>
+<td><strong>美团智能调度</strong></td>
+<td>30 分钟即时配送</td>
+<td>服务 700 万+ 骑手 / 单均 30 分钟</td>
+<td>美团 2024</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="方向-2仓储自动化立体仓库-自动分拣" class="md-h2"><a href="#方向-2仓储自动化立体仓库-自动分拣" class="anchor">#</a> 方向 2：仓储自动化（立体仓库 + 自动分拣）</h2>
+<p class="md-p"><strong>一句话</strong>：用立体仓库 + 自动分拣线 + 5G + AGV 协同，把仓库从「人找货」转成「货到人」——把单仓人效提升 3-5 倍，把分拣准确率提升到 99.9%+。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>立体仓库</strong>：高层货架 + 自动存取</li>
+<li><strong>自动分拣</strong>：交叉带分拣 + 滑块分拣</li>
+<li><strong>5G + AGV 协同</strong>：5G 覆盖 + 多机调度</li>
+<li><strong>WMS + WCS 集成</strong>：仓库大脑 + 设备协同</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>京东亚洲一号</strong></td>
+<td>41 座立体仓库</td>
+<td>单仓投资 10-30 亿 / 入库效率 ↑5-6 倍 / 分拣 200ms/件</td>
+<td>京东物流 2024</td>
+</tr>
+<tr>
+<td><strong>顺丰杭州枢纽</strong></td>
+<td>立体仓库 + 分拣线</td>
+<td>分拣效率 ↑50% / 错分率 0.007% / 单仓投资 15 亿</td>
+<td>顺丰 2024 年报</td>
+</tr>
+<tr>
+<td><strong>菜鸟无锡未来园区</strong></td>
+<td>5G 智慧园区 + AGV</td>
+<td>700+ AGV / 单仓投资 25 亿 / 首批 5G 园区</td>
+<td>菜鸟 2024</td>
+</tr>
+<tr>
+<td><strong>DHL 全球</strong></td>
+<td>跨境仓储自动化</td>
+<td>220+ 国家派送 / 12 亿件/年跨境包裹</td>
+<td>DHL 2024</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="方向-3amr-agv-机器人移动机器人" class="md-h2"><a href="#方向-3amr-agv-机器人移动机器人" class="anchor">#</a> 方向 3：AMR / AGV 机器人（移动机器人）</h2>
+<p class="md-p"><strong>一句话</strong>：用 AMR / AGV 替代人工搬运 + 分拣 + 上料——把单线人效从 50 件/小时提升到 200-400 件/小时，把单仓人力成本降低 50%+。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>仓储 AMR</strong>：货架到人 / 货到人</li>
+<li><strong>产线 AGV</strong>：物料配送 + 上料</li>
+<li><strong>分拣 AMR</strong>：播种式分拣 + 摘果式分拣</li>
+<li><strong>户外 AMR</strong>：园区配送 + 厂区物流</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>极智嘉 Geek+</strong></td>
+<td>仓储 AMR 头部</td>
+<td>服务 1000+ 客户 / 单仓 AMR 200-500 台</td>
+<td>极智嘉 2024</td>
+</tr>
+<tr>
+<td><strong>海康机器人</strong></td>
+<td>视觉 + AMR</td>
+<td>服务 15000+ 企业 / 机器视觉 + AMR 双轮</td>
+<td>海康 2024</td>
+</tr>
+<tr>
+<td><strong>智库智能</strong></td>
+<td>仓储 + 制造 AMR</td>
+<td>服务 500+ 头部企业</td>
+<td>智库 2024</td>
+</tr>
+<tr>
+<td><strong>九识智能</strong></td>
+<td>户外 AMR + 无人配送</td>
+<td>苏州 / 杭州 / 深圳试点</td>
+<td>九识 2024</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="深度拆解方向-1-智能调度-顺丰丰知-41-亿降本" class="md-h2"><a href="#深度拆解方向-1-智能调度-顺丰丰知-41-亿降本" class="anchor">#</a> 深度拆解：方向 1 智能调度 · 顺丰丰知 4.1 亿降本</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>中国物流总费用 2024 年 18 万亿+ / AI 渗透率 15%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>DeepSeek 平权 + 物流大模型成熟 + 多智能体协同</td>
+</tr>
+<tr>
+<td><strong>政策驱动</strong></td>
+<td>国家「物流降本增效」+ 商务部「数字物流」</td>
+</tr>
+<tr>
+<td><strong>灯塔工厂</strong></td>
+<td>顺丰 / 京东 / 菜鸟 各 5+ 家灯塔</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>顺丰丰知</strong>（物流决策大模型标杆）：</p>
+<ol class="md-ol">
+<li><strong>顺丰 30+ 年物流 know-how</strong>：快递 + 供应链 + 国际</li>
+<li><strong>物流决策大模型</strong>：自研「丰知」2022 试点 → 2023 规模化 → 2024 年报 4.1 亿降本</li>
+<li><strong>5000+ 智能体</strong>：30+ 业务场景全覆盖</li>
+<li><strong>178% ROI（麦肯锡评估）</strong>：行业领先</li>
+</ol>
+<p class="md-p"><strong>京东物流</strong>（电商物流闭环）：</p>
+<ol class="md-ol">
+<li><strong>京东自营 30+ 年电商 know-how</strong></li>
+<li><strong>41 座亚洲一号 / 1300+ 仓库 / 178 亿订单</strong></li>
+<li><strong>外部客户收入占比 70%+</strong>：从自营到开放</li>
+<li><strong>一体化供应链</strong>：仓 + 配 + 逆向物流</li>
+</ol>
+<p class="md-p"><strong>菜鸟</strong>（阿里电商物流）：</p>
+<ol class="md-ol">
+<li><strong>阿里电商 know-how</strong>：淘宝 / 天猫 / 跨境</li>
+<li><strong>国内「四纵四横」+ 跨境「十纵十横」</strong></li>
+<li><strong>200+ 仓 / 10+ 海外分拨</strong></li>
+<li><strong>跨境 565 亿 / 国内 458 亿</strong>：双轮</li>
+</ol>
+<p class="md-p"><strong>美团智能调度</strong>（即时配送标杆）：</p>
+<ol class="md-ol">
+<li><strong>美团 700 万+ 骑手 / 单均 30 分钟</strong></li>
+<li><strong>AI 调度算法成熟</strong>：实时路况 + 餐厅出餐 + 客户位置</li>
+<li><strong>餐饮 + 商超 + 生鲜 + 药品</strong>多品类</li>
+<li><strong>美团 2024 即时零售订单 700 亿+</strong></li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>运单分配</strong>：基于网点 / 路线 / 时效 / 重量（降本 10-30%）</li>
+<li><strong>路径优化</strong>：实时路况 + 天气 + 客户偏好（时效波动 -50%）</li>
+<li><strong>车辆调度</strong>：车型匹配 + 满载率优化（满载率 +20%）</li>
+<li><strong>人员调度</strong>：快递员排班 + 提成激励（人效 +30%）</li>
+<li><strong>异常处理</strong>：延误 / 破损 / 错分自动预警（异常率 -50%）</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>AI 降本</strong>：顺丰丰知 4.1 亿 · 麦肯锡 178% ROI</li>
+<li><strong>入库效率</strong>：京东智狼仓 ↑5-6 倍</li>
+<li><strong>分拣效率</strong>：顺丰杭州枢纽 ↑50% · 错分率 0.007%</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>顺丰丰知</strong>：5000+ 智能体 → 10000+ · 178% ROI → 250%+</li>
+<li><strong>京东物流</strong>：41 座亚洲一号 → 60 座 · 178 亿 → 250 亿订单</li>
+<li><strong>菜鸟</strong>：200+ 仓 → 300+ 仓 · 海外分拨 10+ → 20+</li>
+<li><strong>行业整体</strong>：智能调度赛道 2026 年规模有望达 500 亿+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是物流集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：智能调度 + 仓储自动化 + AMR 3 块联动</li>
+<li><strong>避坑品类</strong>：纯算法型（无行业 know-how）/ 纯硬件型（无 AI）</li>
+<li><strong>采购合作优先</strong>：极智嘉（仓储 AMR）/ 海康（视觉 + AMR）/ 自研大模型</li>
+</ol>
+<p class="md-p"><strong>如果你是快递 / 仓配 / 跨境物流 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：行业 know-how + 设备数据 + 多智能体协同</li>
+<li><strong>可学</strong>：顺丰「物流大模型 + 5000+ 智能体」路径</li>
+<li><strong>不可学</strong>：顺丰 30+ 年物流 know-how + 4.1 亿 AI 降本数据</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入物流 AI 的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① 行业垂直（快递 / 仓配 / 跨境）② AMR + AI ③ 智能调度 SaaS</li>
+<li><strong>避坑路径</strong>：① 通用大平台（无 know-how）② 纯算法（无设备）③ 纯硬件（无 AI）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：订单越多 → 数据越多 → 调度越准 → 订单越多</li>
+<li><strong>场景飞轮</strong>：快递 → 仓配 → 跨境 → 即时，每个场景反哺其他</li>
+<li><strong>智能体飞轮</strong>：单智能体 → 多智能体协同 → 大模型统筹</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>DeepSeek 平权 + 物流大模型</strong>让中小物流也能搭 AI，但<strong>行业 know-how 仍是壁垒</strong></li>
+<li><strong>5G + 边缘计算 + 自动驾驶</strong>让无人配送落地</li>
+<li><strong>跨境物流 + AI</strong>成 2026 新热点（中美贸易 + 跨境电商）</li>
+</ul>
+<hr class="md-hr">
+<h2 id="深度拆解方向-2-仓储自动化-京东-41-座亚洲一号" class="md-h2"><a href="#深度拆解方向-2-仓储自动化-京东-41-座亚洲一号" class="anchor">#</a> 深度拆解：方向 2 仓储自动化 · 京东 41 座亚洲一号</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>中国仓储自动化 2024 规模 1500 亿+ / 增速 20%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>立体仓库 + 自动分拣 + 5G + AGV 协同成熟</td>
+</tr>
+<tr>
+<td><strong>政策驱动</strong></td>
+<td>商务部「数字商务」+「物流降本增效」</td>
+</tr>
+<tr>
+<td><strong>灯塔工厂</strong></td>
+<td>京东 / 顺丰 / 菜鸟 各 5+ 家灯塔</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>京东亚洲一号</strong>（电商物流标杆）：</p>
+<ol class="md-ol">
+<li><strong>京东自营 30+ 年电商 know-how</strong></li>
+<li><strong>41 座亚洲一号 / 1300+ 仓库</strong></li>
+<li><strong>单仓投资 10-30 亿</strong>：立体仓库 + 分拣线 + AMR</li>
+<li><strong>入库效率 ↑5-6 倍</strong>：单线 200 箱/小时</li>
+</ol>
+<p class="md-p"><strong>顺丰杭州枢纽</strong>（快递行业标杆）：</p>
+<ol class="md-ol">
+<li><strong>顺丰 30+ 年快递 know-how</strong></li>
+<li><strong>立体仓库 + 自动化分拣线</strong></li>
+<li><strong>分拣效率 ↑50% / 错分率 0.007%</strong>：行业领先</li>
+<li><strong>单仓投资 15 亿</strong>：单线分拣 200ms/件</li>
+</ol>
+<p class="md-p"><strong>菜鸟无锡未来园区</strong>（跨境物流 + 5G）：</p>
+<ol class="md-ol">
+<li><strong>阿里电商 know-how</strong></li>
+<li><strong>首批 5G 智慧园区 / 700+ AGV</strong></li>
+<li><strong>单仓投资 25 亿</strong>：5G + AGV + 立体仓库</li>
+<li><strong>跨境 + 国内双线</strong></li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>立体仓库</strong>：高层货架 + 自动存取（密度 +50%）</li>
+<li><strong>自动分拣</strong>：交叉带 + 滑块（准确率 99.9%+）</li>
+<li><strong>5G + AGV 协同</strong>：实时调度（人效 +200%）</li>
+<li><strong>WMS + WCS 集成</strong>：仓库大脑（异常率 -50%）</li>
+<li><strong>入库 / 出库 / 库存优化</strong>：全流程 AI</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>入库效率</strong>：京东智狼仓 ↑5-6 倍 · 行业平均 ↑2 倍</li>
+<li><strong>分拣效率</strong>：顺丰杭州 ↑50% · 错分率 0.007%</li>
+<li><strong>单仓投资</strong>：京东 10-30 亿 · 顺丰 15 亿 · 菜鸟 25 亿</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>京东亚洲一号</strong>：41 → 60 座 · 入库效率 ↑10 倍</li>
+<li><strong>顺丰枢纽</strong>：杭州 → 5 大枢纽全自动化 · 错分率 0.005%</li>
+<li><strong>菜鸟未来园区</strong>：无锡 → 5 个 5G 园区 · 跨境 1000 亿</li>
+<li><strong>行业整体</strong>：仓储自动化赛道 2026 年规模有望达 2500 亿+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是物流集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：立体仓库 + 自动分拣 + 5G + AGV 4 件套</li>
+<li><strong>避坑品类</strong>：纯硬件型（无 AI）/ 纯软件型（无硬件）</li>
+<li><strong>采购合作优先</strong>：京东物流（一站式）/ 极智嘉（仓储 AMR）/ 海康（视觉）</li>
+</ol>
+<p class="md-p"><strong>如果你是快递 / 仓配 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：行业 know-how + 重资产投入 + 5G + AI</li>
+<li><strong>可学</strong>：京东「亚洲一号」单仓投资 10-30 亿路径</li>
+<li><strong>不可学</strong>：京东 41 座亚洲一号 + 1300+ 仓库生态</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入仓储自动化的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① AMR（极智嘉 / 海康）② 5G + AGV 协同 ③ WMS + WCS 软件</li>
+<li><strong>避坑路径</strong>：① 通用平台（无 know-how）② 纯硬件（无 AI）③ 纯软件（无硬件）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：仓库越多 → 数据越多 → AI 越准 → 仓库越多</li>
+<li><strong>行业飞轮</strong>：电商 → 快递 → 跨境 → 即时，每个行业 know-how 沉淀</li>
+<li><strong>场景飞轮</strong>：入库 → 分拣 → 出库 → 库存，每个场景反哺其他</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>5G + 边缘计算 + AMR</strong>协同成头部标配</li>
+<li><strong>跨境物流 + 自动化</strong>成 2026 新热点</li>
+<li><strong>DeepSeek 平权</strong>让中小仓库也能搭 AI</li>
+</ul>
+<hr class="md-hr">
+<h2 id="深度拆解方向-3-amr-极智嘉-geek-1000-客户" class="md-h2"><a href="#深度拆解方向-3-amr-极智嘉-geek-1000-客户" class="anchor">#</a> 深度拆解：方向 3 AMR · 极智嘉 Geek+ 1000+ 客户</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>全球 AMR 市场 2024 规模 50 亿美元 / 中国占 40%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>SLAM + 视觉 + 多机调度 + AI 决策</td>
+</tr>
+<tr>
+<td><strong>政策驱动</strong></td>
+<td>工信部「机器人产业」鼓励</td>
+</tr>
+<tr>
+<td><strong>头部格局</strong></td>
+<td>中国 AMR 4 小龙：极智嘉 / 海康 / 智库 / 九识</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>极智嘉 Geek+</strong>（仓储 AMR 头部）：</p>
+<ol class="md-ol">
+<li><strong>2015 年成立 / 9 年深耕</strong>：仓储 AMR 第一梯队</li>
+<li><strong>服务 1000+ 客户</strong>：顺丰 / DHL / 沃尔玛 / 丰田</li>
+<li><strong>单仓 AMR 200-500 台</strong>：规模领先</li>
+<li><strong>极智嘉 2024 港股上市</strong>：全球 AMR 头部</li>
+</ol>
+<p class="md-p"><strong>海康机器人</strong>（视觉 + AMR 双轮）：</p>
+<ol class="md-ol">
+<li><strong>海康威视 20+ 年视觉 know-how</strong></li>
+<li><strong>机器视觉 + AMR 双轮</strong>：协同优势</li>
+<li><strong>服务 15000+ 企业</strong>：跨行业</li>
+<li><strong>海康机器人 2024 拆分上市</strong></li>
+</ol>
+<p class="md-p"><strong>智库智能 / 九识智能</strong>（仓储 / 户外 AMR）：</p>
+<ol class="md-ol">
+<li><strong>智库 2017 年成立</strong>：仓储 + 制造 AMR</li>
+<li><strong>九识 2021 年成立</strong>：户外 AMR + 无人配送</li>
+<li><strong>苏州 / 杭州 / 深圳试点</strong>：政策驱动</li>
+<li><strong>行业 know-how 沉淀 5-8 年</strong></li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>货架到人（GTP）</strong>：替代人工拣货</li>
+<li><strong>货到人（G2P）</strong>：立体仓库 AMR</li>
+<li><strong>分拣 AMR</strong>：播种式 + 摘果式</li>
+<li><strong>产线 AGV</strong>：物料配送 + 上料</li>
+<li><strong>户外 AMR</strong>：园区配送 + 厂区物流</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>人效提升</strong>：极智嘉 AMR 替代人工 50%+ · 单线 200-400 件/小时</li>
+<li><strong>准确率</strong>：行业平均 99.9%+ · 极智嘉 99.95%+</li>
+<li><strong>投资回报</strong>：极智嘉单仓 1-2 年回本</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>极智嘉</strong>：1000+ → 2000+ 客户 · 海外占比 50%+</li>
+<li><strong>海康机器人</strong>：15000+ → 30000+ 企业 · 视觉 + AMR 协同</li>
+<li><strong>智库 / 九识</strong>：服务 500 → 1500+ 企业 · 户外 AMR 普及</li>
+<li><strong>行业整体</strong>：AMR 赛道 2026 年规模有望达 80 亿美元+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是物流集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：仓储 AMR + 产线 AGV + 户外 AMR 3 块联动</li>
+<li><strong>避坑品类</strong>：纯硬件型（无 AI）/ 纯算法型（无硬件）</li>
+<li><strong>采购合作优先</strong>：极智嘉（仓储）/ 海康（视觉 + AMR）/ 九识（户外）</li>
+</ol>
+<p class="md-p"><strong>如果你是快递 / 仓配 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：AMR + WMS + 多机调度 + 行业 know-how</li>
+<li><strong>可学</strong>：极智嘉「货架到人 / 货到人」路径</li>
+<li><strong>不可学</strong>：极智嘉 9 年 AMR know-how + 1000+ 客户数据</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入 AMR 的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① 行业垂直（电商 / 快递 / 制造）② 视觉 + AMR ③ 多机调度 SaaS</li>
+<li><strong>避坑路径</strong>：① 通用平台（无 know-how）② 纯硬件（无 AI）③ 纯软件（无硬件）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：AMR 越多 → 数据越多 → 调度越准 → AMR 越多</li>
+<li><strong>行业飞轮</strong>：电商 → 快递 → 制造 → 户外，每个行业 know-how 沉淀</li>
+<li><strong>场景飞轮</strong>：仓储 → 产线 → 户外，每个场景反哺其他</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>DeepSeek 平权 + 多机调度</strong>让中小仓库也能搭 AMR</li>
+<li><strong>5G + 户外 AMR</strong>让厂区 / 园区无人化</li>
+<li><strong>AMR + 机械臂 + 立体仓库</strong>三位一体成头部标配</li>
+</ul>
+<hr class="md-hr">
+<h2 id="横向对比3-个深拆标杆的可学-不可学边界" class="md-h2"><a href="#横向对比3-个深拆标杆的可学-不可学边界" class="anchor">#</a> 横向对比：3 个深拆标杆的可学 / 不可学边界</h2>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>智能调度（顺丰丰知）</th>
+<th>仓储自动化（京东亚一）</th>
+<th>AMR（极智嘉）</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>可学</strong></td>
+<td>物流大模型 + 多智能体 + 行业 know-how</td>
+<td>立体仓库 + 自动分拣 + 5G + AGV</td>
+<td>AMR + WMS + 多机调度 + 行业 know-how</td>
+</tr>
+<tr>
+<td><strong>不可学</strong></td>
+<td>顺丰 30+ 年 know-how + 5000+ 智能体</td>
+<td>41 座亚一 + 1300+ 仓库重资产</td>
+<td>9 年 AMR 沉淀 + 1000+ 客户</td>
+</tr>
+<tr>
+<td><strong>窗口期</strong></td>
+<td>12-24 个月（物流大模型普及前）</td>
+<td>12-36 个月（5G + AGV 成熟前）</td>
+<td>12-24 个月（户外 AMR 普及前）</td>
+</tr>
+<tr>
+<td><strong>适合谁做</strong></td>
+<td>物流集团 AI 战略部 + 物流 SaaS 创业</td>
+<td>仓配 COO + 仓储自动化集成商</td>
+<td>快递 COO + AMR 创业</td>
+</tr>
+<tr>
+<td><strong>最大风险</strong></td>
+<td>通用大厂入局（阿里 / 京东 / 华为）</td>
+<td>重资产投入难复制</td>
+<td>头部格局已定（4 小龙）</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="给业务-leader-的-3-条核心建议" class="md-h2"><a href="#给业务-leader-的-3-条核心建议" class="anchor">#</a> 给业务 leader 的 3 条核心建议</h2>
+<ol class="md-ol">
+<li><strong>看行业先看品类</strong>：快递（同城 + 跨城）vs 仓配（电商 + B2B）vs 跨境（外贸 + 跨境电商）know-how 不同</li>
+<li><strong>看公司先看护城河</strong>：行业 know-how + 设备数据 + AI 大模型 + 重资产 4 要素缺一不可</li>
+<li><strong>看窗口先看节奏</strong>：智能调度 12-24 个月 · 仓储自动化 12-36 个月 · AMR 12-24 个月（DeepSeek 平权前）</li>
+</ol>
+<hr class="md-hr">
+<h2 id="数据来源" class="md-h2"><a href="#数据来源" class="anchor">#</a> 数据来源</h2>
+<ul class="md-ul">
+<li><strong>财报类</strong>：顺丰 2024 年报 / 京东物流 2024 / 菜鸟 2024 / 美团 2024 / DHL 2024</li>
+<li><strong>政策类</strong>：商务部「物流降本增效」/ 工信部「机器人产业」/ 世界经济论坛「灯塔工厂」</li>
+<li><strong>行业研究类</strong>：亿邦动力 / 亿欧网 / 36 氪 / 21 世纪经济报道 / IDC 报告 / 麦肯锡</li>
+<li><strong>案例来源</strong>：<a href="../../06_案例库/案例_v2/物流_本地生活_美团.md" target="_blank" rel="noopener">物流_本地生活_美团</a> + <a href="../../06_案例库/案例_v2/物流_港口_招商局如影.md" target="_blank" rel="noopener">物流_港口_招商局如影</a> + <a href="护城河分析_物流仓储_v3.md" target="_blank" rel="noopener">护城河分析_物流仓储 v3</a></li>
+</ul>
+<hr class="md-hr">
+<blockquote class="md-quote"><strong>下期预告</strong>：v2 会扩到 8 大方向（加路径优化 / 末端配送 / 跨境物流 / 数字孪生），每个方向再加 1-2 个标杆深拆，预计 2026 Q3 上线。</blockquote>
+  </article>
+</div>
+
+<footer class="report-footer">
+  <div class="container">
+    <p>本报告由 AI 项目落地研究仓库产出 · <a href="../index.html">回到首页</a> · <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener">仓库地址</a></p>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const toc = document.querySelector('.report-toc');
+  if (!toc) return;
+  const title = toc.querySelector('.toc-title');
+  if (!title) return;
+  title.addEventListener('click', () => toc.classList.toggle('toc-open'));
+})();
+</script>
+
+</body>
+</html>

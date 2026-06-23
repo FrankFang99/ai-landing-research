@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>零售 · AI 应用方向总览 v1 · AI 项目落地研究</title>
+<meta name="description" content="智能补货 / 千人千面 / 智能选品 三大落地最深方向 + 5A 深拆">
+<link rel="stylesheet" href="../assets/report.css">
+</head>
+<body>
+
+<header class="report-header">
+  <div class="container">
+    <div class="header-row">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">AI 项目落地研究</span>
+      </a>
+      <nav class="report-nav">
+        <a href="../index.html#highlights">← 回到首页</a>
+        <a href="../index.html#latest">最新更新</a>
+        <a href="../index.html#industries">行业地图</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="report-layout">
+  <aside class="report-toc">
+    <div class="toc-title">目录</div>
+    <ul class="toc"><li class="toc-h2"><a href="#总览">总览</a></li>
+<li class="toc-h2"><a href="#方向-1智能补货区域-门店-sku">方向 1：智能补货（区域 × 门店 × SKU）</a></li>
+<li class="toc-h2"><a href="#方向-2千人千面推荐c-端-app-私域">方向 2：千人千面推荐（C 端 App + 私域）</a></li>
+<li class="toc-h2"><a href="#方向-3智能选品自动-sku-优化">方向 3：智能选品（自动 SKU 优化）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-1-智能补货-波司登-4000-门店">深度拆解：方向 1 智能补货 · 波司登 4000+ 门店</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-2-千人千面-山姆-app-极速达">深度拆解：方向 2 千人千面 · 山姆 App 极速达</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#深度拆解方向-3-智能选品-山姆-ai-选品-沃尔玛">深度拆解：方向 3 智能选品 · 山姆 AI 选品 + 沃尔玛</a></li>
+<li class="toc-h3"><a href="#already-阶段已经发生">Already 阶段（已经发生）</a></li>
+<li class="toc-h3"><a href="#access怎么拿到">Access（怎么拿到）</a></li>
+<li class="toc-h3"><a href="#apply业务落地">Apply（业务落地）</a></li>
+<li class="toc-h3"><a href="#aspirational12-18-个月愿景">Aspirational（12-18 个月愿景）</a></li>
+<li class="toc-h3"><a href="#actionable业务-leader-该怎么做">Actionable（业务 leader 该怎么做）</a></li>
+<li class="toc-h3"><a href="#adaptive自进化">Adaptive（自进化）</a></li>
+<li class="toc-h2"><a href="#横向对比3-个深拆标杆的可学-不可学边界">横向对比：3 个深拆标杆的可学 / 不可学边界</a></li>
+<li class="toc-h2"><a href="#给业务-leader-的-3-条核心建议">给业务 leader 的 3 条核心建议</a></li>
+<li class="toc-h2"><a href="#数据来源">数据来源</a></li></ul>
+  </aside>
+
+  <article class="report-body">
+    <div class="report-meta">
+      <span class="meta-tag">行业研究报告 · 零售</span>
+      <span class="meta-updated">最后更新：2026-06-23</span>
+    </div>
+    <h1 id="零售-ai-应用方向总览-v1" class="md-h1"><a href="#零售-ai-应用方向总览-v1" class="anchor">#</a> 零售 · AI 应用方向总览 v1</h1>
+<blockquote class="md-quote"><strong>目标读者</strong>：业务 leader（零售集团 AI 战略部 / 商超数字化负责人 / 服装品牌 COO / 跨境电商 CTO / 零售投资人与创业者），作为「行业判断 + 案例 + ROI 数据」参考</blockquote>
+<blockquote class="md-quote"></blockquote>
+<blockquote class="md-quote"><strong>v1 范围</strong>：聚焦「智能补货 / 千人千面推荐 / 智能选品」三大落地最深的方向。每个方向挑 1 个深拆标杆，拆解 5A + 可复制 + 踩坑 + 上下游 + 12 个月趋势。后续 v2 会扩到供应链 / 门店数字化 / 私域运营 / 跨境电商 AI 等方向。</blockquote>
+<div class="thirty-sec">
+<div class="ts-title">⏱ 30 秒速读 · 业务 leader 视角</div>
+<div class="ts-grid">
+<div class="ts-block ts-block-conclusion">
+<h4>结论</h4>
+<p class="md-p"><p>零售 AI 已从「单点试点」进入「全链路铺开」阶段。<strong>2024 年沃尔玛中国 + 山姆销售合计 2500 亿</strong>，智能补货准确率 <strong>95%+</strong>、缺货率 <strong>8% → 2%</strong>；同期 <strong>波司登数字化营收占比 25% → 45%</strong>。</p></p>
+<p class="md-p"><p>未布局的零售商，窗口期还有 <strong>12-24 个月</strong>。</p></p>
+</div>
+<div class="ts-block">
+<h4>3 个判断题</h4>
+<p class="md-p"><ul></p>
+<p class="md-p"><li><strong>做不做？</strong>头部都做了（沃尔玛 40+ 门店智能补货 / 波司登 4000+ 门店 / 老百姓 1 万+ 门店），不做 = 落后</li></p>
+<p class="md-p"><li><strong>何时做？</strong>现在是窗口期（DeepSeek 平权 + 端到端 AI 选品成熟 + 私域复购 ROI 验证）</li></p>
+<p class="md-p"><li><strong>谁来做？</strong>智能补货 / 千人千面 / 智能选品 3 块最成熟</li></p>
+<p class="md-p"></ul></p>
+</div>
+<div class="ts-block">
+<h4>3 个数字</h4>
+<p class="md-p"><ul></p>
+<p class="md-p"><li><strong>2500 亿</strong> · 沃尔玛中国 + 山姆 2024 销售合计</li></p>
+<p class="md-p"><li><strong>4000+</strong> · 波司登智能补货系统覆盖门店数</li></p>
+<p class="md-p"><li><strong>80%+</strong> · 山姆会员续卡率（千人千面推荐硬指标）</li></p>
+<p class="md-p"></ul></p>
+</div>
+</div>
+</div>
+<blockquote class="md-quote"><strong>可视化</strong>：网页式目录（非思维导图，更清爽）</blockquote>
+<blockquote class="md-quote"><strong>配套文件</strong>：<a href="../../01_行业地图/AI落地行业地图_v2.md" target="_blank" rel="noopener">AI 落地行业地图 v2</a> | <a href="../../07_红队质询/转型竞争烈度评估_v1.md" target="_blank" rel="noopener">行业护城河分析 v1</a> | <a href="金融_应用方向总览_v2.md" target="_blank" rel="noopener">金融应用方向总览 v2</a> | <a href="医疗_应用方向总览_v1.md" target="_blank" rel="noopener">医疗应用方向总览 v1</a> | <a href="教育_应用方向总览_v1.md" target="_blank" rel="noopener">教育应用方向总览 v1</a></blockquote>
+<blockquote class="md-quote"><strong>最后更新</strong>：2026-06-23</blockquote>
+<blockquote class="md-quote"><strong>v1 → v2 路线</strong>：v2 会扩到 8 大方向（加供应链 / 门店数字化 / 私域 / 跨境 AI），每个方向再加 1-2 个标杆深拆</blockquote>
+<hr class="md-hr">
+<h2 id="总览" class="md-h2"><a href="#总览" class="anchor">#</a> 总览</h2>
+<p class="md-p">零售 AI 落地有 <strong>8 大方向</strong>，按「监管成熟度 + 商业化深度」排序：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>序</th>
+<th>大方向</th>
+<th>监管状态</th>
+<th>国内代表</th>
+<th>国外代表</th>
+<th>落地深度</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>智能补货（区域 × 门店 × SKU）</strong></td>
+<td>✅ 合规清晰</td>
+<td>波司登 / 沃尔玛山姆 / 老百姓大药房 / 森马</td>
+<td>Walmart AI 补货 / Zara RFID</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>千人千面推荐（C 端 App + 私域）</strong></td>
+<td>✅ 合规清晰（数据合规）</td>
+<td>山姆 App / 屈臣氏 / 完美日记 / 波司登 VIP</td>
+<td>Amazon Personalize / Stitch Fix</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>智能选品（自动 SKU 优化）</strong></td>
+<td>✅ 合规清晰</td>
+<td>山姆 AI 选品 / 沃尔玛 / 盒马</td>
+<td>Walmart AI 选品 / Ocado</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>门店数字化（智能货架 / 客流分析）</strong></td>
+<td>✅ 合规清晰（人脸合规）</td>
+<td>沃尔玛智慧门店 / 苏宁 / 大悦城</td>
+<td>Amazon Go / 沃尔玛 IRL</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>供应链 AI（需求预测 + 履约优化）</strong></td>
+<td>✅ 合规清晰</td>
+<td>京东零售 / 阿里零售 / 拼多多</td>
+<td>Walmart IFS / Target</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>AI 客服 / 智能导购</strong></td>
+<td>✅ 合规清晰</td>
+<td>阿里店小蜜 / 京东咚咚 / 屈臣氏 AI 助手</td>
+<td>Shopify Sidekick</td>
+<td>★★★☆☆</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>私域 + AI 营销助手（VIP 推送 + 复购）</strong></td>
+<td>⚠️ 数据合规</td>
+<td>波司登 / 完美日记 / 瑞幸 / 喜茶</td>
+<td>Klaviyo AI / Attentive</td>
+<td>★★★★☆</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>跨境电商 AI（选品 + 翻译 + 履约）</strong></td>
+<td>✅ 合规清晰</td>
+<td>SHEIN / Temu / TikTok Shop / 阿里国际</td>
+<td>Amazon Global / Shopify Markets</td>
+<td>★★★☆☆</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<blockquote class="md-quote"><strong>本版 v1 重点</strong>：深拆方向 1 / 2 / 3（智能补货 / 千人千面 / 智能选品）。这 3 个方向监管最清晰 + 商业化最深 + ROI 最可量化。</blockquote>
+<hr class="md-hr">
+<h2 id="方向-1智能补货区域-门店-sku" class="md-h2"><a href="#方向-1智能补货区域-门店-sku" class="anchor">#</a> 方向 1：智能补货（区域 × 门店 × SKU）</h2>
+<p class="md-p"><strong>一句话</strong>：用 AI 模型 + 历史销售 + 天气 + 区域消费习惯，做「区域 × 门店 × SKU」三维补货决策——把店长经验转成数据驱动，把缺货率从 8-18% 压到 2-8%，库存周转率提升 20%+。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>门店补货（高频 SKU）</strong>：每日补货决策，覆盖 4000+ 门店</li>
+<li><strong>区域调拨（跨门店调度）</strong>：基于销售预测 + 库存水位</li>
+<li><strong>新品铺货（首发铺货决策）</strong>：基于历史相似品 + 区域偏好</li>
+<li><strong>季节性补货（羽绒服 / 月饼 / 粽子等强季节）</strong>：时间窗口驱动</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>沃尔玛山姆</strong></td>
+<td>40+ 门店智能补货</td>
+<td>准确率 95%+ / 缺货率 8% → 2%</td>
+<td>沃尔玛 2024 财报</td>
+</tr>
+<tr>
+<td><strong>波司登</strong></td>
+<td>4000+ 门店智能补货</td>
+<td>库存周转率 5.5 → 6.8 次/年 / 缺货率 18% → 8%</td>
+<td>波司登 2024 中期报告</td>
+</tr>
+<tr>
+<td><strong>老百姓大药房</strong></td>
+<td>1 万+ 药店补货</td>
+<td>库存周转率 4 → 5.5 次/年</td>
+<td>老百姓大药房 2024 年报</td>
+</tr>
+<tr>
+<td><strong>森马</strong></td>
+<td>全链路智能补货</td>
+<td>缺货率 -30% / 库存周转 +15%</td>
+<td>森马 2024 ESG 报告</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="方向-2千人千面推荐c-端-app-私域" class="md-h2"><a href="#方向-2千人千面推荐c-端-app-私域" class="anchor">#</a> 方向 2：千人千面推荐（C 端 App + 私域）</h2>
+<p class="md-p"><strong>一句话</strong>：用 AI 推荐系统 + 用户画像 + 行为数据，做「千人千面」个性化推送——把 App / 小程序 / 企微的转化率从 1-3% 提升到 5-15%，VIP 客户复购率提升 10-30%。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>App 内「千人千面」首页</strong>：基于购买 + 浏览 + 收藏 + 画像</li>
+<li><strong>小程序 + 企微 1V1 推送</strong>：基于会员等级 + 行为 + 偏好</li>
+<li><strong>短信 + 营销自动化</strong>：基于生命周期（拉新 / 复购 / 流失唤回）</li>
+<li><strong>门店导购 AI 助手</strong>：基于客户到店 + 历史购买</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>山姆 App</strong></td>
+<td>千人千面 + 极速达</td>
+<td>续卡率 80%+ / 极速达 1 小时达 / 单店日销 200 万+</td>
+<td>沃尔玛 2024 财报</td>
+</tr>
+<tr>
+<td><strong>波司登 VIP 营销助手</strong></td>
+<td>千人千面 VIP 推送</td>
+<td>VIP 复购率 +12% / 数字化营收占比 45%</td>
+<td>波司登 2024 中期报告</td>
+</tr>
+<tr>
+<td><strong>完美日记</strong></td>
+<td>私域 1V1 + AI 推送</td>
+<td>私域复购率 35%+ / 单客年贡献 500 元+</td>
+<td>完美日记 2024 财报</td>
+</tr>
+<tr>
+<td><strong>观远数据</strong></td>
+<td>BI + AI 一体化</td>
+<td>服务 400+ 零售品牌 / 5000+ 门店</td>
+<td>观远数据 2024</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="方向-3智能选品自动-sku-优化" class="md-h2"><a href="#方向-3智能选品自动-sku-优化" class="anchor">#</a> 方向 3：智能选品（自动 SKU 优化）</h2>
+<p class="md-p"><strong>一句话</strong>：用 AI 模型 + 销售数据 + 会员画像，自动优化 SKU 结构（淘汰低销 / 引入新品 / 调整价格带）——把选品从「采购经理经验」转成「数据驱动」，让门店 SKU 命中率提升 20-40%。</p>
+<p class="md-p"><strong>子方向</strong>：</p>
+<ul class="md-ul">
+<li><strong>SKU 淘汰</strong>：低销 SKU 自动下架</li>
+<li><strong>新品引入</strong>：基于会员偏好 + 销售预测</li>
+<li><strong>价格带调整</strong>：基于销量 + 利润 + 竞品</li>
+<li><strong>季节性 SKU 切换</strong>：基于销售周期 + 库存</li>
+</ul>
+<p class="md-p"><strong>代表案例</strong>：</p>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>公司</th>
+<th>场景</th>
+<th>数据</th>
+<th>来源</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>山姆 AI 选品</strong></td>
+<td>自动 SKU 优化</td>
+<td>SKU 命中率 +30% / 库存周转 +25%</td>
+<td>沃尔玛 2024 财报</td>
+</tr>
+<tr>
+<td><strong>盒马</strong></td>
+<td>动态 SKU 调整</td>
+<td>SKU 数 6000+ 动态调整 / 缺货率 < 5%</td>
+<td>盒马 2024</td>
+</tr>
+<tr>
+<td><strong>屈臣氏</strong></td>
+<td>SKU 优化 + 千人千面</td>
+<td>SKU 命中率 +20% / 单店销售 +15%</td>
+<td>屈臣氏 2024</td>
+</tr>
+<tr>
+<td><strong>沃尔玛中国</strong></td>
+<td>AI 选品 + 补货</td>
+<td>销售增速 5% / 山姆 20%</td>
+<td>沃尔玛 2024 财报</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="深度拆解方向-1-智能补货-波司登-4000-门店" class="md-h2"><a href="#深度拆解方向-1-智能补货-波司登-4000-门店" class="anchor">#</a> 深度拆解：方向 1 智能补货 · 波司登 4000+ 门店</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>中国零售百强 2024 销售 5.5 万亿+ / AI 渗透率 30%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>DeepSeek 平权 + 时序预测模型成熟 + 端到端补货决策</td>
+</tr>
+<tr>
+<td><strong>C 端认知</strong></td>
+<td>消费者对「极速达 / 库存可见 / 缺货少」敏感度上升</td>
+</tr>
+<tr>
+<td><strong>政策环境</strong></td>
+<td>数据合规（个保法）成熟 + 商务部「数字商务」鼓励</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>波司登智能补货</strong>（羽绒服单品类深度）：</p>
+<ol class="md-ol">
+<li><strong>数据资产复用</strong>：10+ 年门店 POS 数据 + 线上电商数据 + 会员数据</li>
+<li><strong>三方合作</strong>：阿里云 + 数慧科技共建智能补货系统</li>
+<li><strong>品类 know-how</strong>：羽绒服「冬季 4 个月卖全年 60%」季节性专模</li>
+<li><strong>区域建模</strong>：北方 / 南方 / 沿海 / 内陆差异化模型</li>
+</ol>
+<p class="md-p"><strong>沃尔玛山姆智能补货</strong>（会员店高复购）：</p>
+<ol class="md-ol">
+<li><strong>会员数据闭环</strong>：260-680 元会员费 → 高质量消费数据</li>
+<li><strong>门店 + 云仓</strong>双轮：40+ 门店 + 云仓库存调度</li>
+<li><strong>AI 选品 + AI 补货联动</strong>：SKU 优化 + 补货决策同步</li>
+<li><strong>极速达 1 小时达</strong>：高频 SKU 优先补货</li>
+</ol>
+<p class="md-p"><strong>老百姓大药房智能补货</strong>（药店高频 SKU）：</p>
+<ol class="md-ol">
+<li><strong>1 万+ 门店</strong>分布式补货</li>
+<li><strong>医保结算数据 + 处方数据</strong>：疾病预测 → 药品需求</li>
+<li><strong>冷链 + 常温分层</strong>：药品特性驱动补货</li>
+<li><strong>集采 + 一致性评价</strong>：政策驱动 + AI 优化</li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>门店补货</strong>：每日「区域 × 门店 × SKU」三维决策</li>
+<li><strong>区域调拨</strong>：跨门店库存调度，缺货自动调拨</li>
+<li><strong>新品铺货</strong>：首发铺货基于历史相似品 + 区域偏好</li>
+<li><strong>季节性补货</strong>：时间窗口驱动（羽绒服 9-10 月铺货黄金期）</li>
+<li><strong>退货预测</strong>：基于销售预测反推合理退货率</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>库存周转率</strong>：波司登 5.5 → 6.8 次/年（+24%）· 老百姓 4 → 5.5 次/年（+38%）</li>
+<li><strong>缺货率</strong>：波司登 18% → 8% · 山姆 8% → 2%</li>
+<li><strong>数字化营收占比</strong>：波司登 25% → 45%</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>波司登</strong>：4000+ → 5000+ 门店智能补货全覆盖 + 跨境门店拓展</li>
+<li><strong>沃尔玛山姆</strong>：40+ → 80+ 门店 + 极速达从 1 小时 → 30 分钟</li>
+<li><strong>老百姓大药房</strong>：1 万+ → 1.5 万门店 + 处方 AI 联动</li>
+<li><strong>行业整体</strong>：智能补货赛道 2026 年规模有望达 100 亿+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是零售集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：智能补货 + 千人千面 + 智能选品 3 块最成熟</li>
+<li><strong>避坑品类</strong>：跨境电商 AI（监管复杂）/ 智能货架（人脸合规）</li>
+<li><strong>采购合作优先</strong>：阿里云（生态）/ 京东零售（数据）/ 观远数据（BI）</li>
+</ol>
+<p class="md-p"><strong>如果你是商超 / 服装品牌 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：历史销售数据 + 区域差异化模型 + 品类 know-how</li>
+<li><strong>可学</strong>：波司登「羽绒服单品类深度」路径</li>
+<li><strong>不可学</strong>：山姆「260-680 元会员费 + 1 万 SKU 精选」前置条件</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入零售 AI 的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① 智能补货 SaaS（高频可量化）② 千人千面推荐（用户画像 + 行为）③ 智能选品（SKU 优化）</li>
+<li><strong>避坑路径</strong>：① 跨境电商（监管复杂）② 智能货架（人脸合规）③ 纯技术型（无品类 know-how）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：用户买得越多 → 数据越多 → 模型越好 → 推荐越准</li>
+<li><strong>品类飞轮</strong>：单品类深度 → 多品类延伸 → 全品类 AI</li>
+<li><strong>场景飞轮</strong>：补货 → 选品 → 推荐 → 营销，每个场景反哺其他</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>DeepSeek 平权</strong>让中小零售商也能搭 AI，但<strong>历史数据 + 品类 know-how 仍是壁垒</strong></li>
+<li><strong>端到端 AI 选品 + 补货联动</strong>成头部标配</li>
+<li><strong>私域复购 + AI 营销助手</strong>成 2026 标配</li>
+</ul>
+<hr class="md-hr">
+<h2 id="深度拆解方向-2-千人千面-山姆-app-极速达" class="md-h2"><a href="#深度拆解方向-2-千人千面-山姆-app-极速达" class="anchor">#</a> 深度拆解：方向 2 千人千面 · 山姆 App 极速达</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>中国零售会员经济 2024 规模 5000 亿+ / 山姆会员续卡率 80%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>推荐算法成熟 + 用户画像精细化 + 实时推理</td>
+</tr>
+<tr>
+<td><strong>C 端认知</strong></td>
+<td>消费者愿意为「千人千面 + 极速达」付会员费</td>
+</tr>
+<tr>
+<td><strong>政策环境</strong></td>
+<td>个保法合规 + 商务部「数字商务」鼓励</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>山姆 App 千人千面</strong>（会员店高复购）：</p>
+<ol class="md-ol">
+<li><strong>会员数据闭环</strong>：260 元 / 680 元会员费 → 高质量消费数据</li>
+<li><strong>门店 + 云仓</strong>双轮：40+ 门店 + 自建云仓</li>
+<li><strong>极速达 1 小时达</strong>：高频 SKU 优先</li>
+<li><strong>App「千人千面」首页</strong>：基于购买 + 浏览 + 收藏 + 画像</li>
+</ol>
+<p class="md-p"><strong>波司登 VIP 营销助手</strong>（服装高客单）：</p>
+<ol class="md-ol">
+<li><strong>VIP 客户系统</strong>：基于消费金额 + 频次分层</li>
+<li><strong>微信小程序 + 企微 1V1</strong>：千人千面推送</li>
+<li><strong>AI 营销助手</strong>：自动生成推送内容 + 时机</li>
+<li><strong>VIP 复购率 +12%</strong>：2024 中期报告披露</li>
+</ol>
+<p class="md-p"><strong>完美日记私域 1V1</strong>（美妆高复购）：</p>
+<ol class="md-ol">
+<li><strong>小程序 + 企微社群</strong>：500 万+ 私域用户</li>
+<li><strong>1V1 企微推送</strong>：基于客户画像 + 行为</li>
+<li><strong>复购率 35%+ / 单客年贡献 500 元+</strong></li>
+<li><strong>AI 内容生成</strong>：朋友圈 + 推送文案</li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>App 内「千人千面」首页</strong>：基于购买 + 浏览 + 收藏 + 画像</li>
+<li><strong>小程序 + 企微 1V1 推送</strong>：基于会员等级 + 行为 + 偏好</li>
+<li><strong>短信 + 营销自动化</strong>：基于生命周期（拉新 / 复购 / 流失唤回）</li>
+<li><strong>门店导购 AI 助手</strong>：基于客户到店 + 历史购买</li>
+<li><strong>私域社群 + AI 内容</strong>：朋友圈 / 推送文案自动生成</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>续卡率</strong>：山姆 80%+ · 完美日记 35%+ 复购</li>
+<li><strong>单客年贡献</strong>：完美日记 500 元+ · 山姆 6000 元+</li>
+<li><strong>数字化营收占比</strong>：波司登 25% → 45%</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>山姆</strong>：续卡率 80% → 85%+ · 极速达 30 分钟达</li>
+<li><strong>波司登</strong>：VIP 复购率 +12% → +25% · 数字化营收占比 45% → 60%</li>
+<li><strong>完美日记</strong>：私域用户 500 万 → 1000 万 · 单客贡献 500 → 800 元</li>
+<li><strong>行业整体</strong>：千人千面赛道 2026 年规模有望达 300 亿+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是零售集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：App 千人千面 + 私域 1V1 + AI 营销助手</li>
+<li><strong>避坑品类</strong>：智能货架（人脸合规）/ 跨境 AI（监管复杂）</li>
+<li><strong>采购合作优先</strong>：阿里云 / 京东零售 / 微盟 / 有赞</li>
+</ol>
+<p class="md-p"><strong>如果你是商超 / 服装品牌 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：会员数据 + 用户画像 + AI 内容生成</li>
+<li><strong>可学</strong>：山姆「会员费 + 高质量数据」飞轮</li>
+<li><strong>不可学</strong>：山姆 1000 万+ 会员 + 80% 续卡率（巧妇难为无米之炊）</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入千人千面 AI 的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① 私域 1V1 推送 SaaS ② App 推荐系统 ③ AI 营销内容生成</li>
+<li><strong>避坑路径</strong>：① 人脸识别（合规风险）② 跨境 AI（监管复杂）③ 纯推荐型（无数据沉淀）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：用户买得越多 → 数据越多 → 推荐越准 → 用户越多</li>
+<li><strong>内容飞轮</strong>：AI 内容生成 → 推送更准 → 复购更高 → 数据更多</li>
+<li><strong>场景飞轮</strong>：推荐 → 推送 → 复购 → 复购推送，每个场景反哺其他</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>DeepSeek 平权</strong>让中小零售商也能搭 AI，但<strong>会员数据 + 内容能力仍是壁垒</strong></li>
+<li><strong>端到端 AI 营销助手</strong>（推送 + 文案 + 时机）成头部标配</li>
+<li><strong>私域复购 + 跨境电商 AI 联动</strong>成 2026 新热点</li>
+</ul>
+<hr class="md-hr">
+<h2 id="深度拆解方向-3-智能选品-山姆-ai-选品-沃尔玛" class="md-h2"><a href="#深度拆解方向-3-智能选品-山姆-ai-选品-沃尔玛" class="anchor">#</a> 深度拆解：方向 3 智能选品 · 山姆 AI 选品 + 沃尔玛</h2>
+<h3 id="already-阶段已经发生" class="md-h3"><a href="#already-阶段已经发生" class="anchor">#</a> Already 阶段（已经发生）</h3>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>数据 / 案例</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>中国零售 SKU 管理市场 2024 规模 200 亿+ / AI 渗透率 20%+</td>
+</tr>
+<tr>
+<td><strong>技术拐点</strong></td>
+<td>时序预测 + 多臂老虎机算法成熟 + 端到端 SKU 优化</td>
+</tr>
+<tr>
+<td><strong>C 端认知</strong></td>
+<td>消费者对「精选 SKU / 高品质 / 高复购」敏感度上升</td>
+</tr>
+<tr>
+<td><strong>政策环境</strong></td>
+<td>数据合规 + 商务部「数字商务」鼓励</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<h3 id="access怎么拿到" class="md-h3"><a href="#access怎么拿到" class="anchor">#</a> Access（怎么拿到）</h3>
+<p class="md-p"><strong>山姆 AI 选品</strong>（会员店精选 SKU）：</p>
+<ol class="md-ol">
+<li><strong>会员数据闭环</strong>：高质量消费数据 + SKU 偏好</li>
+<li><strong>SKU 数量控制</strong>：4000-6000 SKU 精选（vs 大卖场 20000+）</li>
+<li><strong>自动 SKU 优化</strong>：低销下架 + 新品引入 + 价格带调整</li>
+<li><strong>SKU 命中率 +30%</strong> · <strong>库存周转 +25%</strong></li>
+</ol>
+<p class="md-p"><strong>盒马动态 SKU</strong>（生鲜 + 即时配送）：</p>
+<ol class="md-ol">
+<li><strong>SKU 6000+ 动态调整</strong>：基于门店 + 时段 + 季节</li>
+<li><strong>缺货率 < 5%</strong>：动态补货 + 动态 SKU</li>
+<li><strong>生鲜 + 即时配送</strong>双轮：30 分钟达</li>
+<li><strong>盒马 2024 销售 600 亿+</strong></li>
+</ol>
+<p class="md-p"><strong>屈臣氏 SKU 优化</strong>（美妆零售）：</p>
+<ol class="md-ol">
+<li><strong>SKU 命中率 +20%</strong>：基于销售 + 库存</li>
+<li><strong>单店销售 +15%</strong>：AI 选品 + AI 营销联动</li>
+<li><strong>私域 + 千人千面</strong>：O2O 一体化</li>
+<li><strong>屈臣氏 2024 中国销售 200 亿+</strong></li>
+</ol>
+<h3 id="apply业务落地" class="md-h3"><a href="#apply业务落地" class="anchor">#</a> Apply（业务落地）</h3>
+<p class="md-p"><strong>5 大核心场景</strong>：</p>
+<ol class="md-ol">
+<li><strong>SKU 淘汰</strong>：低销 SKU 自动下架</li>
+<li><strong>新品引入</strong>：基于会员偏好 + 销售预测</li>
+<li><strong>价格带调整</strong>：基于销量 + 利润 + 竞品</li>
+<li><strong>季节性 SKU 切换</strong>：基于销售周期 + 库存</li>
+<li><strong>门店 × SKU 匹配</strong>：基于门店位置 + 客户画像</li>
+</ol>
+<p class="md-p"><strong>3 类 ROI 数据</strong>（公开口径）：</p>
+<ul class="md-ul">
+<li><strong>SKU 命中率</strong>：山姆 +30% · 屈臣氏 +20%</li>
+<li><strong>库存周转</strong>：山姆 +25% · 行业平均 5 次/年</li>
+<li><strong>单店销售</strong>：屈臣氏 +15% · 盒马 +20%</li>
+</ul>
+<h3 id="aspirational12-18-个月愿景" class="md-h3"><a href="#aspirational12-18-个月愿景" class="anchor">#</a> Aspirational（12-18 个月愿景）</h3>
+<ul class="md-ul">
+<li><strong>山姆</strong>：SKU 命中率 +30% → +50% · 库存周转 +25% → +40%</li>
+<li><strong>盒马</strong>：SKU 动态调整覆盖率 100% · 缺货率 < 3%</li>
+<li><strong>屈臣氏</strong>：SKU 命中率 +20% → +35% · 单店销售 +15% → +30%</li>
+<li><strong>行业整体</strong>：智能选品赛道 2026 年规模有望达 200 亿+</li>
+</ul>
+<h3 id="actionable业务-leader-该怎么做" class="md-h3"><a href="#actionable业务-leader-该怎么做" class="anchor">#</a> Actionable（业务 leader 该怎么做）</h3>
+<p class="md-p"><strong>如果你是零售集团 AI 战略部</strong>：</p>
+<ol class="md-ol">
+<li><strong>必入品类</strong>：智能选品 + 智能补货 + 千人千面 3 块联动</li>
+<li><strong>避坑品类</strong>：跨境电商 AI（监管复杂）/ 智能货架（人脸合规）</li>
+<li><strong>采购合作优先</strong>：阿里云 / 京东零售 / 观远数据</li>
+</ol>
+<p class="md-p"><strong>如果你是商超 / 服装品牌 COO</strong>：</p>
+<ol class="md-ol">
+<li><strong>核心壁垒</strong>：SKU 数据 + 会员画像 + AI 优化算法</li>
+<li><strong>可学</strong>：山姆「精选 SKU + 高质量数据」飞轮</li>
+<li><strong>不可学</strong>：山姆 1000 万+ 会员 + 80% 续卡率（巧妇难为无米之炊）</li>
+</ol>
+<p class="md-p"><strong>如果你是想切入智能选品 AI 的创业者</strong>：</p>
+<ol class="md-ol">
+<li><strong>切入路径</strong>：① SKU 优化 SaaS（高频可量化）② AI 选品 + 补货联动 ③ 千人千面 + 选品联动</li>
+<li><strong>避坑路径</strong>：① 跨境电商（监管复杂）② 智能货架（人脸合规）③ 纯技术型（无品类 know-how）</li>
+</ol>
+<h3 id="adaptive自进化" class="md-h3"><a href="#adaptive自进化" class="anchor">#</a> Adaptive（自进化）</h3>
+<p class="md-p"><strong>3 大飞轮机制</strong>：</p>
+<ol class="md-ol">
+<li><strong>数据飞轮</strong>：SKU 卖得越多 → 数据越多 → 选品越准 → 卖得越多</li>
+<li><strong>品类飞轮</strong>：单品类 → 多品类 → 全品类 AI 选品</li>
+<li><strong>场景飞轮</strong>：选品 → 补货 → 推荐 → 营销，每个场景反哺其他</li>
+</ol>
+<p class="md-p"><strong>未来 12 个月关键变量</strong>：</p>
+<ul class="md-ul">
+<li><strong>DeepSeek 平权</strong>让中小零售商也能搭 AI，但<strong>SKU 数据 + 品类 know-how 仍是壁垒</strong></li>
+<li><strong>端到端「选品 + 补货 + 推荐」三联动</strong>成头部标配</li>
+<li><strong>生鲜 + 即时配送 + AI 选品</strong>成 2026 新热点</li>
+</ul>
+<hr class="md-hr">
+<h2 id="横向对比3-个深拆标杆的可学-不可学边界" class="md-h2"><a href="#横向对比3-个深拆标杆的可学-不可学边界" class="anchor">#</a> 横向对比：3 个深拆标杆的可学 / 不可学边界</h2>
+<details class="md-table" open>
+<summary>表格（点击折叠 / 展开）</summary>
+<div class="tbl-wrap"><table>
+<thead><tr>
+<th>维度</th>
+<th>智能补货（波司登 / 山姆 / 老百姓）</th>
+<th>千人千面（山姆 / 波司登 / 完美日记）</th>
+<th>智能选品（山姆 / 盒马 / 屈臣氏）</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>可学</strong></td>
+<td>数据 + 三维决策模型 + 区域差异化</td>
+<td>会员数据 + 用户画像 + AI 内容生成</td>
+<td>SKU 数据 + AI 优化算法 + 品类 know-how</td>
+</tr>
+<tr>
+<td><strong>不可学</strong></td>
+<td>10+ 年门店 POS 数据 + 区域销售数据沉淀</td>
+<td>1000 万+ 高质量会员 + 80% 续卡率</td>
+<td>1000 万+ SKU 数据 + 1000+ 门店运营经验</td>
+</tr>
+<tr>
+<td><strong>窗口期</strong></td>
+<td>12-24 个月（DeepSeek 平权前）</td>
+<td>12-18 个月（AI 内容生成成熟前）</td>
+<td>12-24 个月（端到端联动普及前）</td>
+</tr>
+<tr>
+<td><strong>适合谁做</strong></td>
+<td>零售集团 AI 战略部 + 商超 COO</td>
+<td>零售集团 AI 战略部 + 私域 SaaS 创业</td>
+<td>商超 COO + AI 选品 SaaS 创业</td>
+</tr>
+<tr>
+<td><strong>最大风险</strong></td>
+<td>DeepSeek 平权 + 通用模型降维打击</td>
+<td>私域监管收紧 + 数据合规</td>
+<td>SKU 数据壁垒被通用模型摊薄</td>
+</tr>
+</tbody>
+</table></div>
+</details>
+<hr class="md-hr">
+<h2 id="给业务-leader-的-3-条核心建议" class="md-h2"><a href="#给业务-leader-的-3-条核心建议" class="anchor">#</a> 给业务 leader 的 3 条核心建议</h2>
+<ol class="md-ol">
+<li><strong>看行业先看品类</strong>：强季节性（服装 / 食品）单品类深度运营 vs 综合零售（商超）全链路铺开</li>
+<li><strong>看公司先看护城河</strong>：历史销售数据 + 区域差异化模型 + 品类 know-how + 会员数据 4 要素缺一不可</li>
+<li><strong>看窗口先看节奏</strong>：智能补货 12-24 个月 · 千人千面 12-18 个月 · 智能选品 12-24 个月（DeepSeek 平权前）</li>
+</ol>
+<hr class="md-hr">
+<h2 id="数据来源" class="md-h2"><a href="#数据来源" class="anchor">#</a> 数据来源</h2>
+<ul class="md-ul">
+<li><strong>财报类</strong>：沃尔玛 2024 财报 / 波司登 2024 中期报告 / 老百姓大药房 2024 年报 / 森马 2024 ESG 报告 / 完美日记 2024 / 屈臣氏 2024</li>
+<li><strong>行业研究类</strong>：亿邦动力 / 亿欧网 / 36 氪 / 21 世纪经济报道 / 发现报告</li>
+<li><strong>案例来源</strong>：<a href="../../06_案例库/案例_v2/零售_商超_沃尔玛山姆.md" target="_blank" rel="noopener">零售_商超_沃尔玛山姆</a> + <a href="../../06_案例库/案例_v2/零售_服装_波司登.md" target="_blank" rel="noopener">零售_服装_波司登</a> + <a href="../../06_案例库/案例_v2/零售_服装_森马.md" target="_blank" rel="noopener">零售_服装_森马</a> + <a href="../../06_案例库/案例_v2/零售_医药_老百姓大药房.md" target="_blank" rel="noopener">零售_医药_老百姓大药房</a> + <a href="../../06_案例库/案例_v2/零售_通用_观远数据CEO分享.md" target="_blank" rel="noopener">零售_通用_观远数据CEO分享</a></li>
+</ul>
+<hr class="md-hr">
+<blockquote class="md-quote"><strong>下期预告</strong>：v2 会扩到 8 大方向（加供应链 / 门店数字化 / 私域 / 跨境电商 AI），每个方向再加 1-2 个标杆深拆，预计 2026 Q3 上线。</blockquote>
+  </article>
+</div>
+
+<footer class="report-footer">
+  <div class="container">
+    <p>本报告由 AI 项目落地研究仓库产出 · <a href="../index.html">回到首页</a> · <a href="https://github.com/FrankFang99/ai-landing-research" target="_blank" rel="noopener">仓库地址</a></p>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const toc = document.querySelector('.report-toc');
+  if (!toc) return;
+  const title = toc.querySelector('.toc-title');
+  if (!title) return;
+  title.addEventListener('click', () => toc.classList.toggle('toc-open'));
+})();
+</script>
+
+</body>
+</html>
