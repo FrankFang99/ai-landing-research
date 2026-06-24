@@ -26,6 +26,9 @@ args.json
 search_args.json
 scratch_*.json
 
+# Playwright/selenium 截图中间产物（生成器可重新产出，不入库）
+docs/.playwright-mcp/
+
 # Python
 __pycache__/
 *.pyc
