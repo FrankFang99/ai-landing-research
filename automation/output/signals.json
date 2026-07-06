@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "title": "第三贴了，出海项目继续找合伙人",
+    "url": "https://www.v2ex.com/t/1224768#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 3,
+    "summary": "V2EX 上某出海项目招募技术合伙人，要求具备数据安全、API 平台、WebSocket、GO+桌面端等能力，提供 8 位利润分成或底薪加股权模式。技术栈涉及可视化编辑器二次开发，可作为 AI 应用出海方向的创业动态参考，但帖子未透露具体产品方向，信息密度偏低。",
+    "tags": [
+      "出海创业",
+      "技术合伙人",
+      "V2EX",
+      "GO开发",
+      "可视化编辑器"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-06",
+    "reason": "V2EX 技术社区招募出海项目技术合伙人，透露了技术栈方向(GO+桌面端+API+可视化)，可作为了解 AI 出海方向创业动态的参考，但内容缺乏具体项目信息，信号价值有限",
+    "fingerprint": "2f07627e51bdf15c"
+  },
+  {
+    "title": "需要一个产品经理(主) + UI 做远程的. 善于沟通. 私活+",
+    "url": "https://www.v2ex.com/t/1225234#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "V2EX AI 频道发布的远程兼职 PM 招聘需求，要求能理解客户意图转化为开发需求，进行系统二开对接，无明确 AI 技术要求，适合作为 AI 行业边缘机会参考",
+    "tags": [
+      "远程兼职",
+      "产品经理",
+      "二次开发",
+      "V2EX"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-06",
+    "reason": "V2EX AI 频道发布但内容未明确提及 AI 技术栈或大模型相关工作描述，岗位描述较泛型，属于弱信号",
+    "fingerprint": "a7aedb6cf200cf09"
+  },
+  {
+    "title": "[远程全职] Design Engineer",
+    "url": "https://www.v2ex.com/t/1225216#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "ZaiSpace（AI 原生社交产品公司）招聘 AI-native Design Engineer，要求同时具备设计和工程能力。公司已获头部 VC 投资并入选 StartX 孵化器，团队来自字节、虾皮、P&G 等，方向是 self-evolving multi-agent 驱动的个性化社交体验。岗位强调参与产品决策，非传统「接需求」角色。",
+    "tags": [
+      "AI招聘",
+      "DesignEngineer",
+      "multi-agent",
+      "StartX",
+      "AI社交",
+      "远程全职"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-06",
+    "reason": "AI-native Design Engineer 招聘帖，职位名称直接反映 AI 产品对「设计+工程」复合能力的岗位需求，同时披露了 multi-agent 技术方向和 StartX 孵化器背景，具有较高的求职和行业参考价值",
+    "fingerprint": "c366b1f5cbe32e39"
+  },
+  {
+    "title": "[预算 5-10w+]Qwen/Gemma 等对话小参数模型训练",
+    "url": "https://www.v2ex.com/t/1224994#reply5",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "某 NSFW AI 伴侣产品团队招募模型训练领域专家，提供三种合作方式：技术顾问（5w+）、项目打包（10w+）、长期远程深度参与。需求涵盖小参数模型技术选型、破限与 Agent 设计、闭源模型蒸馏数据训练方案。招募对象为有 AI 陪伴类产品训练经验的大牛或文本模型蒸馏/训练专家。此信号反映了小参数对话模型在垂直场景的商业化趋势，以及市场对模型训练人才的灵活雇佣需求。",
+    "tags": [
+      "小参数模型",
+      "AI伴侣",
+      "模型训练",
+      "NSFW",
+      "技术顾问",
+      "创业团队招聘",
+      "V2EX"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-06",
+    "reason": "V2EX AI 招聘频道的真实合作需求，涵盖顾问制和项目制两种灵活形式，折射出小参数模型训练赛道热度和 NSFW AI 伴侣产品的商业化进展",
+    "fingerprint": "446e338f3759926b"
+  },
+  {
+    "title": "大家周围 30+的 crud 程序员被裁后，都去哪了",
+    "url": "https://www.v2ex.com/t/1223954#reply74",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "一位30+岁CRUD程序员自述被裁后的困境：公司裁员50%，外包性价比低，外卖滴滴已满员，保安身高不达标，考虑炒股但本金收益有限。帖子询问同类被裁程序员的出路，反映了互联网从业者35岁危机的典型处境。",
+    "tags": [
+      "程序员危机",
+      "互联网裁员",
+      "职业困境",
+      "就业市场",
+      "35岁焦虑"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-06",
+    "reason": "虽非直接招聘信息，但反映了30+互联网程序员被裁后的严峻就业困境，对判断AI行业就业市场有参考价值",
+    "fingerprint": "9275cd74cd02b1ab"
+  }
+]
