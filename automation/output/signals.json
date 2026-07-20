@@ -1,1 +1,174 @@
-[]
+[
+  {
+    "title": "又收到了 Java 造假简历有感",
+    "url": "https://www.v2ex.com/t/1228496#reply5",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "一篇 V2EX 帖子，招聘方吐槽收到多份 Java 候选人简历造假（时间线混乱、经验虚构），HR 仅靠关键词匹配筛选，无法识别简历真实性。最终决定改招实习生，给 200 元/天，反映出当前 AI 相关岗位招聘市场中简历质量差、薪资压低的现象。",
+    "tags": [
+      "简历造假",
+      "招聘质量",
+      "实习生薪资",
+      "HR筛选机制"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "内容虽涉及招聘市场现象，但本质是个人吐槽帖，缺乏具体数据支撑和行业洞察，且技术栈（Java/Vue/React）与 AI 行业关联度有限，对求职和创业的信号价值较弱",
+    "fingerprint": "a3e099382dbff553"
+  },
+  {
+    "title": "兼职 UI/UX 设计师（加密交易 / Web3 方向）",
+    "url": "https://www.v2ex.com/t/1228453#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "某加密货币量化交易平台（面向海外市场）招聘兼职 UI/UX 设计师，要求具备 Web3、交易所、DeFi 等产品设计经验，熟悉高信息密度界面设计。虽非 PM 岗位，但反映了 Web3 + 量化交易领域的产品开发活跃度，可作为了解该细分市场的参考信号。",
+    "tags": [
+      "Web3",
+      "UI设计",
+      "量化交易",
+      "兼职招聘",
+      "海外市场"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "Web3 加密量化交易平台招聘 UI 设计师，说明该细分领域有产品开发需求，高信息密度界面设计经验具有参考价值，但非 PM 岗位且与用户求职方向偏差较大",
+    "fingerprint": "50b156dfca7a5154"
+  },
+  {
+    "title": "[广州] SHEIN 内推： Java 、算法、AI 视觉、供应链研发、测试、运维、网络、安全、架构， 15-70k",
+    "url": "https://www.v2ex.com/t/1228377#reply4",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "SHEIN 广州 base 技术岗位内推，覆盖 Java、算法、AI 视觉、供应链研发、测试等 16 个岗位。其中 AI 视觉/算法方向薪资 20K-45K+，偏 AI 视觉落地、模型/工程协同、视觉质量评估和业务系统建设；供应链/Java 后台方向 20K-40K；整体薪资范围 15-70K。SHEIN 作为头部跨境电商，对 AI 应用人才有稳定需求。",
+    "tags": [
+      "电商招聘",
+      "AI视觉",
+      "算法工程师",
+      "广州",
+      "大厂",
+      "供应链",
+      "薪资参考"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "SHEIN 广州招聘 AI 视觉/算法方向岗位（20-45K），覆盖多个技术岗位类型，薪资区间清晰，直接反映大厂对 AI 应用人才的持续需求，对求职有参考价值。",
+    "fingerprint": "73ed73c134092211"
+  },
+  {
+    "title": "ai 用得越多，越发现产品人才 > 技术人才 了",
+    "url": "https://www.v2ex.com/t/1228233#reply24",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "V2EX社区讨论帖指出AI时代产品人才价值可能超越技术人才，反映了AI降低技术门槛后对复合型产品能力的重视趋势，但仅一句话观点，无数据支撑。",
+    "tags": [
+      "产品经理价值",
+      "AI时代人才观",
+      "技术门槛降低"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "内容仅有一句话，观点有洞察但缺乏实质展开，来自个人论坛帖而非权威来源，信号密度低但方向有参考价值",
+    "fingerprint": "c69d004045c9c19c"
+  },
+  {
+    "title": "我发现真的只有互联网行业自己卷死自己，自己把自己的工作整没了。",
+    "url": "https://www.v2ex.com/t/1228193#reply46",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "作者认为互联网行业存在35岁裁员现象，AI对程序员替代威胁大，尤其是高级/资深开发者也面临被替代风险。对今年新兴的Agent开发工程师岗位持怀疑态度，认为可能是短期需求，最终会被自己取代。对AI PM了解行业从业者心态有参考意义。",
+    "tags": [
+      "AI替代焦虑",
+      "程序员就业",
+      "Agent开发工程师",
+      "35岁裁员"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "帖子反映AI对程序员岗位冲击的行业焦虑，但属于感性讨论而非一手数据，提及Agent开发工程师需求存疑有一定参考价值。",
+    "fingerprint": "3533e12a81435df4"
+  },
+  {
+    "title": "[北京 / 上海 / 深圳 / 青岛 / SF] Phinomenon 26Q3 新增岗位：增长 / 测试 / AI / 产品",
+    "url": "https://www.v2ex.com/t/1227553#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "Phinomenon Inc.招聘多个岗位，覆盖增长、测试、AI、产品方向。公司2025年6月成立，已完成近$10M A轮融资，产品Phi Browser定位为面向智能体时代的AI浏览器，创始团队有FydeOS背景。工作地点包括北京、上海、深圳、青岛和旧金山。",
+    "tags": [
+      "AI浏览器",
+      "产品经理",
+      "创业公司招聘",
+      "A轮融资",
+      "多地办公"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "AI浏览器创业公司Phinomenon招聘产品/增长/测试/AI岗位，已获$10M A轮融资，多地招聘对AI PM求职者有直接参考价值",
+    "fingerprint": "c0ea289b19206c1f"
+  },
+  {
+    "title": "AI Algorithm Engineer/DevOps 远程/本人(美国办公室）混合",
+    "url": "https://www.v2ex.com/t/1228235#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "V2EX 发布 AI Algorithm Engineer 招聘，年薪可达 20 万美金。核心方向：Vision Foundation Models（Stable Diffusion、DiT、ViT、SAM、CLIP）；业务场景：AI 图像生成、图像编辑、多模态理解。支持远程或美国办公室混合办公模式。技术栈覆盖当下最热门的生成式 AI 与多模态领域。",
+    "tags": [
+      "AI算法工程师",
+      "图像生成",
+      "多模态",
+      "年薪20万",
+      "远程办公",
+      "Stable Diffusion",
+      "SAM",
+      "CLIP",
+      "Vision Transformer"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "岗位明确为 AI 算法工程师，涉及 Stable Diffusion、DiT、SAM、CLIP 等前沿视觉模型，年薪 20 万美金，涵盖 AI 图像生成与多模态理解，是 AI PM 求职的高相关性信号源",
+    "fingerprint": "7afbd7c70d3a2f42"
+  },
+  {
+    "title": "字节 4 年美团 3 年，居然没面试",
+    "url": "https://www.v2ex.com/t/1227670#reply105",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 2,
+    "summary": "字节4年、美团3年背景的求职者反馈，投递两周简历零面试，感慨行情冷淡。这是个人体验性吐槽，样本单一但反映出部分AI从业者当前面临的求职压力，可作为市场情绪佐证而非数据依据。",
+    "tags": [
+      "就业市场",
+      "大厂背景",
+      "求职压力",
+      "行情感知"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "单一个案的主观感受，不具统计代表性，但可作为AI就业市场情绪的侧面参考",
+    "fingerprint": "b63f763cefac7d25"
+  },
+  {
+    "title": "[东莞/招聘] saas 平台开发负责人+后端开发各 1 人， Java 方向，重视 AI 辅助开发（20~35k， 15~20k）",
+    "url": "https://www.v2ex.com/t/1227539#reply13",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "东莞某创业公司招聘SaaS平台开发负责人(20-35k)和后端开发(15-20k)，要求熟练使用Claude Code、Cursor等AI辅助开发工具。公司由传统行业顶流机构与金融大佬联合创办，已盈利2年，聚焦AI和物联网在传统制造业场景的创新应用。",
+    "tags": [
+      "AI辅助开发",
+      "制造业AI落地",
+      "垂直场景PMF",
+      "东莞",
+      "SaaS平台"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-07-20",
+    "reason": "岗位本身是技术开发而非PM，直接求职相关性弱；但公司作为传统制造业AI+物联网垂直场景的盈利案例，反映了AI落地的真实路径，对理解行业有参考价值",
+    "fingerprint": "6a0c4b86181c8edf"
+  }
+]
