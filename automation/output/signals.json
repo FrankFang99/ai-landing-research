@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "title": "ai 生成代码后，测试岗位还有存在意义吗",
+    "url": "https://www.v2ex.com/t/1233101#reply26",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "V2EX 上 QA 从业者讨论 AI 生成代码后测试岗位是否仍有存在意义。发帖人认为目前接到的测试需求不减反增，看不出完全不需要测试的趋势。该帖折射出 AI 对部分岗位冲击的从业者焦虑，可作为 AI 影响岗位市场的参考舆情。",
+    "tags": [
+      "岗位存亡",
+      "QA/测试",
+      "AI替代焦虑",
+      "从业者视角"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-10",
+    "reason": "V2EX 是 AI 从业者聚集社区，该帖反映 QA 从业者对 AI 替代测试岗位的担忧，有一定岗位存亡信号价值，但仅为单个讨论帖缺乏数据支撑。",
+    "fingerprint": "369c1fed60f1f647"
+  },
+  {
+    "title": "[深圳/上海/南京/广州/珠海] SHEIN 测试岗内推（15-65k）",
+    "url": "https://www.v2ex.com/t/1233076#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "SHEIN 招聘测试方向社招岗位，覆盖广州/南京/上海/深圳/珠海，薪资 15K-65K。包括测试开发、平台治理、用户营销、电商业务、AI 视觉/专项测试等方向。其中 AI 视觉测试（广州，20K-30K+）与 AI 行业相关，其余为传统测试岗位。",
+    "tags": [
+      "SHEIN",
+      "测试工程师",
+      "AI视觉",
+      "电商",
+      "招聘内推"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-10",
+    "reason": "SHEIN 测试岗招聘覆盖多城市和 AI 视觉方向，但用户求职目标是 AI PM 而非测试工程师，岗位匹配度低，仅作行业薪资参考",
+    "fingerprint": "75908ea4e03bd5e9"
+  },
+  {
+    "title": "[北京·海淀] 具身智能创业团队招资深前端",
+    "url": "https://www.v2ex.com/t/1233016#reply3",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "北大教授创办的具身智能创业公司招资深前端，要求3年以上经验，负责平台前端和机器人3D可视化。技术栈包括 TypeScript、JavaScript 及 3D 渲染能力。公司融资顺利，团队人才密度高（清北背景+一线大厂）。该岗位适合有复杂管理系统和3D可视化经验的前端工程师，薪资需面议。",
+    "tags": [
+      "具身智能",
+      "前端招聘",
+      "3D可视化",
+      "创业公司",
+      "北大教授创业"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-10",
+    "reason": "具身智能创业公司招资深前端，岗位涉及3D渲染和平台开发，技术栈明确（TS、3D可视化），公司画像清晰（北大教授创办、融资顺利），是具身智能赛道的直接招聘信号",
+    "fingerprint": "576cb25240d6dc4e"
+  }
+]
