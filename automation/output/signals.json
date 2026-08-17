@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "title": "没想到我也走到了仲裁的道路上",
+    "url": "https://www.v2ex.com/t/1234453#reply96",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 2,
+    "summary": "V2EX 用户分享被 AI 公司裁员后的仲裁经历，反映个别 AI 企业可能在压缩成本、优化人员。内容为个人维权记录，提到公司对仲裁态度强硬，并列举了打卡记录、聊天截图等证据。信号价值有限，主要作为 AI 行业就业市场压力的侧面参考。",
+    "tags": [
+      "裁员",
+      "劳动仲裁",
+      "个人经历",
+      "AI行业就业"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-17",
+    "reason": "个人仲裁经历分享，反映 AI 行业个别公司裁员现象，但缺乏数据支撑和行业洞察，属于个人维权叙事而非有效信号",
+    "fingerprint": "2ad0f3dc45e01db0"
+  },
+  {
+    "title": "诚寻创业(搞钱)海外项目合伙人(全职，线上)",
+    "url": "https://www.v2ex.com/t/1233583#reply13",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 2,
+    "summary": "V2EX上招募海外项目创业合伙人，要求数据安全、API开发、WebSocket、可视化编辑器、桌面端、AI编程等能力，承诺年利润八位数、利润五五分。但实际是技术合伙人招募，非PM岗位，且高利润描述缺乏实质内容支撑。",
+    "tags": [
+      "技术合伙人招募",
+      "海外项目",
+      "全栈开发",
+      "创业合作"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-17",
+    "reason": "虽然标题含创业字样且来自AI相关社区，但实际是技术合伙人招募（要求全栈开发能力），非AI PM岗位，且高利润承诺缺乏实质验证，信息密度不足以作为有效信号",
+    "fingerprint": "b57c8e8ae1e929dd"
+  },
+  {
+    "title": "[新加坡/可远程] 智能体垂类赛道 - 寻找 AI 与数据工程师 / 技术合伙人",
+    "url": "https://www.v2ex.com/t/1234683#reply2",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "新加坡早期科技公司招聘 AI 与数据工程师 / 技术合伙人，开发面向生命科学行业的生态智能 AI Agent 产品。要求具备 AI Agent、大模型应用、数据工程、知识图谱等经验，支持远程，可从兼职项目合作起步。这条信息同时呈现了 AI Agent 垂直赛道（生命科学）的 PMF 方向，对用户的求职定位和创业方向评估均有参考价值。",
+    "tags": [
+      "AI_Agent",
+      "生命科学",
+      "技术合伙人",
+      "新加坡",
+      "垂直赛道",
+      "远程工作"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-17",
+    "reason": "新加坡 AI Agent 创业公司招聘技术合伙人，明确要求 AI Agent、大模型应用、数据工程能力，与用户求职方向高度匹配，且展示了生命科学+AI Agent 的垂直赛道 PMF，可作为求职和创业双向参考。",
+    "fingerprint": "007329cccdb2fcb5"
+  },
+  {
+    "title": "[合肥/多城市][科大讯飞内推] 大模型 / Agent / AI Infra / Java / 全栈 / 测试 / 数据 / 架构",
+    "url": "https://www.v2ex.com/t/1234676#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "科大讯飞内部员工内推，覆盖大模型预训练/推理优化/MoE/Agent、多模态、语音算法、AI Infra、Java全栈等方向。校招和社招均有，含产品岗。对了解AI大厂技术岗位需求和能力要求有参考意义。",
+    "tags": [
+      "科大讯飞",
+      "大模型",
+      "Agent",
+      "内推",
+      "AI Infra",
+      "多模态",
+      "语音AI"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-17",
+    "reason": "科大讯飞作为头部AI厂商，其大模型/Agent/MoE等岗位需求直接反映行业热点和技术趋势，对AI PM求职有参考价值",
+    "fingerprint": "382e4c0454a19918"
+  },
+  {
+    "title": "如何出 ai 时代的软件面试题目？",
+    "url": "https://www.v2ex.com/t/1234448#reply11",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "V2EX招聘区讨论AI时代软件工程师面试方法，招聘方关注候选人能否正确使用AI解决复杂非标准化问题、设定问题边界、识别AI方案缺陷。这反映了AI行业招聘方对人才能力模型的新要求：对AI输出的批判性思维、边界条件意识、复杂问题拆解能力。",
+    "tags": [
+      "面试方法论",
+      "AI时代人才要求",
+      "批判性思维",
+      "工程师能力模型"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-17",
+    "reason": "来自招聘频道但内容是面试方法论讨论，虽非具体岗位JD，但揭示了AI时代技术岗位看重的新能力维度",
+    "fingerprint": "b9dd113a960a00df"
+  }
+]

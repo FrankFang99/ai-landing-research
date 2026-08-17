@@ -1,192 +1,277 @@
 [
   {
-    "title": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex",
-    "url": "https://36kr.com/p/3864065855706120?f=rss",
-    "reason": "该信息为多条新闻汇总，仅三星电子开放ChatGPT部分涉及AI应用但内容被截断、信息不足，无法判断实质落地情况"
+    "title": "中行回应“Token贷”：已投放3户800万元；头部AI大厂员工：90小时工作制成常态；宇树科技中签者不敢发朋友圈：怕被嫉妒｜AI 周报",
+    "url": "https://www.infoq.cn/article/GzEYHpjhJafhihcYc58x?utm_source=rss&utm_medium=article",
+    "reason": "该信息为综合性AI周报，内容涉及Token贷、AI大厂工作强度、宇树股票中签三个不相关话题，均与AI行业落地无实质关联，且篇幅简短"
   },
   {
-    "title": "圆桌论坛：在没人相信之前，乘风破浪的创er | 36氪WAVES2026新浪潮",
-    "url": "https://36kr.com/p/3864054145209602?f=rss",
-    "reason": "这是通用创业圆桌论坛记录，虽有AI公司参与但未聚焦AI落地，无具体应用案例、场景或数据"
+    "title": "编程能力提高50%！GLM-5.3 满分通过了GPT-5.6给的Coding 测试",
+    "url": "https://www.infoq.cn/article/xWyWwu4ZNptlhpb15tia?utm_source=rss&utm_medium=article",
+    "reason": "标题营销化（编程能力提高50%等夸大表述），内容无法验证（无正文），缺乏具体落地场景和公司应用信息"
   },
   {
-    "title": "圆桌讨论：在番禺，我们造了什么？｜36氪WAVES2026新浪潮",
-    "url": "https://36kr.com/p/3864033017549832?f=rss",
-    "reason": "这是一场创投大会的活动报道/会议回顾，缺乏具体的AI落地案例、产品或可验证的项目信息"
+    "title": "一份数据，多种用途：Spotify 用 RAP 打通分析与在线服务",
+    "url": "https://www.infoq.cn/article/iRjDa2ayZ9KLUtWylQZl?utm_source=rss&utm_medium=article",
+    "reason": "该文主要涉及 Spotify 数据架构/工程实践，未明确涉及 AI/ML 技术应用"
   },
   {
-    "title": "HORWIN号外品牌创始人兼CEO周维：为进化而生，HORWIN的全球出行愿景 | 36氪WAVES2026新浪潮",
-    "url": "https://36kr.com/p/3864002982286342?f=rss",
-    "reason": "文章核心是电动摩托车品牌HORWIN创始人的愿景演讲，虽在AI创投大会上，但缺少具体AI落地案例和应用细节，更像企业宣传专访"
+    "title": "面向多模态推理的高效长上下文建模｜AICon深圳",
+    "url": "https://www.infoq.cn/article/OgbViICigja8tasE0lwi?utm_source=rss&utm_medium=article",
+    "reason": "这是一条技术会议演讲主题介绍，非具体行业AI落地案例，缺少公司实践、产品名、落地场景和数据支撑"
   },
   {
-    "title": "补齐市场信息差！36氪股市舆情交流群开放，实物抽奖等你来！",
-    "url": "https://36kr.com/p/3863967437247751?f=rss",
-    "reason": "营销推广类内容，属于社群招募和工具引流，无实质性AI落地案例或行业应用分析"
+    "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打“骨折”！！DeepMind新帅重画性价比斩杀线",
+    "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
+    "reason": "原文摘要为空无法判断内容质量，且标题带有明显营销/标题党特征，不属于具体行业落地案例"
   },
   {
-    "title": "广州市番禺协诚实业有限公司副总经理龙德洋：真正的城市服务，藏在分分秒秒的坚守里",
-    "url": "https://36kr.com/p/3863849524859911?f=rss",
-    "reason": "文章虽来源36氪且有具体公司和人名，但内容实质是城市服务公司管理者的经验分享，未涉及AI、大模型或机器学习技术的落地应用"
+    "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+    "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+    "reason": "LLM 调用失败: Extra data: line 9 column 1 (char 286)"
   },
   {
-    "title": "36氪首发 | 核心团队曾攻关国家重点大飞机装配，航空航天智能装备商完成数千万元融资",
-    "url": "https://36kr.com/p/3863883390194692?f=rss",
-    "reason": "该公司是航空航天自动化装备制造商，虽涉及智能装配但核心是自动化机械设备和机器人，未明确涉及AI/大模型/机器学习技术的具体应用场景，不属于AI行业落地范畴。"
+    "title": "InfoQ 2026 年趋势报告：文化与方法论篇",
+    "url": "https://www.infoq.cn/article/ZiLdF4HaE2o3ieYydQQv?utm_source=rss&utm_medium=article",
+    "reason": "内容主题为软件开发文化与方法论趋势报告，未明确涉及 AI/大模型在具体行业的应用落地"
   },
   {
-    "title": "海川资本创始合伙人曹抒阳：新地缘格局下，中国能源电力产业的星辰大海：算力基建、能源自主、新本土化浪潮 | 36氪WAVES2026新浪潮",
-    "url": "https://36kr.com/p/3863840829576192?f=rss",
-    "reason": "原文摘要仅包含大会背景介绍和演讲者身份信息，未提供能源电力产业与AI/算力相关的具体分析内容、案例或数据，无法判断实质性价值"
+    "title": "“写代码从来都不是难点”，这是对全世界所有程序员的严重侮辱",
+    "url": "https://www.infoq.cn/article/gkOdbZGI6RXGmN09pIeK?utm_source=rss&utm_medium=article",
+    "reason": "文章主题是关于程序员职业价值讨论，与AI/大模型落地应用无关"
   },
   {
-    "title": "淘宝闪购上线新业务\"家宴\"，联合米其林高星餐厅｜独家",
-    "url": "https://36kr.com/p/3863831007941638?f=rss",
-    "reason": "LLM 调用失败: Expecting ',' delimiter: line 3 column 28 (char 48)"
+    "title": "Zig 创始人直言，Bun 靠 Claude 生成的 Rust 重构版是“没人把关的烂代码”",
+    "url": "https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&utm_medium=article",
+    "reason": "该内容是关于 Bun/Zig 编程语言技术栈争议的社区八卦，虽涉及 Claude 但非 AI 行业落地应用"
   },
   {
-    "title": "金融监管总局联合中国人民银行、中国证监会召开金融消费者和投资者保护监管联络员会议",
-    "url": "https://36kr.com/newsflashes/3864126988145666?f=rss",
-    "reason": "该信息为金融监管政策会议新闻，仅涉及金融消费者保护制度规划与监管协调，未涉及AI、大模型或机器学习技术的具体应用落地"
+    "title": "Claude Code没有“魔法”",
+    "url": "https://www.infoq.cn/article/aVJlp0XApUkyu6CNLOkL?utm_source=rss&utm_medium=article",
+    "reason": "原文摘要为空，无法判断内容是否包含 AI 落地实质信息"
   },
   {
-    "title": "中国银行：自6月24日收盘清算时起，黄金延期合约保证金比例乘数由666%调整为800%",
-    "url": "https://36kr.com/newsflashes/3864126176875529?f=rss",
-    "reason": "这是银行贵金属保证金比例的常规业务调整公告，与AI/大模型/机器学习应用无关"
+    "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+    "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
+    "reason": "这是 DeepSeek 开源工具的产品发布新闻，而非 AI 在具体行业的落地应用案例"
   },
   {
-    "title": "四川能源新型能源集团增资至约48.4亿",
-    "url": "https://36kr.com/newsflashes/3864120698622984?f=rss",
-    "reason": "该信息为企业工商变更及增资动态，与AI/大模型/机器学习应用落地无关"
+    "title": "从“工具”到“同事”——AI 时代的产品进化",
+    "url": "https://www.infoq.cn/article/ABCk0CzDtSKMHbPXCdWF?utm_source=rss&utm_medium=article",
+    "reason": "LLM 调用失败: Extra data: line 9 column 1 (char 197)"
   },
   {
-    "title": "上海亚虹：终止筹划控制权变更事项，股票将于23日复牌",
-    "url": "https://36kr.com/newsflashes/3864117497074690?f=rss",
-    "reason": "该信息为上市公司控制权变更终止公告，与AI行业落地无关，属于普通财经公告"
+    "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+    "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+    "reason": "标题党特征明显，使用'王炸组合'等营销词汇，内容缺乏实质性信息，无法判断具体落地场景和数据"
   },
   {
-    "title": "中望软件：近日收到政府补助款项共计918.5万元",
-    "url": "https://36kr.com/newsflashes/3864113130607616?f=rss",
-    "reason": "该信息仅为中望软件收到政府补助的财务公告，未涉及AI、大模型或机器学习相关应用内容"
+    "title": "Token 层差异：从颜色值到语义状态的三层跃迁",
+    "url": "https://www.woshipm.com/ai/6448024.html",
+    "reason": "文章主题偏向设计系统技术方法论，AI仅作为应用背景而非核心落地案例，缺乏具体公司/产品/场景的落地数据"
   },
   {
-    "title": "浙江国存盘活股权投资基金登记成立，出资额60亿",
-    "url": "https://36kr.com/newsflashes/3864108371399682?f=rss",
-    "reason": "该信息仅为普通股权投资基金成立公告，不涉及AI/大模型/机器学习技术应用，与AI行业落地无关"
+    "title": "产品经理开需求评审，怎么少被开发和测试怼",
+    "url": "https://www.woshipm.com/zhichang/6447945.html",
+    "reason": "文章主题是产品经理职业技能（需求评审沟通技巧），与AI/大模型落地应用无关"
   },
   {
-    "title": "通威股份：拟以50.6亿元对通威太阳能科技有限公司进行增资",
-    "url": "https://36kr.com/newsflashes/3864105917781255?f=rss",
-    "reason": "该信息为太阳能光伏企业通威股份的资本增资公告，与AI/大模型/机器学习应用无关"
+    "title": "我想成为AI一样的产品打工人",
+    "url": "https://www.woshipm.com/share/6447933.html",
+    "reason": "文章虽提及AI但核心是职场吐槽随笔，并非AI在具体行业的应用、案例或解决方案，无实质落地信息"
   },
   {
-    "title": "宜宾市高新投资集团增资至36.7亿，增幅约17%",
-    "url": "https://36kr.com/newsflashes/3864101421405190?f=rss",
-    "reason": "该信息仅涉及地方国有投资集团的工商注册资本变更，与AI/大模型/机器学习行业落地完全无关"
+    "title": "万亿新战事：阿里的“反攻”",
+    "url": "https://www.woshipm.com/it/6447744.html",
+    "reason": "文章主题是阿里与美团的外卖/即时零售商业竞争战略，虽提及AI叙事作为背景但无实质AI技术应用内容"
   },
   {
-    "title": "长久物流：拟以5000万元—1亿元回购公司股份",
-    "url": "https://36kr.com/newsflashes/3864100345287684?f=rss",
-    "reason": "该信息为上市公司股份回购公告，与AI/大模型落地无关"
+    "title": "海外营销必看：工具类APP如何用十步策略进行冷启动用户增长？",
+    "url": "https://www.woshipm.com/share/6447714.html",
+    "reason": "文章主题是工具类APP的海外营销策略（用户增长、冷启动方法论），与AI/大模型/机器学习行业落地无关，是通用的运营推广文章。"
   },
   {
-    "title": "翰宇药业：全资子公司利那洛肽化学原料药获得上市申请批准",
-    "url": "https://36kr.com/newsflashes/3864098117735432?f=rss",
-    "reason": "这是医药企业利那洛肽原料药的药品审批公告，属于传统制药行业新闻，与AI/大模型/机器学习应用完全无关。"
+    "title": "一个项目管理软件的诞生（一）：从项目管理思想到产品模型，管理对象与系统边界",
+    "url": "https://www.woshipm.com/pd/6447211.html",
+    "reason": "文章主题是项目管理软件的产品设计方法论，未涉及AI/大模型/机器学习在行业中的应用"
   },
   {
-    "title": "吴恩达戳破AI幻象：炒作过头了，未来公司是10人小队＋Agent重做数据架构",
-    "url": "https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy?utm_source=rss&utm_medium=article",
-    "reason": "文章为吴恩达对AI行业趋势的泛化观点讨论，缺乏具体行业、具体公司或具体落地数据支撑，属于一般性行业观察而非可验证的落地案例"
+    "title": "发布即热销：大疆 Osmo 360 II 首日拿下全渠道销量 TOP1",
+    "url": "https://www.leiphone.com/category/industrynews/WvOWhJBIPKxhzMoo.html",
+    "reason": "这是大疆全景相机的产品发布销售战报，属于硬件新品营销内容，未涉及AI/大模型在具体行业的落地应用"
   },
   {
-    "title": "Discord以自动化重构数据库运维，以管理超大规模的ScyllaDB",
-    "url": "https://www.infoq.cn/article/hsg1FAk30lT5KVpIpDf1?utm_source=rss&utm_medium=article",
-    "reason": "该内容涉及数据库运维自动化实践，但与AI/大模型/机器学习领域无关，不符合入库主题要求"
+    "title": "限量手办 + 实景体验，浙江人行NAVIAI2026WRC 福利提前曝光",
+    "url": "https://www.leiphone.com/category/industrynews/YW6iXkaDum3xwwBJ.html",
+    "reason": "文章主要是2026世界机器人大会的展会预告和营销活动信息（限量手办、转发抽奖），缺乏具体落地案例数据和可验证的实施成果"
   },
   {
-    "title": "让开关自我消亡：AI 赋能的 Feature Flag 全生命周期治理",
-    "url": "https://www.infoq.cn/article/qAbbFlvzvDM2OZD9ulkE?utm_source=rss&utm_medium=article",
-    "reason": "文章主题为通用软件工程实践(Feature Flag管理)，非特定行业的AI落地案例，缺乏具体公司/产品/场景/数据信息"
+    "title": "模仿者蜂拥入局，凭什么是添可洗地机持续定义每一代？",
+    "url": "https://www.leiphone.com/category/smarthome/MbJzrwn0HtWHqfR7.html",
+    "reason": "内容为智能洗地机产品营销分析，不涉及AI/大模型/机器学习技术落地"
   },
   {
-    "title": "传统数据架构，还够用吗？",
-    "url": "https://www.infoq.cn/video/LwxokkXxwsf5YECuhzi9?utm_source=rss&utm_medium=article",
-    "reason": "标题仅涉及一般性数据架构话题，无 AI/大模型落地内容，且缺乏具体公司、产品或场景信息，无法判断是否与 AI 行业落地相关"
+    "title": "Osmo 360 II 背后：大疆全景影像的「三代进阶」之路",
+    "url": "https://www.leiphone.com/category/weiwu/FZhNkt6nFQ1Mi8La.html",
+    "reason": "文章内容为大疆全景相机的硬件传感器技术创新，属于消费影像产品分析，与 AI/大模型/机器学习的行业落地应用无关"
   },
   {
-    "title": "内核级的真相：为什么eBPF正在取代基于用户空间的Agent成为安全可观测性的首选",
-    "url": "https://www.infoq.cn/article/spibFV8QPwbvac8LAluZ?utm_source=rss&utm_medium=article",
-    "reason": "主题是 Linux 内核技术 eBPF 在安全可观测性领域的应用，不涉及 AI/大模型/机器学习技术"
+    "title": "3D存算一体芯片领军企业谦合益邦完成超20亿元B轮融资",
+    "url": "https://www.leiphone.com/category/industrynews/Edo1aa9elrarVNM5.html",
+    "reason": "该信息属于半导体芯片公司融资新闻，虽涉及AI基础设施技术但非具体行业AI落地应用案例"
   },
   {
-    "title": "复旦大学教授邱锡鹏确认出席AICon上海站，分享MOSS 多模态模型的创新与实践",
-    "url": "https://www.infoq.cn/article/Lp2yijsaRsNZNzlgCRCx?utm_source=rss&utm_medium=article",
-    "reason": "这是一篇AICon技术大会的嘉宾预告/活动通知，非具体AI项目落地案例，缺少落地场景、数据和效果等实质内容"
+    "title": "业绩向上之后，瑞浦兰钧为什么更强调 “人的可持续”",
+    "url": "https://www.leiphone.com/category/industrynews/19AHb2WXNyfATWu5.html",
+    "reason": "文章核心是企业品牌文化建设与员工关怀，虽提及电池应用于AI算力场景但非重点，不构成实质性AI落地案例"
   },
   {
-    "title": "项目型产品经理做现场调研，到底应该调什么？",
-    "url": "https://www.woshipm.com/zhichang/6417979.html",
-    "reason": "文章主题是产品经理工作方法论（如何做现场调研），与AI/大模型/机器学习行业落地完全无关"
+    "title": "以服务驱动增长 滴滴中国出行单量连续14个季度上涨",
+    "url": "https://www.leiphone.com/category/industrynews/5sFrL8UuJpyLrJ6B.html",
+    "reason": "该文核心内容是滴滴财务业绩报告，虽提及AI但无具体AI落地应用内容，与AI项目落地知识库主题不匹配"
   },
   {
-    "title": "【数据】一个证件号对应多个姓名？人员数据校验方案解决数据冲突",
-    "url": "https://www.woshipm.com/share/6417166.html",
-    "reason": "文章讨论的是传统数据校验和主数据治理方案，未涉及AI/大模型/机器学习技术应用"
+    "title": "中国新能源车出海，不再是车企独角戏",
+    "url": "https://www.leiphone.com/category/transportation/gUic5TjJzhEnccLN.html",
+    "reason": "文章主题是中国新能源车出海商业模式，虽有出海案例但未明确涉及AI/大模型技术应用"
   },
   {
-    "title": "深入理解 Claude Code：从 CLAUDE.md 到 Hooks、Skills、Subagents..",
-    "url": "https://www.woshipm.com/ai/6417982.html",
-    "reason": "文章是关于 Claude Code 工具功能的工程化教程解析，未涉及 AI 在特定行业的应用案例或解决方案"
+    "title": "State of Open Models: Summer 2026 Observations",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "reason": "LLM 调用失败: Extra data: line 9 column 1 (char 262)"
   },
   {
-    "title": "到底是谁还在玩自然流…",
-    "url": "https://www.woshipm.com/share/6417960.html",
-    "reason": "内容为小红书平台流量运营策略分析，与AI/大模型/机器学习应用完全无关，属于互联网营销类文章"
+    "title": "What We Learned by Reproducing 2,200 papers from ICML",
+    "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+    "reason": "该内容是关于学术研究可复现性的元研究，属于研究方法论讨论，而非 AI 在具体行业的应用、案例或解决方案"
   },
   {
-    "title": "做个能赚钱的个人IP？先想清楚这4件事！",
-    "url": "https://www.woshipm.com/share/6417959.html",
-    "reason": "文章主题是自媒体运营和个人IP打造，未涉及AI/大模型/机器学习应用，与AI行业落地无关"
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "reason": "这是 AllenAI 的技术工具产品发布（embedding 导出功能），非具体行业应用或落地案例"
   },
   {
-    "title": "Vol.22 SaaS产品架构设计之合同管理",
-    "url": "https://www.woshipm.com/share/6417903.html",
-    "reason": "文章主题是SaaS产品经理通用的合同管理模块设计方法，未涉及AI/大模型/机器学习的具体应用或落地案例"
+    "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+    "reason": "内容为通用技术博客，标题模糊未指明具体行业应用场景，无产品落地案例或数据支撑"
   },
   {
-    "title": "从神经元到注意力：人工智能的80年暗涌（上篇）",
-    "url": "https://www.woshipm.com/ai/6417854.html",
-    "reason": "文章为AI技术发展史综述，缺乏具体行业应用、落地案例和可验证数据"
+    "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+    "reason": "文章主题为知识蒸馏技术本身（通用 AI 技术方法论），未涉及具体行业应用场景或落地案例，无法判断其在特定行业的实际应用价值"
   },
   {
-    "title": "拼多多常态化生态治理见实效：半年出台70余项举措 图书治理关店4000多家",
-    "url": "https://www.leiphone.com/category/industrynews/6piq1fYo2SlpNR7E.html",
-    "reason": "内容虽涉及平台治理但未涉及AI/大模型技术应用，属于电商平台常规运营报道"
+    "title": "Baseten on Hugging Face Inference Providers 🔥",
+    "url": "https://huggingface.co/blog/baseten",
+    "reason": "这是基础设施平台的合作推广内容，缺乏具体行业落地场景和实践数据"
   },
   {
-    "title": "ASML向美国保证：中国没任何机会拿到我们最先进EUV光刻机；约5万人将失业！大众宣布大裁员；刘强东：将来不需要快递员，70万兄弟要转行",
-    "url": "https://www.leiphone.com/category/zaobao/CjtmS9BIqn0j7Noy.html",
-    "reason": "内容为多条新闻要点摘要，缺乏AI落地的具体场景、数据或解决方案信息，实质内容不足"
+    "title": "The builder’s guide to GPT‑5.6",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "reason": "这是 OpenAI 官方产品功能介绍/技术指南，内容偏向 API 能力说明和开发者指引，缺少具体行业场景和真实落地案例数据"
   },
   {
-    "title": "New OpenAI Academy courses for the next era of work",
-    "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "reason": "OpenAI自家教育培训产品的发布公告，非第三方行业落地案例，属于营销内容"
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "url": "https://openai.com/index/previewing-ultrafast",
+    "reason": "这是 OpenAI 官方产品发布公告，属于技术/产品层面信息而非具体行业落地案例，缺乏实际应用场景和数据"
   },
   {
-    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-    "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "reason": "该内容是OpenAI关于欧盟AI治理合规的政策声明，缺乏具体行业落地场景、数据和可验证的项目案例，不符合AI项目落地研究知识库的收录要求"
+    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+    "reason": "仅为 OpenAI 人事任命公告，缺少具体 AI 落地案例、营收数据或行业应用场景等实质内容，不构成可入库的 AI 项目落地研究素材"
   },
   {
-    "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-    "url": "https://openai.com/index/openai-on-oracle-cloud",
-    "reason": "这是一篇商业合作关系公告，仅有基础功能描述，缺乏具体行业落地案例、数据或实质内容"
+    "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+    "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+    "reason": "此为OpenAI致德州州长的政策表态信件，缺乏具体项目落地、应用场景或数据支撑，实质内容不足"
   },
   {
-    "title": "Industrial policy for the Intelligence Age",
-    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-    "reason": "文章是OpenAI关于AI时代产业政策的宏观立场声明，缺少具体行业应用、案例或产品落地信息"
+    "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+    "url": "https://openai.com/index/model-ml",
+    "reason": "内容过短且缺乏实质落地信息，仅为产品功能介绍页，GPT-5.6版本号存疑，无具体案例或数据支撑"
+  },
+  {
+    "title": "Premium seats are coming to ChatGPT Business",
+    "url": "https://openai.com/index/premium-seats-chatgpt-business",
+    "reason": "这是一条 OpenAI 的产品营销公告，缺乏具体的落地场景、数据或行业应用信息，仅为付费功能推广"
+  },
+  {
+    "title": "Responding to the next frontier of critical cyber capabilities",
+    "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+    "reason": "该文为 OpenAI 内部安全评估公告，无具体行业应用场景，不属于 AI 项目落地案例"
+  },
+  {
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "reason": "LLM 输出无 JSON: <think>\nLet me analyze this content:\n\n1. **Title**: \"From asking to doing: How the world is putting "
+  },
+  {
+    "title": "诚心求教，求大佬们给点建议",
+    "url": "https://www.v2ex.com/t/1234835#reply13",
+    "reason": "[signal] 内容是应届生个人职场困境倾诉帖，虽来自招聘频道但非招聘相关信息，对求职或创业无有效信号价值"
+  },
+  {
+    "title": "45+的老登程序员 找跨端的 C++开发岗位",
+    "url": "https://www.v2ex.com/t/1234806#reply3",
+    "reason": "[signal] 这是个人求职帖而非招聘需求，且 C++ 跨端开发与用户目标（AI PM/AI 应用创业）完全无关，虽在 V2EX AI 区分区但无任何 AI 相关性"
+  },
+  {
+    "title": "硬件 工业相机的手眼标定",
+    "url": "https://www.v2ex.com/t/1234774#reply1",
+    "reason": "[signal] 这是一个外包/外包合作的询价帖，内容极简（仅有一个飞书文档链接和联系方式），没有岗位信息、薪资范围、公司背景，无法构成有效招聘信号。"
+  },
+  {
+    "title": "[深圳/上海/南京] SHEIN 数据工程岗合集（数据开发/数仓开发/大数据平台/OLAP 数据库/ Java 大数据研发） （25-60k）",
+    "url": "https://www.v2ex.com/t/1234760#reply2",
+    "reason": "[signal] LLM 输出无 JSON: <think>让我分析这条信息：\n\n1. **信号类型预判**：job_signal（求职市场信号）\n\n2. **内容分析**：\n   - 这是一个招聘信息的汇总\n   - 来自 V2EX 招聘频道\n"
+  },
+  {
+    "title": "[招聘 优质岗位丨 Base 杭州]招聘研发经理/技术架构师｜跨境电商·广告营销中台·数据平台·AI Agent",
+    "url": "https://www.v2ex.com/t/1234409#reply4",
+    "reason": "[signal] LLM 输出无 JSON: <think>让我分析这条招聘信息：\n\n**基本信息：**\n- 地点：杭州\n- 岗位：研发经理 / 技术架构师\n- 方向：广告营销中台、数据平台、跨境电商、AI Agent / AIGC\n- 公司：跨"
+  },
+  {
+    "title": "秋招工作是真难找啊，试了很多路子，想听点建议。",
+    "url": "https://www.v2ex.com/t/1234077#reply189",
+    "reason": "[signal] 个体求职者的困境吐槽帖，没有市场层面的招聘动向、薪资数据或行业趋势信息，对信号识别框架无参考价值"
+  },
+  {
+    "title": "看新闻 成都 OPC 社区开园",
+    "url": "https://www.v2ex.com/t/1234680#reply7",
+    "reason": "[signal] OPC社区开园与AI产品经理/PM求职和创业无直接关联，内容为个人职业定位的论坛讨论，OPC定义不明且与目标方向不符"
+  },
+  {
+    "title": "需求梳理，模式设计。让 API 兼容更多场景，编写鲁更加鲁棒的代码到底对不对？",
+    "url": "https://www.v2ex.com/t/1234418#reply8",
+    "reason": "[signal] 内容为个人技术工作吐槽，与招聘岗位、薪资、行业动态均无实质关联，虽来源招聘频道但正文不含任何招聘信息或行业信号"
+  },
+  {
+    "title": "仲裁胜利-记一次不太艰辛的仲裁之路",
+    "url": "https://www.v2ex.com/t/1234526#reply33",
+    "reason": "[signal] LLM 输出无 JSON: <think>\n让我分析这条信息：\n\n1. **信号类型预判**：job_signal（求职信号）\n\n2. **内容分析**：\n- 这是一篇关于劳动仲裁的经历分享帖\n- 发生在AI相关公司（来源是V2"
+  },
+  {
+    "title": "（区块链方向优先）测试工程师 / QA 工程师",
+    "url": "https://www.v2ex.com/t/1234634#reply0",
+    "reason": "[signal] 虽然是招聘信号，但岗位是测试工程师而非 AI PM，且核心是 Web3/区块链方向，与用户 AI PM 求职方向和 AI 创业方向均不匹配"
+  },
+  {
+    "title": "远程居家办公（AI agent 方向）-大模型聚合业务负责人",
+    "url": "https://www.v2ex.com/t/1234576#reply5",
+    "reason": "[signal] LLM 输出无 JSON: <think>让我分析这条信息：\n\n**基本信息：**\n- 来源：V2EX 招聘频道（AI 相关）\n- 标题：远程居家办公（AI agent 方向）-大模型聚合业务负责人\n- 公司：AIsa，2025"
+  },
+  {
+    "title": "骑驴找马到岗时间太长怎么解？",
+    "url": "https://www.v2ex.com/t/1234330#reply12",
+    "reason": "[signal] 内容是个人求职困境的吐槽帖，虽标注来源为 AI 相关，但全文未涉及任何 AI 行业岗位、薪资或招聘动向，无实质信号价值。"
+  },
+  {
+    "title": "外面行情怎么样",
+    "url": "https://www.v2ex.com/t/1234357#reply21",
+    "reason": "[signal] 内容为个人职场情绪投诉（被老板骂、问离职补偿），虽然标题含'行情'但正文无实质市场信息，与AI求职/创业方向无关"
+  },
+  {
+    "title": "前端开发离职一年找不到工作，进入了血液中心的客服工程师岗位。行业寒冬要在这里苟着吗",
+    "url": "https://www.v2ex.com/t/1234402#reply11",
+    "reason": "[signal] 内容是个体前端开发就业困境的泛互联网案例，与AI/大模型行业无实质关联，不符合AI行业求职或创业信号标准"
   }
 ]
