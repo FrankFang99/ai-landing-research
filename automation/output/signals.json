@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "title": "面试录个音不犯规吧？大家帮忙投个票",
+    "url": "https://www.v2ex.com/t/1238291#reply34",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 3,
+    "summary": "V2EX 用户（自称大礼包/被裁）想做 AI 面试工具：面试录音→AI 整理分析→卡片复习。目前在做需求调研，收集大家是否会用、想要什么功能。反映了求职者在面试复盘环节的真实痛点，属于 AI+垂直场景的创业方向验证。",
+    "tags": [
+      "AI面试工具",
+      "PMF调研",
+      "求职痛点",
+      "垂直场景",
+      "工具类产品"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-31",
+    "reason": "虽是一个个人想法调研，但明确指向 AI 面试工具的 PMF 验证，来自真实求职者群体，需求信号可信",
+    "fingerprint": "03f6890cc2d3ac37"
+  },
+  {
+    "title": "工业软件行业对创业公司机会怎么样",
+    "url": "https://www.v2ex.com/t/1238113#reply37",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "一位有约一年经验的创业者分享其在工业软件（工业智能体、智能排产、工艺优化）领域的创业规划，涉及离散型与流程型工业的区别，并提到国家工业AI政策支持。内容偏个人经验交流，缺少具体市场数据或融资信息。",
+    "tags": [
+      "工业软件",
+      "工业AI",
+      "创业方向",
+      "政策支持"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-31",
+    "reason": "内容涉及工业软件创业方向和国家政策支持，但属于个人经验分享而非具体市场数据或机会信号，信号密度较低",
+    "fingerprint": "cdf499bfaf67311a"
+  },
+  {
+    "title": "[Coupang 内推]电商、外卖、搜索推荐、物流、广告、大模型等方向持续招聘，欢迎交流",
+    "url": "https://www.v2ex.com/t/1238194#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "Coupang 内推帖，涉及电商、搜索推荐、物流、广告、大模型等多方向，招聘地点覆盖上海、北京、深圳、首尔，为 AI PM 提供跨境电商+AI 应用场景的就业选择，但大模型相关岗位细节缺失，需进一步沟通了解",
+    "tags": [
+      "跨境电商",
+      "内推",
+      "多地招聘",
+      "大模型应用",
+      "上海",
+      "北京"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-31",
+    "reason": "Coupang 招聘贴包含大模型方向，但正文未详细展开具体岗位，仅作方向罗列，信息密度有限",
+    "fingerprint": "29b8d205d5b61221"
+  },
+  {
+    "title": "[深圳/上海/南京/广州/北京] SHEIN 技术岗社招合集 后端/数据/算法/测试/SRE/安全 110+岗位",
+    "url": "https://www.v2ex.com/t/1238158#reply3",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "SHEIN 社招技术岗合集，110+岗位，涵盖后端/前端/移动端/数据/算法/测试/SRE/安全等方向，工作地包括上海、南京、深圳、广州、北京。其中 AI 相关方向包括算法/机器学习、推荐/搜索/广告算法等。薪资参考 Moka 官网或 Boss 直聘。",
+    "tags": [
+      "跨境电商",
+      "算法招聘",
+      "多城市",
+      "技术岗合集",
+      "SHEIN"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-31",
+    "reason": "SHEIN 作为跨境电商头部公司开出 110+ 技术岗位，其中包含算法/ML/推荐搜索广告等 AI 相关方向，覆盖北上广深宁多地，是有效的招聘市场信号",
+    "fingerprint": "eb965dd512722299"
+  },
+  {
+    "title": "AI 视频一键生成平台有没有搞头",
+    "url": "https://www.v2ex.com/t/1237847#reply22",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 4,
+    "summary": "创业者在 V2EX 讨论 AI 视频一键生成平台的商业可行性。核心思路：解决现有平台视频长度限制问题，提供剧本扩充、分镜定制、角色/场景决策、并行生成等能力；目标场景覆盖真人视频、漫剧、动漫、电商广告、品牌广告、教育宣传；技术方案利用 k8s 水平扩展提升并发。寻求市场经验和技术经验交流。",
+    "tags": [
+      "AI视频生成",
+      "创业方向",
+      "长视频PMF",
+      "k8s架构",
+      "多场景商业化"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-08-31",
+    "reason": "帖子反映了 AI 视频生成赛道存在 PMF 空间（长视频缺口 + 多场景需求），且给出了具体商业模式和技术方案，是真实的创业方向验证信号",
+    "fingerprint": "e95e058dc77e516b"
+  }
+]
