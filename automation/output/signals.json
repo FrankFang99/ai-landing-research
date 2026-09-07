@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "title": "[广州] 外企银行招自动化测试",
+    "url": "https://www.v2ex.com/t/1239935#reply2",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "广州某外企银行招聘 Automation QA，要求搭建自动化测试框架并探索 AI/ML 方法驱动 QA 流程升级。需具备 UI 自动化测试工具经验。岗位偏向测试工程，非 AI 产品经理角色。",
+    "tags": [
+      "自动化测试",
+      "QA",
+      "外企银行",
+      "广州",
+      "非AI-PM岗位"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "虽发布在 AI 相关板块且提及 AI/ML 驱动 QA 现代化，但岗位本质是传统 QA 自动化测试工程师，非 AI PM 方向，与用户求职目标匹配度低",
+    "fingerprint": "971489844a1aa70b"
+  },
+  {
+    "title": "研发也不自己看日志了",
+    "url": "https://www.v2ex.com/t/1240022#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "V2EX讨论开发者将日志分析工作外包给AI的现象——不再自行查看日志，而是让测试/运维转发后直接丢给LLM处理。反映了AI工具正在渗透开发工作流的趋势，对AI辅助编程/开发者工具赛道有参考意义，但非直接招聘或融资信息。",
+    "tags": [
+      "AI辅助开发",
+      "日志分析",
+      "开发者工具",
+      "工作流自动化"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "反映AI辅助开发工具在日志分析场景的实际落地应用，对AI PM理解开发者需求有参考价值，但属于微观工作流观察，非宏观市场信号",
+    "fingerprint": "c1b970179e18fbaf"
+  },
+  {
+    "title": "上海-算法职位-搜广推算法-百万 Package",
+    "url": "https://www.v2ex.com/t/1240000#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "上海地区三个AI算法岗位：（1）AIGC社区创业公司，A轮2000w+美金，北美百万用户，技术团队来自北美/国内大厂，薪资Open；（2）北美独角兽广告算法岗，需985背景，上海/北京；（3）清华系通用数据大模型创业公司，北京，不加班，融资快资金充裕。技术要求均涉及PyTorch、模型部署推理部署能力。",
+    "tags": [
+      "搜广推算法",
+      "AIGC",
+      "创业公司",
+      "百万薪资",
+      "上海招聘",
+      "外企独角兽",
+      "清北系创业"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "三个高质量AI算法岗位，涵盖AIGC创业、独角兽外企、清北系创业公司，薪资OPEN/百万级，包含融资阶段和团队背景，对AI行业求职和创业公司识别均有参考价值",
+    "fingerprint": "cddf79e3351c250b"
+  },
+  {
+    "title": "远程居家办公——AI Agent 支付与金融基础设施负责人",
+    "url": "https://www.v2ex.com/t/1239866#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 5,
+    "summary": "AIsa（2025年成立，美国旧金山）招聘 AI Agent 支付与金融基础设施负责人，由阿里巴巴、Tribe Capital、Draper Associates、住友商事等投资，团队来自腾讯/百度/字节。核心业务是为 AI Agent 提供支付协议和金融基础设施，远程居家办公。该岗位涉及 Agent 商业化基础设施的构建，对 AI PM 既是招聘机会，也反映了 AI Agent 生态中支付层缺失的创业机会。",
+    "tags": [
+      "AI Agent",
+      "支付基础设施",
+      "远程招聘",
+      "创业公司",
+      "旧金山",
+      "AI PM"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "AI Agent 基础设施创业公司正在招聘支付与金融方向负责人，直接对应 AI PM 求职方向，且透露了智能体商业基础设施这一新兴领域的 PMF 信号",
+    "fingerprint": "d36acfd4e924b05f"
+  },
+  {
+    "title": "[Coupang 内推]电商、外卖、搜索推荐、物流、广告、大模型等方向持续招聘，欢迎交流",
+    "url": "https://www.v2ex.com/t/1238194#reply8",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "Coupang 在北京、上海、深圳、首尔多地招聘，涵盖电商、外卖、搜索推荐、物流、广告、大模型等方向。该公司业务覆盖韩国电商全链路，技术团队分布多地，正在招聘 AI/ML 相关人才，适合有电商背景或对电商+AI 感兴趣的产品经理和工程师。",
+    "tags": [
+      "电商",
+      "Coupang",
+      "大模型",
+      "搜索推荐",
+      "内推",
+      "多地招聘"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "Coupang 内推帖包含大模型、搜索推荐等 AI 相关岗位，但属于内推信息而非公开市场数据，信号强度中等",
+    "fingerprint": "81f9fc41aed0d847"
+  },
+  {
+    "title": "[北京\\上海] 头部量化高薪招聘 预训练/后训练/agent 算法专家/infra",
+    "url": "https://www.v2ex.com/t/1239778#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "量化私募公司招聘大模型预训练算法研究员，要求主导千亿至万亿级LLM预训练，探索Scaling Law，优化数据和训练策略。要求候选人来自顶尖院校，有大模型预训练经验。该岗位薪酬较高，但属于Research/算法方向而非PM岗位，与用户AI产品经理求职方向关联有限。",
+    "tags": [
+      "量化金融",
+      "LLM预训练",
+      "算法研究员",
+      "高薪",
+      "Scaling Law"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-07",
+    "reason": "虽是AI大模型相关招聘，但岗位为算法研究员而非PM岗，且量化金融方向与用户AI产品经理/创业方向有一定偏差，可作为市场薪资行情参考",
+    "fingerprint": "e3b0f3ea4fcb3db8"
+  }
+]
