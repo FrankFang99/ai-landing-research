@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "title": "第一次在试用期开除一个人，和大家探讨一下如何招人，用人。",
+    "url": "https://www.v2ex.com/t/1241795#reply59",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "某创业团队在试用期开除使用 AI agent 直接完成需求的员工，暴露了当前 AI 编程热潮下候选人「会用工具但不懂代码」的问题。作者将面试要求改为「试用期不能用 AI agent 做需求」，已入职员工虽也用 agent 但能发现代码问题并重构即可接受。该帖反映招聘方正从「知识筛选」转向「能力验证」的趋势。",
+    "tags": [
+      "AI面试",
+      "招聘筛选",
+      "AI编程能力验证",
+      "试用期管理",
+      "全栈工程师"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-14",
+    "reason": "虽为招聘经验帖，但揭示了 AI 时代面试筛选标准变化（需手写代码验证真实能力），对求职者有间接参考价值",
+    "fingerprint": "1c3a2e5b34abbc95"
+  },
+  {
+    "title": "更新下广州前端工程师这两个礼拜找工作的情况",
+    "url": "https://www.v2ex.com/t/1241146#reply53",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 2,
+    "summary": "广州前端工程师发帖称找工作两周几乎没有沟通机会，30岁就面临年龄危机，感叹前端岗位饱和、竞争激烈。虽非AI领域，但反映了互联网技术岗整体求职市场的严峻状况，对评估AI PM岗位竞争态势有侧面参考意义。",
+    "tags": [
+      "前端市场",
+      "年龄危机",
+      "技术岗求职",
+      "互联网寒意",
+      "参考信号"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-14",
+    "reason": "虽非AI直接相关，但反映出互联网技术人才市场的寒意，对AI行业就业环境有间接参考价值",
+    "fingerprint": "f29354c022737e2d"
+  }
+]
