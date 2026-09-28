@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "title": "AI Agent 大量堆代码的时代，怎么管理代码质量还有服务稳定性的",
+    "url": "https://www.v2ex.com/t/1245007#reply7",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "技术 leader 分享使用 AI 编程工具（Cursor、Copilot、Codex、Claude Code）的实际体验：单人效率提升明显，但团队管理复杂度增加——大量无开发经验者用 AI 堆代码导致质量难以把控、线上告警增多。提问如何管理代码质量和服务稳定性。",
+    "tags": [
+      "AI编程工具",
+      "团队管理",
+      "Claude Code",
+      "代码质量",
+      "技术痛点"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-28",
+    "reason": "虽在招聘频道但本质是技术讨论帖，非招聘；内容反映了 AI 编程工具（Claude Code/Codex）在团队管理中的实际痛点，对 AI PM 理解产品需求有价值",
+    "fingerprint": "b48772bd77937e7c"
+  },
+  {
+    "title": "香港公司，招聘链上数据工程师（Go）、业务后端工程师（Go）、内部系统工程师（Go）、全栈工程师（React + Go） 非 web3 经验优先，可带新人",
+    "url": "https://www.v2ex.com/t/1244881#reply6",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "香港公司base深圳远程招聘Go工程师（链上数据/业务后端/全栈），要求3-5年经验且本人写代码，明确要求熟练使用 Cursor/Claude 等 AI 编程工具作为技能加分项，非 web3 背景优先，可带新人入职后学习区块链细节。该信息反映 AI 辅助编程工具正成为工程岗标配，对 AI PM 理解工程团队需求有参考价值。",
+    "tags": [
+      "Go工程师招聘",
+      "AI编程工具要求",
+      "Web3数据工程",
+      "远程工作",
+      "中高级工程师"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-28",
+    "reason": "招聘信息来自 AI 相关渠道且要求熟练使用 Cursor/Claude 等 AI 编程工具，显示 AI 应用正在渗透传统 Web3 工程岗位；但核心是 Go 工程岗位而非 PM 岗位，与 AI PM 求职方向间接相关。",
+    "fingerprint": "7143e625f536f25b"
+  },
+  {
+    "title": "不当程序员后，大家都转行做什么？",
+    "url": "https://www.v2ex.com/t/1244376#reply44",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "V2EX用户分享离开编程六年经历，因疫情被裁后转行自媒体，并感慨AI替代程序员的进程远超预期。这条帖子的价值在于提供了真实的从业者视角：AI对程序员岗位的冲击已从预期变为现实经历，自媒体成为可参考的转行方向之一。",
+    "tags": [
+      "程序员转行",
+      "AI替代",
+      "职业焦虑",
+      "自媒体"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-28",
+    "reason": "虽非招聘帖，但反映了AI替代程序员加速的从业者体感，可作为行业就业趋势的侧写参考",
+    "fingerprint": "df41fcb5c32662e3"
+  },
+  {
+    "title": "这是现代版劳工输出吗：她把国内人才卖向全球！",
+    "url": "https://www.v2ex.com/t/1244779#reply9",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 2,
+    "summary": "讨论国内人才远程为海外企业（澳洲）工作的外包模式，提及海外用人成本高、国内就业形势差的供需匹配逻辑。讨论者认为有市场前景，但内容较浅，仅为观点性讨论，无具体数据或案例支撑，对AI PM求职和创业的参考价值有限。",
+    "tags": [
+      "远程工作",
+      "人才外包",
+      "全球劳动力",
+      "轻创业"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-09-28",
+    "reason": "内容是关于远程人才外包模式的讨论帖而非具体招聘信息，缺乏数据支撑和AI行业针对性，属于弱信号",
+    "fingerprint": "627ef38645c0d1dc"
+  }
+]
