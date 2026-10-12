@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "title": "00 后程序员被裁，做自媒体几个月涨粉 3.8w 我得到了什么？又学到了什么？",
+    "url": "https://www.v2ex.com/t/1247958#reply41",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 2,
+    "summary": "00后程序员被裁后做AI方向抖音自媒体，3月到9月涨粉至3.8w的个人经历分享。内容为纯叙事，包含被裁→再就业→再被裁→做自媒体的经历，以及一些感悟思考，无具体变现数据或可复制的商业模式。",
+    "tags": [
+      "程序员被裁",
+      "自媒体创业",
+      "AI内容创作",
+      "个人IP",
+      "副业探索"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-12",
+    "reason": "内容是个人被裁后转自媒体的经验分享，虽提及AI但核心是叙事而非商业分析，虽有涨粉数据但未展示变现路径，信息密度低",
+    "fingerprint": "909a63b41bb2d6e7"
+  },
+  {
+    "title": "拓竹科技（Bambu Lab）招聘内推｜上海全职岗位 ｜ 全新 HC",
+    "url": "https://www.v2ex.com/t/1247042#reply15",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "拓竹科技（Bambu Lab）在上海招聘高级软件测试工程师（移动端方向），负责Bambu Handy APP及IoT设备测试。岗位来自V2EX AI相关招聘频道，但实际是3D打印/智能硬件公司的测试岗，非AI产品经理方向。",
+    "tags": [
+      "智能硬件",
+      "测试工程师",
+      "移动端",
+      "IoT",
+      "上海全职"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-12",
+    "reason": "岗位为软件测试工程师而非AI PM方向，且拓竹科技主营3D打印智能硬件，与AI行业直接关联度较低，属于可参考但非核心的信号",
+    "fingerprint": "d8440cac43630552"
+  },
+  {
+    "title": "你们公司测试现在作用还大吗",
+    "url": "https://www.v2ex.com/t/1247805#reply23",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "V2EX 上一位开发者分享：他们用 AI 写代码后会进行几百次自动测试，交付给人工测试时基本没有问题。帖主询问其他公司的情况。这是一个关于 AI 对测试岗位冲击的行业讨论，反映了 AI 正在改变传统测试工作流程的趋势。",
+    "tags": [
+      "AI替代测试",
+      "岗位影响",
+      "自动化测试",
+      "V2EX社区"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-12",
+    "reason": "虽来自招聘频道但非招聘信息，而是关于 AI 如何改变测试岗位工作方式的社区讨论，提供了一个 AI 替代测试岗位的侧面观察",
+    "fingerprint": "2726afd49fab76f5"
+  },
+  {
+    "title": "前端工程师（远程 · 长期 · 按时计费）",
+    "url": "https://www.v2ex.com/t/1247876#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "某 AI 产品公司招聘资深前端工程师，远程工作、按小时计费。工作内容包括 AI 模型/新功能的落地页建设、官网及模型详情页开发、多语言支持等。职位描述中频繁提及「新模型上线」「模型对比页」等，反映了 AI 产品对外展示层面的持续需求。",
+    "tags": [
+      "前端工程师",
+      "远程工作",
+      "AI产品",
+      "按时计费",
+      "V2EX"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-12",
+    "reason": "岗位为前端工程师而非用户目标岗位（AI PM），但工作内容明确涉及 AI 模型产品展示，且来源标注为 AI 相关频道，反映了 AI 公司在前端岗位上的持续投入，可作为行业参考。",
+    "fingerprint": "f63e5e0ad70fd5dc"
+  },
+  {
+    "title": "我认为应用开发包括前端正在迎来最好的时代",
+    "url": "https://www.v2ex.com/t/1247755#reply25",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 2,
+    "summary": "作者认为 AI 已大幅降低应用开发门槛，当前 AI 应用赛道仍有大量空白，小微场景可能迎来洗牌。列举了游戏复刻、UI 基础设施改进、macOS 跨平台移植等案例，认为 AI 开发领域机会众多。",
+    "tags": [
+      "AI开发",
+      "前端",
+      "行业趋势",
+      "应用赛道",
+      "开发门槛"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-12",
+    "reason": "内容为论坛观点帖，缺乏具体数据支撑，虽提及赛道空白和上游洗牌机会，但属泛泛而谈，信号密度较低",
+    "fingerprint": "25c9b337b1b63b0b"
+  }
+]
