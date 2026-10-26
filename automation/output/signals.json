@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "title": "创业一年了，还活着",
+    "url": "https://www.v2ex.com/t/1251768#reply85",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 3,
+    "summary": "创业者复盘首年经营：累计投入49万元、销售额76万元、毛利约20%，利润约15万元，仍未实现基本盈利。",
+    "tags": [
+      "创业复盘",
+      "经营数据",
+      "盈利能力",
+      "AI创业待确认"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "提供了创业项目真实的投入、销售额、毛利与盈利状态，具有经营验证价值，但未明确业务是否属于AI领域，也缺少可复制模式的细节。",
+    "fingerprint": "c8c6605e2f793d8e"
+  },
+  {
+    "title": "程序员自由职业一年，复盘一下",
+    "url": "https://www.v2ex.com/t/1251862#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 2,
+    "summary": "程序员离职一年尝试电商、自媒体与独立开发，整体收入不稳定且为负，独立开发主要依赖熟人获客，小游戏还遭遇审核延迟。",
+    "tags": [
+      "独立开发",
+      "自由职业",
+      "变现",
+      "获客"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "提供了独立开发和自由职业的真实经营复盘，但内容与AI创业关联较弱，且核心结论是个体收入不稳定、获客依赖熟人。",
+    "fingerprint": "47d0c98b6b68072c"
+  },
+  {
+    "title": "求职: 运维",
+    "url": "https://www.v2ex.com/t/1251667#reply3",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "一名5年经验运维求职者，掌握Kubernetes、云平台，并使用Codex开发巡检脚本及辅助故障排查。",
+    "tags": [
+      "运维",
+      "AI编程",
+      "Codex",
+      "云原生",
+      "求职画像"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "求职者具备运维、云原生及 Codex/Vibe Coding 实践，反映 AI 辅助运维人才画像，但不包含明确招聘需求且与 AI 产品经理方向关联较弱。",
+    "fingerprint": "b37d2dd758411d48"
+  },
+  {
+    "title": "[深圳/上海/南京/广州/珠海] SHEIN 测试岗内推 全量 15 岗（15-65k）",
+    "url": "https://www.v2ex.com/t/1251653#reply2",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "SHEIN在五座城市招聘15类测试岗，薪资15K-65K，含AI视觉、测试开发、平台治理及电商业务测试。",
+    "tags": [
+      "SHEIN",
+      "招聘",
+      "AI视觉",
+      "测试开发",
+      "多城市"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "SHEIN更新多地测试岗位并涵盖AI视觉、测试开发和知识库等方向，但整体偏测试职能，与AI产品经理目标仅属间接相关。",
+    "fingerprint": "82cbdd8f2298fe5e"
+  },
+  {
+    "title": "招 1 名全栈工程师（AI 伴侣方向）",
+    "url": "https://www.v2ex.com/t/1251506#reply10",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "AI伴侣团队招聘1名远程全栈工程师，薪资18-30K，重点负责大模型接入、Agent编排、长期记忆、多模态生成及工程质量优化。",
+    "tags": [
+      "AI伴侣",
+      "全栈工程师",
+      "Agent开发",
+      "多模态",
+      "远程岗位",
+      "18-30K"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "直接招聘AI伴侣方向全栈工程师，岗位涉及大模型、Agent、记忆、RAG及多模态集成，并明确远程方式和18-30K薪资，求职信号密度较高。",
+    "fingerprint": "0dc6081fce566999"
+  },
+  {
+    "title": "一个中年离职程序员的碎碎念&求职一份 AI 相关的工作",
+    "url": "https://www.v2ex.com/t/1251496#reply22",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "一名34岁资深程序员在上海求职AI相关岗位，提到部分企业业务不对标且因AI人才充足而筛选严格。",
+    "tags": [
+      "AI求职",
+      "上海招聘",
+      "资深程序员",
+      "人才竞争"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-10-26",
+    "reason": "提供了上海程序员转型求职AI岗位的一线经历，反映企业招聘偏好及候选人竞争，但缺少具体岗位、薪资和招聘企业信息，信号密度有限。",
+    "fingerprint": "38a7fc08201102b1"
+  }
+]
