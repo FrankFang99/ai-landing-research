@@ -98,16 +98,16 @@ jobs:
             exit 1
           fi
 
-          headers() {
-            printf 'Authorization: Bearer %s\n' "${GH_TOKEN}"
-            printf 'Accept: application/vnd.github+json\n'
-            printf 'X-GitHub-Api-Version: 2022-11-28\n'
-            printf 'User-Agent: pandaai-public-scheduler\n'
-          }
-
           # ---- 去重：最近 N 分钟内私有仓库已经成功跑过就不重复拉起 ----
+          # 注意：必须显式带 Authorization 头。漏掉的话，GitHub 对**私有**仓库会
+          # 返回 404（而不是 401）—— 2026-11-02 实测踩到过：去重查询永远读到空，
+          # 于是每次都重复拉起。
           since=$(date -u -d "${DEDUP_MINUTES} minutes ago" +%Y-%m-%dT%H:%M:%SZ)
-          runs=$(curl -s --get "${headers[@]}" \
+          runs=$(curl -s --get \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -H "User-Agent: pandaai-public-scheduler" \
             --data-urlencode "created=>=${since}" \
             --data-urlencode "per_page=20" \
             "https://api.github.com/repos/${TARGET_REPO}/actions/workflows/${TARGET_WORKFLOW}/runs" || true)
@@ -120,11 +120,11 @@ jobs:
           rs = d.get('workflow_runs') or []
           print(sum(1 for r in rs if r.get('conclusion') == 'success'))
           " 2>/dev/null || echo 0)
+          echo "[i] 去重查询：最近 ${DEDUP_MINUTES} 分钟内成功运行 ${n} 次"
           if [ "${n}" -gt 0 ] 2>/dev/null; then
-            echo "[skip] 最近 ${DEDUP_MINUTES} 分钟内私有仓库已有 ${n} 次成功运行，不再重复拉起"
+            echo "[skip] 私有仓库最近 ${DEDUP_MINUTES} 分钟已有 ${n} 次成功运行，不再重复拉起"
             exit 0
           fi
-          echo "[i] 去重检查通过（最近 ${DEDUP_MINUTES} 分钟无成功运行）"
 
           # ---- 通道 A：workflow_dispatch（需要 PAT 的 Actions 写权限）----
           code=$(curl -s -o /tmp/a.json -w '%{http_code}' -X POST \
