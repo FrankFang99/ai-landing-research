@@ -1,18 +1,31 @@
 name: PandaAI 调度 · 公开仓库兜底触发器
 
-# 这个文件放在**公开**仓库（默认是 FrankFang99/ai-landing-research），
-# 不是放在 PandaAI 的私有仓库里。
+# 这个文件**不是**放在 PandaAI 私有仓库里，而是放在**公开**仓库
+# （默认是 FrankFang99/ai-landing-research）。
 #
 # 为什么要借公开仓库
 # ----------------
 # 2026-11-02 实测（同一个账户下）：
 #   · 私有仓库 pandaai-xs-strategy 的 schedule 命中率约 **20%**
-#     （探针 16 个小时级槽位只中 3 次；11-02 早上两个有效槽位连续落空，
-#      月度调仓差点没人做，最后靠人工补触发才跑成）
+#     （探针 16 个小时级槽位只中 3 次；11-02 早上两个有效槽位连续落空；
+#      当天新建的补充槽位工作流 11 个 cron 只过 4 个，一个都没中）
 #   · 公开仓库 ai-landing-research 的周度 schedule **19/19 全部命中**
-#   → 差别只在于仓库是公开的还是新建私有的。于是借公开仓库做一个**兜底触发器**：
-#     它只负责按 cron 去拉起私有仓库的 strategy.yml，
-#     真正的策略逻辑、持仓、状态一个都不搬过来。
+#   → 同一个账户、同样的 workflow 机制，差别只在于仓库是公开还是新建私有。
+#      私有仓库的调度器正在被 GitHub 丢槽。
+#
+# 于是借公开仓库做一个**兜底触发器**：它只负责按 cron 去拉起私有仓库的
+# strategy.yml，真正的策略逻辑和状态一个都不搬过来。
+#
+# 槽位密度
+# --------
+# P(一次都不中) = 0.8^n。6 个槽位 → 26%；16 个槽位 → **2.8%**。
+# 所以这里把 09:17~14:17（北京）铺成每 20 分钟一个，共 16 个独立槽位。
+#
+# 去重
+# ----
+# 命中不等于要拉起：先查私有仓库最近 50 分钟内有没有成功跑过 strategy.yml，
+# 有就跳过（止盈维护是 60 分钟一轮，50 分钟去重既能覆盖又不会刷屏）。
+# 失败的 run 不算数 —— 失败后下一个槽位仍会重试。
 #
 # 安全边界（重要）
 # --------------
@@ -23,29 +36,41 @@ name: PandaAI 调度 · 公开仓库兜底触发器
 # 3) 用 **fine-grained PAT**，只授权那**一个**私有仓库的最小权限
 #    （Actions: Read and write，或 Contents: Read and write 走 repository_dispatch）。
 #    这样即使这个公开仓库出问题，token 也碰不到别的仓库。
-# 4) 私有仓库的持仓、状态、加密凭证**全部留在私有仓库**，公开仓库只多一行触发动作。
+# 4. 私有仓库的持仓、状态、加密凭证**全部留在私有仓库**，公开仓库只多一行触发动作。
 #
 # 需要的 Secret（在这个公开仓库上添加）：
-#   PANDAI_PAT —— fine-grained PAT，只授权 pandaai-xs-strategy 的 Actions 写权限
-#                 （或 Contents 写权限，见下面的 repository_dispatch 兜底）
+#   PANDAI_PAT  —— 能访问 pandaai-xs-strategy 的 PAT
+#                  （Actions: Read and write，或 Contents: Read and write 走 repository_dispatch）
 #
-# 添加方式（token 只进剪贴板，不经过命令行参数）：
-#   gh secret set PANDAI_PAT --repo FrankFang99/ai-landing-research
+# ⚠️ 设置 Secret 时不要用 PowerShell 管道：
+#    `$tok | gh secret set PANDAI_PAT` 会追加 CRLF，令牌末尾多一个 `\r`，
+#    runner 上发出去就是 401 Bad credentials（2026-11-02 实测踩到过）。
+#    用 `python deploy/set_secret.py PANDAI_PAT <repo>`（字节精确写入）。
 
 on:
   schedule:
     # 按 UTC 排；北京时间 = UTC + 8。
-    # 铺满 09:30~14:30（北京）这一整段调仓窗口，命中任意一个即可。
-    # 分钟数刻意避开整点（整点是 GitHub 调度器最拥堵的时刻，延迟最大）。
+    # 每 20 分钟一个槽位，铺满 09:17~14:17（北京）这一整段调仓窗口。
     - cron: "17 1 * * 1-5"    # 北京 09:17
+    - cron: "37 1 * * 1-5"    # 北京 09:37
+    - cron: "57 1 * * 1-5"    # 北京 09:57
     - cron: "17 2 * * 1-5"    # 北京 10:17
+    - cron: "37 2 * * 1-5"    # 北京 10:37
+    - cron: "57 2 * * 1-5"    # 北京 10:57
     - cron: "17 3 * * 1-5"    # 北京 11:17
+    - cron: "37 3 * * 1-5"    # 北京 11:37
+    - cron: "57 3 * * 1-5"    # 北京 11:57
     - cron: "17 4 * * 1-5"    # 北京 12:17
+    - cron: "37 4 * * 1-5"    # 北京 12:37
+    - cron: "57 4 * * 1-5"    # 北京 12:57
     - cron: "17 5 * * 1-5"    # 北京 13:17
+    - cron: "37 5 * * 1-5"    # 北京 13:37
+    - cron: "57 5 * * 1-5"    # 北京 13:57
     - cron: "17 6 * * 1-5"    # 北京 14:17
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
 
 concurrency:
@@ -63,6 +88,7 @@ jobs:
           TARGET_REPO: FrankFang99/pandaai-xs-strategy
           TARGET_WORKFLOW: strategy.yml
           TARGET_REF: main
+          DEDUP_MINUTES: "50"
         run: |
           set -euo pipefail
           echo "[i] 目标 ${TARGET_REPO}/${TARGET_WORKFLOW}@${TARGET_REF}"
@@ -71,6 +97,34 @@ jobs:
             echo "[x] Secret PANDAI_PAT 未配置 —— 请在本仓库 Settings → Secrets 里添加"
             exit 1
           fi
+
+          headers() {
+            printf 'Authorization: Bearer %s\n' "${GH_TOKEN}"
+            printf 'Accept: application/vnd.github+json\n'
+            printf 'X-GitHub-Api-Version: 2022-11-28\n'
+            printf 'User-Agent: pandaai-public-scheduler\n'
+          }
+
+          # ---- 去重：最近 N 分钟内私有仓库已经成功跑过就不重复拉起 ----
+          since=$(date -u -d "${DEDUP_MINUTES} minutes ago" +%Y-%m-%dT%H:%M:%SZ)
+          runs=$(curl -s --get "${headers[@]}" \
+            --data-urlencode "created=>=${since}" \
+            --data-urlencode "per_page=20" \
+            "https://api.github.com/repos/${TARGET_REPO}/actions/workflows/${TARGET_WORKFLOW}/runs" || true)
+          n=$(printf '%s' "${runs}" | python3 -c "
+          import sys, json
+          try:
+              d = json.load(sys.stdin)
+          except Exception:
+              print(0); raise SystemExit
+          rs = d.get('workflow_runs') or []
+          print(sum(1 for r in rs if r.get('conclusion') == 'success'))
+          " 2>/dev/null || echo 0)
+          if [ "${n}" -gt 0 ] 2>/dev/null; then
+            echo "[skip] 最近 ${DEDUP_MINUTES} 分钟内私有仓库已有 ${n} 次成功运行，不再重复拉起"
+            exit 0
+          fi
+          echo "[i] 去重检查通过（最近 ${DEDUP_MINUTES} 分钟无成功运行）"
 
           # ---- 通道 A：workflow_dispatch（需要 PAT 的 Actions 写权限）----
           code=$(curl -s -o /tmp/a.json -w '%{http_code}' -X POST \
