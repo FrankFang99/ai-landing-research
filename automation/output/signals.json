@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "title": "部门裁了 20%多了",
+    "url": "https://www.v2ex.com/t/1253701#reply15",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "某IT部门要求员工使用AI并成立AI小组，随后裁员近30%，被裁者多为非科班背景的传统IT人员。",
+    "tags": [
+      "AI替代",
+      "IT裁员",
+      "岗位风险",
+      "AI提效"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "亲历者披露企业导入AI工具后裁员约30%，能反映AI应用对传统IT岗位的替代压力，但属于单一匿名个案，缺少行业数据支撑。",
+    "fingerprint": "c178673d9f3621c3"
+  },
+  {
+    "title": "现在的行情真的很冷",
+    "url": "https://www.v2ex.com/t/1253652#reply77",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "一名从业者因公司绩效改革和欠薪离职，此后BOSS直聘难有面试；案例反映就业环境恶化，但缺乏AI行业与具体岗位信息。",
+    "tags": [
+      "招聘寒潮",
+      "欠薪",
+      "裁员风险",
+      "个人经历"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "亲历者描述绩效改革、欠薪及长期无面试，能侧面反映招聘收缩，但属于单一案例且未涉及AI岗位，信号强度较弱。",
+    "fingerprint": "3bab5f39cd43d096"
+  },
+  {
+    "title": "也也也失业了，写点接下来的路",
+    "url": "https://www.v2ex.com/t/1253501#reply64",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 3,
+    "summary": "一位从业十余年者被裁后计划用存款开小店维持，尝试在闲鱼接单、卖 AI API 中转站日卡（已成一单但微亏），并考虑独立开发美区 App Store 应用，正在寻找合伙人。",
+    "tags": [
+      "独立开发",
+      "AI API中转站",
+      "闲鱼接单",
+      "找合伙人",
+      "失业"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "个人失业自述中包含具体的 AI API 中转站（NewAPI）转售与独立开发变现尝试，并公开寻找合伙人，属间接相关的早期创业需求信号，但样本孤立、无验证数据，信号密度偏低。",
+    "fingerprint": "11c64f4ae8bebe43"
+  },
+  {
+    "title": "急招！坐班上海算法负责人/CTO--商品算法多模态大模型方向",
+    "url": "https://www.v2ex.com/t/1253785#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 5,
+    "summary": "上海急聘坐班商品算法及多模态大模型方向技术负责人/CTO，月薪不低于6万、15薪并有期权。",
+    "tags": [
+      "多模态大模型",
+      "商品算法",
+      "CTO",
+      "技术负责人",
+      "高薪",
+      "上海"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "岗位直接聚焦商品算法与多模态大模型技术负责人，薪资、期权、办公地点及头部公司背景要求均明确，时效性和求职信号密度都很高。",
+    "fingerprint": "a65dc36a8bb52d00"
+  },
+  {
+    "title": "想从事青少年 AI 方面的教育工作，如何能让家长们觉得这种教育的价值？",
+    "url": "https://www.v2ex.com/t/1253604#reply16",
+    "signal_type_hint": "job_signal",
+    "signal_type": "startup_opportunity",
+    "signal_strength": 3,
+    "summary": "讨论青少年 AI 教育的产品定位与家长价值传达困境，计划教授基础编程概念并让学生借助 AI 完成项目。",
+    "tags": [
+      "青少年AI教育",
+      "项目制教学",
+      "家长付费",
+      "创业想法验证"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "提出了以项目制和 AI 辅助教学切入青少年 AI 教育的产品设想，但缺少家长付费验证、竞品分析和落地数据，仅属待验证的创业方向。",
+    "fingerprint": "e75dd43afc9d34bb"
+  },
+  {
+    "title": "[内推]20261102 渣打银行 广州 & 天津 | 52 个在招岗位",
+    "url": "https://www.v2ex.com/t/1253680#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "渣打银行广州25岗、天津27岗，面向5年以上经验者，部分学历可放宽，英文面试要求较高，支持混合办公并提供补充商业险。",
+    "tags": [
+      "渣打银行",
+      "社招",
+      "广州",
+      "天津",
+      "内推"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-02",
+    "reason": "渣打银行在广州、天津批量开放52个社招岗位，包含职级、经验、学历、办公方式等招聘画像，但摘要未明确显示AI或大模型岗位占比较高，对AI产品经理仅属间接参考。",
+    "fingerprint": "bfa588ce3571a7d3"
+  }
+]
