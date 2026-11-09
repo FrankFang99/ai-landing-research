@@ -1,1 +1,168 @@
-[]
+[
+  {
+    "title": "求告知目前就业环境（程序员相关）",
+    "url": "https://www.v2ex.com/t/1255513#reply25",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "一名程序员因收入低、欠薪及家庭经济压力求职，反映当前个体就业困境，但不足以判断整体程序员招聘市场。",
+    "tags": [
+      "程序员",
+      "就业环境",
+      "收入压力",
+      "欠薪"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "仅是程序员对收入、欠薪及就业压力的个人陈述，缺乏岗位需求、薪资区间或招聘数据等可验证市场信息。",
+    "fingerprint": "2475b28482d4f8d8"
+  },
+  {
+    "title": "[求职] 具备出海业务全面落地经验，兼具技术深度与广度的全栈工程师",
+    "url": "https://www.v2ex.com/t/1255550#reply3",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "一位全栈/Agent 开发工程师具备海外产品从 0 到 1、支付订阅、商业化及 LLM 应用落地经验，正在求职。",
+    "tags": [
+      "求职招聘",
+      "Agent开发",
+      "全栈工程师",
+      "出海业务",
+      "LLM应用"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "这是求职者的能力画像，涉及 Agent、LLM 集成、模型成本与出海商业化等岗位需求，但缺少招聘方、薪资和具体岗位信息，信号强度为间接参考。",
+    "fingerprint": "3902c2429b2bfaa4"
+  },
+  {
+    "title": "初级古法前端说：前端比后端难多了。我这个后端老登沉默了",
+    "url": "https://www.v2ex.com/t/1255534#reply35",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "后端借助AI接管后台前端开发，说明AI正扩大开发者的职责边界并压缩基础页面开发的人力需求。",
+    "tags": [
+      "AI编程",
+      "前后端分工",
+      "研发效率",
+      "团队配置"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "案例反映AI编程正在打破前后端分工并提升小团队独立交付能力，但对求职岗位和创业模式的直接指向较弱。",
+    "fingerprint": "32f21c555714a4dd"
+  },
+  {
+    "title": "怎么评价 CTO 用 AI 写 BUG",
+    "url": "https://www.v2ex.com/t/1255518#reply24",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 3,
+    "summary": "CTO 使用 AI 修复 Bug 并直接合入生产分支，导致更严重线上故障，凸显 AI 编码治理、测试验证与变更审查的重要性。",
+    "tags": [
+      "AI编程",
+      "代码审查",
+      "研发流程",
+      "风险治理"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "虽为单一管理案例且缺乏统计数据，但反映了企业引入 AI 编码后对代码审查、发布流程和责任边界的现实需求，对 AI 产品设计有参考价值。",
+    "fingerprint": "ed4cb9f933219016"
+  },
+  {
+    "title": "开发与运维人员比例一般是多少？",
+    "url": "https://www.v2ex.com/t/1255451#reply27",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "讨论不同规模公司的开发与运维人员比例：谷歌约7:1至10:1，初创公司约15:1至20:1，个别公司超过100:1。",
+    "tags": [
+      "开发运维配比",
+      "团队配置",
+      "初创公司",
+      "招聘参考"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "内容提供了谷歌与初创公司开发、运维人员配比的个案参考，但未明确涉及 AI 岗位或具体招聘需求，信号较弱。",
+    "fingerprint": "ba522c914b1cb4ad"
+  },
+  {
+    "title": "千问事业部-助手 Agent 交互技术专家-杭州",
+    "url": "https://www.v2ex.com/t/1255478#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "千问事业部在杭州招聘专家，负责多模态助手 Agent 核心模块、AI 硬件开放体系及高并发架构。",
+    "tags": [
+      "千问",
+      "Agent",
+      "多模态",
+      "AI硬件",
+      "杭州"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "千问事业部直接招聘助手 Agent 交互技术专家，反映其正投入多模态 Agent、AI 硬件开放能力及 AI Native 架构建设，与 AI 应用生态高度相关。",
+    "fingerprint": "bcf808d440e40c50"
+  },
+  {
+    "title": "[杭州 / 远程求职] 工作三年，两年前端，一年 Agent",
+    "url": "https://www.v2ex.com/t/1255336#reply9",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "一名有三年经验、包含一年Agent经历的求职者，拟投Agent开发或全栈岗位，在杭州及远程求职中普遍已读不回。",
+    "tags": [
+      "Agent开发",
+      "全栈开发",
+      "杭州",
+      "远程求职",
+      "求职困难"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "该帖直接反映具备前端与Agent经验的人才在杭州或远程求职时遭遇低回复率，但属于个体案例，招聘需求信号有限。",
+    "fingerprint": "01f120769f62e670"
+  },
+  {
+    "title": "机械臂路径轨迹规划 欢迎各位同学报价",
+    "url": "https://www.v2ex.com/t/1255371#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "杭州团队招募机械臂轨迹规划算法人员，需支持自定义位姿、避障及外部轴协同，可现场调试并长期合作。",
+    "tags": [
+      "机器人算法",
+      "轨迹规划",
+      "机械臂",
+      "杭州招聘"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "存在明确的机器人轨迹规划算法岗位需求，包含杭州地点、技术栈和合作方式，但与AI产品经理及大模型应用的直接关联较弱。",
+    "fingerprint": "45707e3fdba34d85"
+  },
+  {
+    "title": "杭州下沙｜找一起做 Agent 与算法的队友，实习 / 正式均可",
+    "url": "https://www.v2ex.com/t/1255353#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "国内短剧头部公司在杭州招聘 Agent 与算法人才，涉及 Agent 编排、长任务执行和状态管理，实习日薪 300–400 元，正式岗薪资面议。",
+    "tags": [
+      "AI Agent",
+      "算法岗位",
+      "杭州招聘",
+      "实习",
+      "短剧"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-09",
+    "reason": "直接招聘 AI Agent 与算法方向的实习及正式岗位，披露了杭州地点、薪资区间、团队背景和技术重点，具备明确求职信号。",
+    "fingerprint": "9da0bd64cba15906"
+  }
+]
