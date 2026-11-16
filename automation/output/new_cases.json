@@ -1,516 +1,808 @@
 [
   {
-    "title": "36氪首发 | 联想之星险峰联合领投，AI算力中心感知与效能管理方案商完成天使轮融资",
-    "url": "https://36kr.com/p/3863885024973832?f=rss",
-    "industry": "制造",
-    "asset_type": "行业洞察",
-    "summary": "芯感通完成数千万元天使轮融资，联想之星与险峰联合领投。公司聚焦AI算力基础设施中的电流与空间磁场感知领域，针对高密度、大电流场景下传统霍尔传感器噪声高、温漂大等痛点，提供精细化电源管理方案，本轮融资将用于芯片研发迭代与市场拓展。",
-    "tags": [
-      "AI算力",
-      "传感器",
-      "芯片",
-      "数据中心",
-      "电源管理",
-      "融资"
-    ],
-    "source": "36氪",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\36氪首发___联想之星险峰联合领投，AI算力中心感知与效能管理方案商完成天使轮融资_5caf696af472cf9c.md",
-    "fingerprint": "5caf696af472cf9c"
-  },
-  {
-    "title": "xAI发布Grok Skills并更新用于工具调用的Responses API",
-    "url": "https://www.infoq.cn/article/hmME4JhKTJUYJy9DNEJ2?utm_source=rss&utm_medium=article",
+    "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+    "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
     "industry": "未分类",
     "asset_type": "行业洞察",
-    "summary": "xAI发布Grok Skills功能，允许用户自定义AI助手能力，并更新Responses API以支持更灵活的工具调用功能。这是Grok大模型平台的开发者能力扩展。",
+    "summary": "DeepSeek官方App开放全套大模型API及联网搜索能力，其价格据称低于OpenAI和Claude同类服务，推动大模型API市场竞争与行业应用落地。",
     "tags": [
-      "xAI",
-      "Grok",
-      "API",
-      "工具调用",
-      "大模型平台"
+      "DeepSeek",
+      "大模型API",
+      "联网搜索",
+      "价格竞争"
     ],
     "source": "InfoQ 中文",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\xAI发布Grok_Skills并更新用于工具调用的Responses_API_b2ac526f8e20010d.md",
-    "fingerprint": "b2ac526f8e20010d"
+    "date": "2026-11-16",
+    "file": "01_行业地图/DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%_24452a7a8f001042.md",
+    "fingerprint": "24452a7a8f001042"
   },
   {
-    "title": "优步通过实时信号与Listwise排序改进餐厅推荐",
-    "url": "https://www.infoq.cn/article/yz1xWttyNqlIdBbF7GOR?utm_source=rss&utm_medium=article",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "Uber 分享其如何利用实时用户信号（如位置、浏览历史）与 Listwise 排序学习方法改进餐厅推荐系统，提升推荐相关性",
-    "tags": [
-      "推荐系统",
-      "排序学习",
-      "实时计算",
-      "O2O"
-    ],
-    "source": "InfoQ 中文",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\优步通过实时信号与Listwise排序改进餐厅推荐_176d44edaab45736.md",
-    "fingerprint": "176d44edaab45736"
-  },
-  {
-    "title": "从“机审+人审”到“AI-Native”：大模型与 Agent 驱动内容风控智能化升级｜AICon上海",
-    "url": "https://www.infoq.cn/article/qTF6xLMZmM5vJe0L9twb?utm_source=rss&utm_medium=article",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "探讨互联网平台内容风控从传统「机审+人审」模式向「AI-Native」架构演进，分享大模型与Agent技术如何赋能内容审核的智能化升级，涉及具体技术路径和实践经验。",
-    "tags": [
-      "大模型",
-      "Agent",
-      "内容风控",
-      "AIGC安全",
-      "智能审核"
-    ],
-    "source": "InfoQ 中文",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\从“机审+人审”到“AI-Native”：大模型与_Agent_驱动内容风控智能化升级｜AICon上海_4137614df4989cb6.md",
-    "fingerprint": "4137614df4989cb6"
-  },
-  {
-    "title": "从Replika到HereAfter：海外数字永生产品已跑通三条路径，国内机会在哪？",
-    "url": "https://www.woshipm.com/ai/6417927.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "文章系统梳理了海外AI数字永生产品的发展现状，总结出三条商业化路径，并深入探讨技术实现、身份同一性及伦理挑战等核心问题，为理解AI在情感陪伴领域落地提供参考。",
-    "tags": [
-      "数字永生",
-      "情感AI",
-      "AI陪伴",
-      "Replika",
-      "LLM应用",
-      "行业分析"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\从Replika到HereAfter：海外数字永生产品已跑通三条路径，国内机会在哪？_caa5fb119f25c5a0.md",
-    "fingerprint": "caa5fb119f25c5a0"
-  },
-  {
-    "title": "B端AI上线后没人用，问题可能不在模型",
-    "url": "https://www.woshipm.com/ai/6413943.html",
-    "industry": "制造",
-    "asset_type": "行业洞察",
-    "summary": "文章剖析B端AI产品上线后用户不愿使用的核心原因，指出问题往往不在模型能力，而是AI未能降低用户完成工作的总成本。具体分析数据来源透明化、结果可编辑性、风险分级机制等九大痛点，探讨如何让AI真正融入业务流程而非沦为摆设。",
-    "tags": [
-      "B端AI",
-      "产品落地",
-      "用户体验",
-      "企业应用",
-      "痛点分析"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\B端AI上线后没人用，问题可能不在模型_9037bed520234be0.md",
-    "fingerprint": "9037bed520234be0"
-  },
-  {
-    "title": "七家诊所找了三个月，没找到「变美」的标签-深度学习和监督学习，各自能做什么",
-    "url": "https://www.woshipm.com/ai/6417848.html",
-    "industry": "医疗",
-    "asset_type": "行业洞察",
-    "summary": "文章以成都某医美连锁客户寻找AI解决方案的真实需求为切入点，分析深度学习在皮肤检测（图像识别）上的成熟应用，与监督学习在治疗方案推荐（效果标签难以定义）上的困境，探讨AI在医美行业的实际价值边界与落地局限。",
-    "tags": [
-      "医美",
-      "深度学习",
-      "监督学习",
-      "皮肤检测",
-      "AI落地",
-      "行业洞察"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\七家诊所找了三个月，没找到「变美」的标签-深度学习和监督学习，各自能做什么_4458979ca203c771.md",
-    "fingerprint": "4458979ca203c771"
-  },
-  {
-    "title": "保利威直播官方Skill支持WorkBuddy调用，对话式运营管理企业直播",
-    "url": "https://www.woshipm.com/ai/6418019.html",
-    "industry": "文娱",
+    "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+    "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+    "industry": "零售",
     "asset_type": "案例-成功",
-    "summary": "保利威官方Skill上线WorkBuddy生态，用户可通过自然语言对话完成直播创建、频道配置、权限管理、商品上架、营销表单创建、数据统计等操作，实现从传统系统操作到对话执行的体验升级。",
-    "tags": [
-      "企业直播",
-      "AI对话",
-      "Skill生态",
-      "工作流自动化",
-      "SaaS"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\保利威直播官方Skill支持WorkBuddy调用，对话式运营管理企业直播_a59c19f5f730aa61.md",
-    "fingerprint": "a59c19f5f730aa61"
-  },
-  {
-    "title": "数据产品的 AI 实践1：在不确定中寻找确定",
-    "url": "https://www.woshipm.com/share/6417948.html",
-    "industry": "制造",
-    "asset_type": "行业洞察",
-    "summary": "文章探讨AI编程工具（如Claude）在数据部门的应用实践。作者指出当前数据仓库仍采用传统手写代码方式，通过对比前端80%的AI代码覆盖率，验证了AI生成SQL指标的可行性，同时揭示了元数据管理不完善等数据治理问题，说明AI应用正在倒逼企业数据基建升级。",
-    "tags": [
-      "AI coding",
-      "数据治理",
-      "Claude",
-      "SQL生成",
-      "数据仓库",
-      "企业数字化"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\数据产品的_AI_实践1：在不确定中寻找确定_ffa5d67e0b09ecfd.md",
-    "fingerprint": "ffa5d67e0b09ecfd"
-  },
-  {
-    "title": "AI 助手分裂成两个物种，腾讯的Marvis 押对了",
-    "url": "https://www.woshipm.com/ai/6417924.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "文章深度体验腾讯AI工具Marvis，该产品突破传统对话框交互模式，可直接操控操作系统完成文件管理、软件安装等复杂任务。揭示AI竞争焦点正从「智商」转向「动手能力」，背后有微软、英特尔等技术加持，是下一代AI助手的重要探索。",
+    "summary": "Yelp 的 AI 助手采用原生 UI 与服务端驱动 UI 相融合的交互架构，支持餐饮本地生活场景中的智能化服务体验。",
     "tags": [
       "AI助手",
-      "数字助手",
-      "操作系统操控",
-      "腾讯",
-      "产品体验",
-      "AI进化趋势"
+      "本地生活",
+      "服务端驱动UI",
+      "产品架构"
     ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\AI_助手分裂成两个物种，腾讯的Marvis_押对了_a0c76e2cd973692a.md",
-    "fingerprint": "a0c76e2cd973692a"
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Yelp_AI_助手融合原生_UI_与服务端驱动_UI_672c5fb3b1f1702b.md",
+    "fingerprint": "672c5fb3b1f1702b"
   },
   {
-    "title": "微信开放A2A，交互的背后藏着设计师都在关注的未来趋势",
-    "url": "https://www.woshipm.com/ai/6415783.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "微信与手机厂商合作开放A2A（Agent-to-Agent）智能体互联能力，让手机AI语音助手可直接调用微信核心功能（发消息、打视频等），实现从\"点按\"到\"对话\"的交互方式转变，这是AI Agent在社交场景落地的具体案例。",
-    "tags": [
-      "AI Agent",
-      "A2A协议",
-      "微信生态",
-      "交互设计",
-      "语音助手",
-      "智能终端"
-    ],
-    "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\微信开放A2A，交互的背后藏着设计师都在关注的未来趋势_d8c9e0d133586e44.md",
-    "fingerprint": "d8c9e0d133586e44"
-  },
-  {
-    "title": "信任阶梯：如何让用户敢把任务交给 Agent",
-    "url": "https://www.woshipm.com/ai/6415576.html",
+    "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+    "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
     "industry": "未分类",
     "asset_type": "行业洞察",
-    "summary": "探讨AI Agent产品中用户信任建立的难题，提出信任校准、阶梯授权与边界感知三大机制，通过GitLab等案例揭示过度自动化与信任不足的双重陷阱，给出可复用的自主权分级框架，为Agent产品设计提供参考。",
+    "summary": "介绍 AI 系统如何通过 Skill 定义、执行 Harness 与模型训练评估反馈形成自我进化闭环，涵盖智能体能力沉淀与自动化评估的工程实践路径。",
     "tags": [
       "AI Agent",
-      "用户信任",
-      "产品设计",
-      "人机交互",
-      "自动化",
-      "阶梯授权"
+      "自我进化",
+      "模型训练",
+      "模型评估",
+      "工程实践"
+    ],
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "01_行业地图/闭环_AI_自我进化：从_Skill、Harness_到模型训练与评估｜AICon北京_8061b382b0702e44.md",
+    "fingerprint": "8061b382b0702e44"
+  },
+  {
+    "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+    "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "GitLab 19.5 将智能体开发整合进 DevOps 平台，强化 AI 智能体的开发、治理与运维能力。",
+    "tags": [
+      "AI智能体",
+      "DevOps",
+      "软件工程",
+      "平台治理"
+    ],
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "01_行业地图/GitLab_19.5_发布，将智能体开发纳入可治理的_DevOps_平台能力_4b223d5c4d0f6c01.md",
+    "fingerprint": "4b223d5c4d0f6c01"
+  },
+  {
+    "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+    "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Inkitt 采用较简单的模型自动生成 PR，并通过工程机制处理 Webhook 重复、CI 失败及合并冲突。",
+    "tags": [
+      "AI编程",
+      "自动生成PR",
+      "软件工程",
+      "大模型应用"
+    ],
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/AI_自动写_PR，模型反而最简单：Inkitt_如何应对_Webhook_重复、CI_失败与合并冲突_d5f453eaefb6e640.md",
+    "fingerprint": "d5f453eaefb6e640"
+  },
+  {
+    "title": "智能互动 Agent 在快手商业场景的落地实践",
+    "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "介绍快手商业场景中智能互动Agent的实践路径、应用能力与落地价值，为广告及商业化中的Agent应用提供案例参考。",
+    "tags": [
+      "快手",
+      "智能体",
+      "商业化",
+      "Agent落地"
+    ],
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/智能互动_Agent_在快手商业场景的落地实践_cfac44b3ce78f27e.md",
+    "fingerprint": "cfac44b3ce78f27e"
+  },
+  {
+    "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+    "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "Edera 将 AI 智能体安全隔离提升至虚拟机监控器层，以弥补容器隔离在恶意代码防御与运行权限控制方面的不足。",
+    "tags": [
+      "AI智能体",
+      "安全隔离",
+      "虚拟机监控器",
+      "沙箱安全"
+    ],
+    "source": "InfoQ 中文",
+    "date": "2026-11-16",
+    "file": "01_行业地图/容器隔离还不够：Edera_从虚拟机监控器层限制_AI_智能体_00485c346ee8a567.md",
+    "fingerprint": "00485c346ee8a567"
+  },
+  {
+    "title": "WorkBuddy首发接入混元Hy4 flash，又快又省！",
+    "url": "https://www.woshipm.com/ai/6494450.html",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "腾讯混元发布 Hy4 flash 模型并接入办公 AI 助手 WorkBuddy，224B 总参数仅激活 12B，解码超 150 tps，输入价每百万 Token 0.5 元，经 WorkIndex 内部评测与 85 人盲测验证真实办公任务效果。",
+    "tags": [
+      "腾讯混元",
+      "WorkBuddy",
+      "大模型产品",
+      "办公助手",
+      "MoE",
+      "推理成本"
     ],
     "source": "人人都是产品经理",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\信任阶梯：如何让用户敢把任务交给_Agent_6595927e08d39aca.md",
-    "fingerprint": "6595927e08d39aca"
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/WorkBuddy首发接入混元Hy4_flash，又快又省！_0f4ee93efb2e0477.md",
+    "fingerprint": "0f4ee93efb2e0477"
   },
   {
-    "title": "阿里发布视频生成模型HappyHorse 1.1：五大维度全面升级",
-    "url": "https://www.leiphone.com/category/industrynews/dDawO7xmw3NKpAb9.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "阿里巴巴于6月22日发布视频生成模型HappyHorse 1.1，较1.0版本在动态表现力、主体一致性、指令遵循、视觉质感和音频能力五大维度进行系统性升级，针对动作迟缓、节奏不足等问题进行了优化，提升了运动建模与时序一致性能力。",
-    "tags": [
-      "视频生成",
-      "阿里大模型",
-      "AIGC",
-      "多模态模型",
-      "HappyHorse"
-    ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\阿里发布视频生成模型HappyHorse_1.1：五大维度全面升级_2cf0604082856794.md",
-    "fingerprint": "2cf0604082856794"
-  },
-  {
-    "title": "AI黑客越来越凶？奇安信推出AI时代的全栈式产品矩阵",
-    "url": "https://www.leiphone.com/category/industrynews/Qf46ogEyAl3ohR5s.html",
-    "industry": "政务",
+    "title": "Qwen4-Max首发上线千问AI平台，API服务、Token Plan同步开放",
+    "url": "https://www.woshipm.com/ai/6494397.html",
+    "industry": "未分类",
     "asset_type": "案例-成功",
-    "summary": "奇安信发布AI时代全栈式安全产品矩阵，回应黑客用AI批量攻击新威胁。首发「威胁分析数字专家」以「对话即研判」为核心，覆盖IOC研判、样本归因、APT分析等场景。董事长齐向东指出AI武器化风险扩散，政企需建设「三位一体」内生安全纵深防御体系。",
+    "summary": "阿里发布Qwen4-Max，支持百万上下文与原生视觉，并以更低Token成本上线千问平台API，覆盖产线建模、材料发现和智能体调度等场景。",
     "tags": [
-      "网络安全",
-      "AI防御",
-      "威胁检测",
-      "智能安全",
-      "大模型安全"
+      "Qwen4-Max",
+      "千问AI平台",
+      "大模型API",
+      "MoE",
+      "智能体"
     ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\AI黑客越来越凶？奇安信推出AI时代的全栈式产品矩阵_fd5a381f8742444d.md",
-    "fingerprint": "fd5a381f8742444d"
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Qwen4-Max首发上线千问AI平台，API服务、Token_Plan同步开放_0947744c9c38e523.md",
+    "fingerprint": "0947744c9c38e523"
   },
   {
-    "title": "Robotaxi匍匐前进十年：烧掉千亿后，终于要赚钱了？",
-    "url": "https://www.leiphone.com/category/transportation/pb4PRACFvXFd32lY.html",
-    "industry": "物流",
+    "title": "李彦宏：AI 的下一幕“智能组织”，这是什么东西？",
+    "url": "https://www.woshipm.com/ai/6494348.html",
+    "industry": "未分类",
     "asset_type": "行业洞察",
-    "summary": "文章回顾Robotaxi十年发展历程，从2021年前资本热潮到2024年行业寒冬，再到2025年回暖。小马智行宣布广深单城盈利并计划2030年车队扩至10万辆；哈啰、Momenta等新玩家入局；国内市场Robotaxi融资超57亿元。文章同时呈现了行业对L4级自动驾驶商业模式的争议与反思。",
+    "summary": "百度将企业 Agent 系统拆为消息入口、调度、执行和任务巡检四层，重点解决超期、中断及跨成员交接后的任务连续性。",
     "tags": [
-      "Robotaxi",
-      "自动驾驶",
-      "无人驾驶",
-      "商业化",
-      "出行",
-      "小马智行"
-    ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\Robotaxi匍匐前进十年：烧掉千亿后，终于要赚钱了？_8936413b1ac2d6d6.md",
-    "fingerprint": "8936413b1ac2d6d6"
-  },
-  {
-    "title": "LiblibAI 母公司完成近 3 亿美元融资：AI 应用层开始进入「收入说话」的阶段",
-    "url": "https://www.leiphone.com/category/ai/M6tymyAI0col1cpj.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "AI 图像生成平台 LiblibAI 母公司完成近 3 亿美元融资，由天使投资者王小川参与。本轮融资显示 AI 应用层正从单纯技术竞争转向商业化验证阶段，平台收入能力成为核心评估指标。",
-    "tags": [
-      "AI应用",
-      "图像生成",
-      "融资",
-      "商业化",
-      "AIGC"
-    ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\LiblibAI_母公司完成近_3_亿美元融资：AI_应用层开始进入「收入说话」的阶段_a8999add854add86.md",
-    "fingerprint": "a8999add854add86"
-  },
-  {
-    "title": "Claude Code 修了几个小 bug，却揭开了 Agent 落地的大麻烦",
-    "url": "https://www.leiphone.com/category/ai/Fkjtf266Ai0l43XB.html",
-    "industry": "文娱",
-    "asset_type": "行业洞察",
-    "summary": "文章以 Anthropic 的 Claude Code 在修复 bug 过程中的发现为切入点，深入剖析 AI Agent 在实际软件开发和代码维护场景中面临的技术挑战，包括上下文管理、任务分解、多步骤推理等方面的局限性，为 AI 编程工具的工程落地提供有价值的实践洞察。",
-    "tags": [
-      "Claude",
-      "Claude Code",
-      "Anthropic",
       "AI Agent",
-      "软件开发",
-      "编程工具",
-      "工程落地"
+      "智能组织",
+      "任务调度",
+      "企业实践"
     ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\Claude_Code_修了几个小_bug，却揭开了_Agent_落地的大麻烦_a7d1e24f8cdff36f.md",
-    "fingerprint": "a7d1e24f8cdff36f"
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "01_行业地图/李彦宏：AI_的下一幕“智能组织”，这是什么东西？_42620bdf36fc7fe5.md",
+    "fingerprint": "42620bdf36fc7fe5"
   },
   {
-    "title": "AI 太烧钱！微软选择「倒戈」DeepSeek",
-    "url": "https://www.leiphone.com/category/ai/66F6EZoPUvuBgKtF.html",
-    "industry": "制造",
-    "asset_type": "行业洞察",
-    "summary": "据报道微软在AI成本压力下选择采用DeepSeek开源模型，反映大厂在AI落地中对成本控制的考量，透露AI行业从盲目追求大模型向务实应用转型的信号。",
+    "title": "实测豆包“找店”：地图标注、团购下单和导航在一页完成",
+    "url": "https://www.woshipm.com/ai/6494326.html",
+    "industry": "零售",
+    "asset_type": "案例-成功",
+    "summary": "豆包App推出“找店”，可在对话中检索附近店铺并标注地图，支持查看营业状态与团购券、下单及一键导航。",
     "tags": [
-      "微软",
+      "豆包",
+      "AI助手",
+      "本地生活",
+      "地图找店",
+      "团购"
+    ],
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/实测豆包“找店”：地图标注、团购下单和导航在一页完成_0dadb56de4b1be93.md",
+    "fingerprint": "0dadb56de4b1be93"
+  },
+  {
+    "title": "这些AI手搓的几百K的3D世界，正在让HTML再次伟大。",
+    "url": "https://www.woshipm.com/ai/6494320.html",
+    "industry": "文娱",
+    "asset_type": "案例-成功",
+    "summary": "AI辅助开发纯HTML 3D游戏，以代码生成模型、雨效和音效，在约1.4MB单文件中实现接近3A的交互画面。",
+    "tags": [
+      "AI编程",
+      "HTML游戏",
+      "3D生成",
+      "Three.js"
+    ],
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/这些AI手搓的几百K的3D世界，正在让HTML再次伟大。_1d773ec7976bc623.md",
+    "fingerprint": "1d773ec7976bc623"
+  },
+  {
+    "title": "AI搜索开战，巨头争夺的不只是答案",
+    "url": "https://www.woshipm.com/it/6494297.html",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "腾讯、阿里、字节等巨头布局AI搜索，竞争焦点正从答案生成转向交易入口、开发者服务及商业化与信任平衡。",
+    "tags": [
+      "AI搜索",
+      "大模型应用",
+      "产品布局",
+      "商业化",
+      "行业竞争"
+    ],
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "01_行业地图/AI搜索开战，巨头争夺的不只是答案_c325e87939685d8f.md",
+    "fingerprint": "c325e87939685d8f"
+  },
+  {
+    "title": "实测 Qwen4-Max-Preview：放弃刷榜，全面倒向重度编程与 Agent，阿里 AI 走向务实",
+    "url": "https://www.woshipm.com/evaluating/6494229.html",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "实测 Qwen4-Max-Preview 后显示其重点转向重度编程、Agent 与办公内容生成，擅长带公式 Excel、可编辑 PPT 和多轮修改，并推动商业模式从模型售卖转向订阅服务。",
+    "tags": [
+      "Qwen4",
+      "阿里云",
+      "大模型产品",
+      "Agent",
+      "重度编程",
+      "办公场景"
+    ],
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "01_行业地图/实测_Qwen4-Max-Preview：放弃刷榜，全面倒向重度编程与_Agent，阿里_AI_走向务实_d52fd68211fc9265.md",
+    "fingerprint": "d52fd68211fc9265"
+  },
+  {
+    "title": "这个开源项目，让 AI Agent 拥有一台自己的 Mac 电脑",
+    "url": "https://www.woshipm.com/ai/6494316.html",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "terminal-mac 利用苹果虚拟化框架为 AI Agent 创建独立 macOS 虚拟机，使其拥有隔离的桌面和文件系统，避免操作本机时抢占鼠标、剪贴板或误删文件。",
+    "tags": [
+      "AI Agent",
+      "macOS虚拟化",
+      "沙箱隔离",
+      "Claude Code",
+      "开源项目"
+    ],
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/这个开源项目，让_AI_Agent_拥有一台自己的_Mac_电脑_8570480ca3bfa9e3.md",
+    "fingerprint": "8570480ca3bfa9e3"
+  },
+  {
+    "title": "1:1 复刻 DeepSeek App，实测，有差距！",
+    "url": "https://www.woshipm.com/ai/6494311.html",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "通过本地部署 DeepSeek 开源聊天 Demo，复现登录、联网搜索、深度思考、文件及语音能力，并对比官方 App 在工具链路和成本上的差异。",
+    "tags": [
       "DeepSeek",
-      "成本优化",
-      "开源模型",
-      "AI落地"
+      "大模型应用",
+      "API",
+      "开源Demo",
+      "产品复刻"
     ],
-    "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\AI_太烧钱！微软选择「倒戈」DeepSeek_a9e65e928f84734f.md",
-    "fingerprint": "a9e65e928f84734f"
+    "source": "人人都是产品经理",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/1_1_复刻_DeepSeek_App，实测，有差距！_d76dd5d99a0b5ff5.md",
+    "fingerprint": "d76dd5d99a0b5ff5"
   },
   {
-    "title": "从代码到产线：恩和发布 BPL 协议语言，定义生物制造的“工业级编译器”",
-    "url": "https://www.leiphone.com/category/industrynews/YWWglepflccEwGzS.html",
-    "industry": "制造",
+    "title": "模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型",
+    "url": "https://www.leiphone.com/category/industrynews/tDhzNl3D84AjopSh.html",
+    "industry": "未分类",
     "asset_type": "行业洞察",
-    "summary": "恩和科技在 bioRxiv 发布 BPL（Biology Protocol Language）及其生成管线 BPL-COGEN，首次为生物实验协议建立形式化语言体系，旨在打通 Physical AI 进入物理世界的标准接口，为生物制造提供类似编译器的标准化工具。",
+    "summary": "千问办公新增Qwen4-Max、Kimi、GLM、DeepSeek、MiniMax等10款模型，满足不同Agent任务对效果、速度及成本的需求。",
     "tags": [
-      "生物制造",
-      "协议语言",
-      "AI工具",
-      "Physical AI",
-      "bioRxiv"
+      "千问办公",
+      "大模型选型",
+      "Agent",
+      "企业办公"
     ],
     "source": "雷锋网",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\从代码到产线：恩和发布_BPL_协议语言，定义生物制造的“工业级编译器”_3647645fa90a7161.md",
-    "fingerprint": "3647645fa90a7161"
+    "date": "2026-11-16",
+    "file": "01_行业地图/模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型_52eca4e22f6e2321.md",
+    "fingerprint": "52eca4e22f6e2321"
   },
   {
-    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "title": "百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径",
+    "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html",
+    "industry": "金融",
+    "asset_type": "案例-成功",
+    "summary": "度小满在百度世界2026展示“轩辕”，面向中小金融机构提供可控成本、可融入风控与信审等流程的金融AI能力。",
+    "tags": [
+      "金融AI",
+      "度小满",
+      "轩辕",
+      "大模型",
+      "中小金融机构"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径_11623054f00969c4.md",
+    "fingerprint": "11623054f00969c4"
+  },
+  {
+    "title": "众筹超500万美元，全球首款多地形跟拍机器人Beni线下首发",
+    "url": "https://www.leiphone.com/category/weiwu/nFSVApZT1GmSFH9T.html",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "妙动科技推出多地形消费级跟拍机器人Beni，在Kickstarter获7926人支持、众筹超500万美元，并在中国线下门店首发销售。",
+    "tags": [
+      "具身智能",
+      "消费机器人",
+      "智能跟拍",
+      "产品落地",
+      "众筹"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/众筹超500万美元，全球首款多地形跟拍机器人Beni线下首发_f5a10429136fe967.md",
+    "fingerprint": "f5a10429136fe967"
+  },
+  {
+    "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+    "url": "https://www.leiphone.com/category/industrynews/TRw4D5Bw5HsTmC1G.html",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "阿里发布Qwen4-Max，具备原生视觉、百万上下文及智能体和编程能力，并上线千问平台API，可用于制造、游戏、金融投研和科研等长周期任务。",
+    "tags": [
+      "Qwen4",
+      "大模型",
+      "智能体",
+      "编程",
+      "API"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "01_行业地图/阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景_e3ba6bf8fc0748d6.md",
+    "fingerprint": "e3ba6bf8fc0748d6"
+  },
+  {
+    "title": "AI公司转型最难的一步：如何构建AI Native的产品体系",
+    "url": "https://www.leiphone.com/category/ai/pzBYjjLW3Cjb6AAO.html",
+    "industry": "金融",
+    "asset_type": "行业洞察",
+    "summary": "百望股份基于财税积累构建专业模型与智能体产品，以交易核对为例，将AI嵌入授权取数、差异识别、依据列出和人工确认等完整服务流程。",
+    "tags": [
+      "AI Native",
+      "智能体",
+      "财税",
+      "交易核对",
+      "产品交付"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "01_行业地图/AI公司转型最难的一步：如何构建AI_Native的产品体系_c64d80e74a0cf61b.md",
+    "fingerprint": "c64d80e74a0cf61b"
+  },
+  {
+    "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
+    "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "百度发布大模型交易平台“词元所”，首日新增超100家供应商和超1000家客户，并提供模型验真、能力测试、信用评级与实时监测。",
+    "tags": [
+      "大模型交易平台",
+      "模型服务",
+      "模型验真",
+      "信用评级",
+      "百度"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/百度词元所发布首日：供应商暴增超100家，客户新增超1000家_284ec953e5c3ca19.md",
+    "fingerprint": "284ec953e5c3ca19"
+  },
+  {
+    "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
+    "url": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html",
+    "industry": "金融",
+    "asset_type": "行业洞察",
+    "summary": "中金公司与蚂蚁集团签署战略合作，将围绕金融大模型技术创新、AI赋能财富管理及客户全生命周期服务探索“AI+金融”落地。",
+    "tags": [
+      "金融大模型",
+      "财富管理",
+      "战略合作",
+      "智能体"
+    ],
+    "source": "雷锋网",
+    "date": "2026-11-16",
+    "file": "01_行业地图/中金公司与蚂蚁集团达成战略合作_共探AI赋能财富管理_d0974aa3e78cd50e.md",
+    "fingerprint": "d0974aa3e78cd50e"
+  },
+  {
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
     "industry": "制造",
     "asset_type": "案例-成功",
-    "summary": "三星电子在全球范围内部署ChatGPT Enterprise和Codex，成为OpenAI最大规模的企业级AI部署之一。该部署面向三星全球员工，旨在提升工作效率和生产力，标志着AI工具在大型制造企业中的规模化应用落地。",
+    "summary": "介绍如何利用英伟达 SimReady 资产搭建机器人抓取与放置仿真环境，涵盖机器人感知、规划及场景交互流程。",
     "tags": [
-      "ChatGPT Enterprise",
-      "Codex",
-      "企业AI部署",
-      "三星",
-      "制造业转型"
+      "机器人仿真",
+      "具身智能",
+      "抓取放置",
+      "NVIDIA SimReady"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Build_a_Robot_Pick-and-Place_Simulation_with_SimReady_Assets_5160d773b870ec81.md",
+    "fingerprint": "5160d773b870ec81"
+  },
+  {
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "llama.cpp发布1.0.0版本，强化跨平台本地大模型推理、模型转换与部署能力，支撑端侧及私有化AI应用生态。",
+    "tags": [
+      "大模型",
+      "本地部署",
+      "推理框架",
+      "端侧AI",
+      "开源项目"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "01_行业地图/llama.cpp_v1.0.0___A_stronger_foundation_for_the_local_AI_ec_b7467864d0c35598.md",
+    "fingerprint": "b7467864d0c35598"
+  },
+  {
+    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+    "url": "https://huggingface.co/blog/qvac/botpsy",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "BotPsy是一款端侧个人助手项目，采用不足十亿参数的智能体语言模型，在本地设备上完成个人助理相关任务。",
+    "tags": [
+      "端侧AI",
+      "个人助手",
+      "智能体",
+      "小参数模型"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/BotPsy__On-Device_Personal_Assistant_with_a_Sub-Billion-Para_b218802e6cb2a6a9.md",
+    "fingerprint": "b218802e6cb2a6a9"
+  },
+  {
+    "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+    "url": "https://huggingface.co/blog/token-pooling",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "介绍面向多向量嵌入模型的 Token Pooling 感知训练方法，通过改进池化策略提升嵌入模型在信息检索等场景中的效果。",
+    "tags": [
+      "多向量嵌入",
+      "Token Pooling",
+      "检索增强",
+      "模型训练"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "01_行业地图/Token_Pooling-Aware_Training_for_Multi-Vector_Embedding_Mode_aa7ae96b609254ed.md",
+    "fingerprint": "aa7ae96b609254ed"
+  },
+  {
+    "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+    "url": "https://huggingface.co/blog/phonon-tts",
+    "industry": "文娱",
+    "asset_type": "案例-成功",
+    "summary": "Phonon TTS 面向端侧部署的高质量语音生成方案，强调在设备本地运行并达到领先基准表现。",
+    "tags": [
+      "TTS",
+      "端侧AI",
+      "语音生成",
+      "大模型"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/A_Closer_Look_at_Phonon_TTS._Launching_High-Quality_On-Devic_05e6d4fb7af61579.md",
+    "fingerprint": "05e6d4fb7af61579"
+  },
+  {
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Dharma Field Extractor 将非结构化文档中的关键字段自动提取并转换为 JSON，可应用于跨行业的文档处理与信息抽取场景。",
+    "tags": [
+      "文档解析",
+      "信息抽取",
+      "结构化输出",
+      "JSON",
+      "多模态AI"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Dharma_Field_Extractor__Any_Document_In,_Structured_Fields_i_f29a2c21896b3b20.md",
+    "fingerprint": "f29a2c21896b3b20"
+  },
+  {
+    "title": "Palette: teaching a small model to build decks in your design language",
+    "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Palette通过训练小型模型生成符合企业设计语言的演示文稿，并支持基于品牌规范自动设计幻灯片。",
+    "tags": [
+      "IBM Research",
+      "Palette",
+      "小模型",
+      "演示文稿生成",
+      "设计语言"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Palette__teaching_a_small_model_to_build_decks_in_your_desig_fdaf712aa1bfcc0f.md",
+    "fingerprint": "fdaf712aa1bfcc0f"
+  },
+  {
+    "title": "CWE-bench v2: More coverage, quality, and transparency",
+    "url": "https://huggingface.co/blog/cwe-bench",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "CWE-bench v2扩展了漏洞修复评测的覆盖范围、质量与透明度，可用于评估大模型及智能体在真实CVE修复中的表现。",
+    "tags": [
+      "大模型评测",
+      "软件安全",
+      "漏洞修复",
+      "CWE-bench"
+    ],
+    "source": "Hugging Face Blog",
+    "date": "2026-11-16",
+    "file": "01_行业地图/CWE-bench_v2__More_coverage,_quality,_and_transparency_d7061f097926d714.md",
+    "fingerprint": "d7061f097926d714"
+  },
+  {
+    "title": "Introducing ChatGPT Wallet",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "industry": "金融",
+    "asset_type": "案例-成功",
+    "summary": "ChatGPT Wallet支持ChatGPT Work、Codex等场景中的AI代理经用户批准后完成购买，并沿用银行卡安全保护。",
+    "tags": [
+      "AI代理",
+      "支付钱包",
+      "用户授权",
+      "OpenAI"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\Samsung_Electronics_brings_ChatGPT_and_Codex_to_employees_8f1f766367d241a6.md",
-    "fingerprint": "8f1f766367d241a6"
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Introducing_ChatGPT_Wallet_90ad7dcd47227dc1.md",
+    "fingerprint": "90ad7dcd47227dc1"
   },
   {
-    "title": "How Preply combines AI and human tutors to personalize learning",
-    "url": "https://openai.com/index/preply",
-    "industry": "教育",
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "industry": "未分类",
     "asset_type": "案例-成功",
-    "summary": "Preply 语言学习平台集成 OpenAI 技术，推出 AI 生成课程摘要功能，为学习者提供个性化反馈和语言练习，实现 AI 与人类导师协同教学的场景化应用",
+    "summary": "IT 服务商 Shield 使用 OpenAI 构建的 Forge 代理智能体，让代理自动操作遗留门户系统并完成工单交接，IT 技师仅处理需要人工判断的问题。",
+    "tags": [
+      "OpenAI",
+      "智能体",
+      "遗留系统",
+      "IT服务"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Shield_helps_technicians_hand_off_legacy_portal_work_with_Op_dc25e51aa45ba186.md",
+    "fingerprint": "dc25e51aa45ba186"
+  },
+  {
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Amplitude利用OpenAI模型打造主动型产品智能体Wave，自动识别功能改进方向、协同编码发布并衡量效果，使产品改进可在1至2天内完成。",
+    "tags": [
+      "OpenAI",
+      "Amplitude",
+      "产品智能体",
+      "软件研发",
+      "AI编码"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/How_Amplitude_ships_product_improvements_in_1–2_days_with_Op_bb0579bff0b6bea7.md",
+    "fingerprint": "bb0579bff0b6bea7"
+  },
+  {
+    "title": "Gondola doubles revenue as its team builds more with Codex",
+    "url": "https://openai.com/business/customer-stories/gondola",
+    "industry": "零售",
+    "asset_type": "案例-成功",
+    "summary": "创意服务平台 Gondola 通过 Codex 将首席工程师产出提升 50%，并利用 ChatGPT 简化日常工作流程。",
+    "tags": [
+      "Codex",
+      "ChatGPT",
+      "Gondola",
+      "研发提效",
+      "创意服务"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Gondola_doubles_revenue_as_its_team_builds_more_with_Codex_1150c6c684a73078.md",
+    "fingerprint": "1150c6c684a73078"
+  },
+  {
+    "title": "Holiday Extras is rethinking what it can build with Codex",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "industry": "零售",
+    "asset_type": "案例-成功",
+    "summary": "Holiday Extras 借助 Codex 沉淀客户经验、改进内部应用并提高预订转化，探索旅游预订业务增长。",
+    "tags": [
+      "Codex",
+      "软件开发",
+      "预订转化",
+      "旅游"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Holiday_Extras_is_rethinking_what_it_can_build_with_Codex_68f3859770927096.md",
+    "fingerprint": "68f3859770927096"
+  },
+  {
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Gilbert + Tobin 探讨如何利用AI重塑法律服务与商业模式，体现生成式AI在律所业务中的落地潜力。",
+    "tags": [
+      "法律服务",
+      "企业AI",
+      "生成式AI",
+      "律所转型"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Gilbert_+_Tobin_rethinks_the_business_of_law_with_AI_d14f8c75cfb06c17.md",
+    "fingerprint": "d14f8c75cfb06c17"
+  },
+  {
+    "title": "ChatGPT Plus for veterans and servicemembers",
+    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "industry": "政务",
+    "asset_type": "案例-成功",
+    "summary": "OpenAI向超2万名退伍及退役军人提供一年免费ChatGPT Plus，帮助其准备民用职业转换。",
+    "tags": [
+      "ChatGPT Plus",
+      "军人退役",
+      "职业转型",
+      "公共服务"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/ChatGPT_Plus_for_veterans_and_servicemembers_0040229a7754d7e1.md",
+    "fingerprint": "0040229a7754d7e1"
+  },
+  {
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "industry": "文娱",
+    "asset_type": "行业洞察",
+    "summary": "JioStar首席架构师分享面向5亿用户规模开展AI发现，并总结模型评测、安全护栏及生产部署经验。",
+    "tags": [
+      "JioStar",
+      "大规模AI应用",
+      "模型评测",
+      "安全护栏",
+      "生产部署"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "01_行业地图/JioStar’s_chief_architect_on_AI_discovery_at_500M-user_scale_43eace568ac4f1e9.md",
+    "fingerprint": "43eace568ac4f1e9"
+  },
+  {
+    "title": "Introducing Businesses in ChatGPT",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "industry": "未分类",
+    "asset_type": "行业洞察",
+    "summary": "OpenAI推出ChatGPT企业功能，帮助企业管理业务信息，了解品牌在ChatGPT中的展示情况，并将用户兴趣转化为业务行动。",
+    "tags": [
+      "ChatGPT",
+      "企业服务",
+      "产品发布",
+      "商业化"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "01_行业地图/Introducing_Businesses_in_ChatGPT_8145afce7c26a3b7.md",
+    "fingerprint": "8145afce7c26a3b7"
+  },
+  {
+    "title": "Closing the AI guidance gap in education",
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "industry": "教育",
+    "asset_type": "行业洞察",
+    "summary": "OpenAI结合ThinkYoung研究及其EMEA教育合作经验，探讨如何缩小教育AI应用差距，支持教师赋能、提升学生AI素养并促进自主学习。",
     "tags": [
       "AI教育",
-      "个性化学习",
-      "语言学习",
-      "OpenAI应用",
-      "人机协同"
+      "教师支持",
+      "AI素养",
+      "自主学习"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\How_Preply_combines_AI_and_human_tutors_to_personalize_learn_fbf669447adfc7ad.md",
-    "fingerprint": "fbf669447adfc7ad"
+    "date": "2026-11-16",
+    "file": "01_行业地图/Closing_the_AI_guidance_gap_in_education_1f6767c6fdb252d9.md",
+    "fingerprint": "1f6767c6fdb252d9"
   },
   {
-    "title": "BBVA puts AI at the core of banking with OpenAI",
-    "url": "https://openai.com/index/bbva",
-    "industry": "金融",
+    "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+    "url": "https://openai.com/index/singapore-airlines-travel-work",
+    "industry": "未分类",
     "asset_type": "案例-成功",
-    "summary": "BBVA将ChatGPT Enterprise规模化部署至全球10万名员工，与OpenAI深度合作加速AI驱动的银行业务转型，成为金融业企业级AI应用的标杆案例。",
+    "summary": "新加坡航空利用OpenAI模型和API优化客服、旅行发现及员工效率，其Kris聊天机器人客户满意度提升至原来的两倍。",
     "tags": [
-      "金融",
-      "企业级AI",
-      "ChatGPT",
       "OpenAI",
-      "数字化转型",
-      "内部赋能"
+      "新加坡航空",
+      "智能客服",
+      "聊天机器人",
+      "员工生产力"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\BBVA_puts_AI_at_the_core_of_banking_with_OpenAI_af53dae657373ea0.md",
-    "fingerprint": "af53dae657373ea0"
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Singapore_Airlines_elevates_travel_&_work_with_OpenAI_techno_0caf65d3b15f86b3.md",
+    "fingerprint": "0caf65d3b15f86b3"
   },
   {
-    "title": "How an astrophysicist uses Codex to help simulate black holes",
-    "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "industry": "文娱",
-    "asset_type": "案例-成功",
-    "summary": "OpenAI 发布天体物理学家 Chi-kwan Chan 使用 Codex AI 编程助手辅助构建黑洞模拟程序的案例，展示 AI 工具在极端物理学研究和爱因斯坦广义相对论验证中的实际应用价值。",
-    "tags": [
-      "AI工具",
-      "科学研究",
-      "黑洞模拟",
-      "Codex",
-      "OpenAI",
-      "物理学"
-    ],
-    "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\How_an_astrophysicist_uses_Codex_to_help_simulate_black_hole_92149e932fe491d9.md",
-    "fingerprint": "92149e932fe491d9"
-  },
-  {
-    "title": "OpenAI to acquire Ona",
-    "url": "https://openai.com/index/openai-to-acquire-ona",
+    "title": "Work at the Frontier: AI’s effect on freelance work",
+    "url": "https://openai.com/index/ai-effect-on-freelance-work",
     "industry": "未分类",
     "asset_type": "行业洞察",
-    "summary": "OpenAI 宣布收购 Ona 公司，旨在通过 Ona 的安全持久云环境技术扩展 Codex 产品能力，使 AI 代理能够在企业工作流中长时间连续运行，提升企业级 AI 应用体验。",
+    "summary": "OpenAI与Upwork研究显示，AI正重塑自由职业市场，推动需求与技能组合变化，并扩大AI相关项目的预算和工时。",
     "tags": [
-      "OpenAI",
-      "Codex",
-      "企业AI",
-      "AI代理",
-      "收购"
+      "自由职业",
+      "劳动力市场",
+      "AI技能",
+      "Upwork"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\OpenAI_to_acquire_Ona_d2014eb9561d8322.md",
-    "fingerprint": "d2014eb9561d8322"
+    "date": "2026-11-16",
+    "file": "01_行业地图/Work_at_the_Frontier__AI’s_effect_on_freelance_work_c0b6b5e3f46e9854.md",
+    "fingerprint": "c0b6b5e3f46e9854"
   },
   {
-    "title": "PRC-linked influence operations are targeting AI debates in the US",
-    "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-    "industry": "政务",
-    "asset_type": "行业洞察",
-    "summary": "OpenAI发布安全报告，详细说明了与中国政府相关的影响力行动如何利用AI技术针对美国科技辩论、数据中心叙事、关税政策及ChatGPT虚假信息进行操作，属于AI安全与信息战领域的行业洞察。",
+    "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+    "url": "https://openai.com/index/cogent-security",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "Cogent将OpenAI模型与企业安全上下文结合，利用智能体自动发现、研判并修复漏洞，为企业构建网络安全防御能力。",
+    "tags": [
+      "网络安全",
+      "智能体",
+      "漏洞修复",
+      "企业安全",
+      "大模型应用"
+    ],
+    "source": "OpenAI Blog",
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Cogent_and_OpenAI_build_cyber_defense_factories_for_enterpri_4b41798e46134993.md",
+    "fingerprint": "4b41798e46134993"
+  },
+  {
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "url": "https://openai.com/index/control-room",
+    "industry": "未分类",
+    "asset_type": "案例-成功",
+    "summary": "OpenAI推出Control Room，用于集中追踪研究基础设施中的模型工作负载，并在出现安全或安保风险时快速停止任务。",
     "tags": [
       "AI安全",
-      "影响力行动",
-      "信息安全",
-      "OpenAI",
-      "虚假信息"
+      "模型治理",
+      "基础设施",
+      "任务停止"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "01_行业地图\\PRC-linked_influence_operations_are_targeting_AI_debates_in__350b406bc3b6305e.md",
-    "fingerprint": "350b406bc3b6305e"
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/Control_Room__A_central_system_to_track_and_stop_model_workl_e43d16c312fc0df5.md",
+    "fingerprint": "e43d16c312fc0df5"
   },
   {
-    "title": "From data to decisions: how LSEG is scaling trusted AI",
-    "url": "https://openai.com/index/lseg",
-    "industry": "金融",
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "url": "https://openai.com/index/coderabbit-codex-daybreak",
+    "industry": "未分类",
     "asset_type": "案例-成功",
-    "summary": "LSEG 作为全球金融数据基础设施提供商，与 OpenAI 合作将 AI 能力扩展至其全球业务，实现洞察加速、发布周期缩短，并赋能 4000 名员工使用可信 AI 技术进行决策。",
+    "summary": "CodeRabbit 利用 OpenAI 模型治理和验证 AI 生成代码，并结合 Codex 改造研发流程，在工程团队规模不变的情况下将软件交付量提升 20 倍。",
     "tags": [
-      "金融",
-      "OpenAI",
-      "企业AI落地",
-      "LLM应用",
-      "数据驱动决策"
-    ],
-    "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\From_data_to_decisions__how_LSEG_is_scaling_trusted_AI_5722d5b53cca4f2a.md",
-    "fingerprint": "5722d5b53cca4f2a"
-  },
-  {
-    "title": "How engineers at Nextdoor use Codex to build without limits",
-    "url": "https://openai.com/index/nextdoor",
-    "industry": "文娱",
-    "asset_type": "案例-成功",
-    "summary": "Nextdoor 工程师使用 OpenAI Codex 和 GPT-5.5 进行代码审查、调查难以复现的问题、跨平台构建开发，聚焦产品成果，提升工程效率。",
-    "tags": [
-      "AI编程工具",
-      "代码审查",
-      "开发者效率",
-      "社交平台"
-    ],
-    "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\How_engineers_at_Nextdoor_use_Codex_to_build_without_limits_b7e1f4e50a1893ff.md",
-    "fingerprint": "b7e1f4e50a1893ff"
-  },
-  {
-    "title": "What Codex unlocks for Notion",
-    "url": "https://openai.com/index/notion",
-    "industry": "文娱",
-    "asset_type": "案例-成功",
-    "summary": "OpenAI 官方博客详细介绍了 Notion 如何利用 Codex 实现一键生成代码规格文档、为网页构建 AI 语音输入功能，并帮助小型工程团队实现生产力倍增的具体实践。",
-    "tags": [
+      "AI编程",
+      "软件研发",
+      "CodeRabbit",
       "Codex",
-      "Notion",
-      "代码生成",
-      "AI开发工具",
-      "工程效率"
+      "OpenAI"
     ],
     "source": "OpenAI Blog",
-    "date": "2026-06-22",
-    "file": "06_案例库\\成功案例_v2\\What_Codex_unlocks_for_Notion_b8e0078b45a783c3.md",
-    "fingerprint": "b8e0078b45a783c3"
+    "date": "2026-11-16",
+    "file": "06_案例库/成功案例_v2/CodeRabbit_scales_agentic_software_development_and_ships_20x_d397a14a6960411a.md",
+    "fingerprint": "d397a14a6960411a"
   }
 ]

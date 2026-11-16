@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "title": "[内推] 南京 急招信息化工程师 / 系统开发 + AI 应用开发 / Go、 Python",
+    "url": "https://www.v2ex.com/t/1257410#reply1",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 3,
+    "summary": "南京企业招聘信息化及 AI 应用开发工程师，要求 Go、Python 等技能及 AI 应用、知识库或 Agent 开发经验。",
+    "tags": [
+      "南京招聘",
+      "AI应用开发",
+      "Go",
+      "Python",
+      "Agent"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-16",
+    "reason": "包含明确的南京 AI 应用开发招聘需求，但岗位偏工程交付而非 AI 产品经理，且单一内推信息的参考价值有限。",
+    "fingerprint": "02fe38eb54ffbd03"
+  },
+  {
+    "title": "闲聊聊到了我司当前接入 AI 的年度成本",
+    "url": "https://www.v2ex.com/t/1257169#reply56",
+    "signal_type_hint": "job_signal",
+    "signal_type": "industry_trend",
+    "signal_strength": 2,
+    "summary": "某企业称大模型调用支出已达部门年度工资支出的两至三成，盈利承压，并推测明年可能削减额度或裁员。",
+    "tags": [
+      "企业AI成本",
+      "模型API采购",
+      "潜在裁员",
+      "匿名一手经历"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-16",
+    "reason": "仅提供单一企业匿名估算，缺少可验证数据与招聘细节，但企业AI调用成本高企及潜在裁员可作为行业成本压力的弱信号。",
+    "fingerprint": "59503a9b9f0bba4e"
+  },
+  {
+    "title": "杭州本地求职，移动端开发，10 年经验，坐班或远程都可以。",
+    "url": "https://www.v2ex.com/t/1257403#reply4",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 2,
+    "summary": "一名有10年经验的杭州移动端开发者求职，熟悉 Codex、Claude Code、Cursor 与 MCP，愿坐班或远程。",
+    "tags": [
+      "杭州",
+      "移动端开发",
+      "AI辅助研发",
+      "人才供给"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-16",
+    "reason": "提供了杭州移动端开发人才的求职意向及 AI 辅助研发能力，但岗位并非 AI 产品经理或大模型岗位，对目标方向仅属弱相关。",
+    "fingerprint": "feeeaccc68ae0562"
+  },
+  {
+    "title": "[内推]20261116 渣打银行 广州 & 天津 | 64 个在招岗位",
+    "url": "https://www.v2ex.com/t/1257330#reply0",
+    "signal_type_hint": "job_signal",
+    "signal_type": "job_market",
+    "signal_strength": 4,
+    "summary": "渣打银行在广州、天津招聘64人，要求5年以上经验、硕士可放宽，英文面试，支持部分居家办公及15-20天年假。",
+    "tags": [
+      "渣打银行",
+      "社招",
+      "广州",
+      "天津",
+      "内推"
+    ],
+    "source": "V2EX 招聘频道（AI 相关）",
+    "date": "2026-11-16",
+    "reason": "渣打银行广州、天津合计64个在招岗位，披露了职级、经验学历要求及办公福利，信息密度较高，但摘要未明确AI岗位构成。",
+    "fingerprint": "752788fba8cc5cc9"
+  }
+]
