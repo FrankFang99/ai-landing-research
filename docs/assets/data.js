@@ -3,12 +3,12 @@
  * 格式：window.SITE_DATA = { generated_at, industries, latest, signals, stats }
  */
 window.SITE_DATA = {
-  "generated_at": "2026-06-22T17:42:48+08:00",
+  "generated_at": "2026-11-23T16:34:14+08:00",
   "stats": {
     "total_cases": 24,
     "industries_covered": 8,
-    "last_update": "2026-06-22",
-    "total_signals": 0
+    "last_update": "2026-11-23",
+    "total_signals": 9
   },
   "industries": [
     {
@@ -70,221 +70,312 @@ window.SITE_DATA = {
   ],
   "latest": [
     {
-      "title": "36氪首发 | 联想之星险峰联合领投，AI算力中心感知与效能管理方案商完成天使轮融资",
-      "url": "https://36kr.com/p/3863885024973832?f=rss",
-      "industry": "制造",
-      "summary": "芯感通完成数千万元天使轮融资，联想之星与险峰联合领投。公司聚焦AI算力基础设施中的电流与空间磁场感知领域，针对高密度、大电流场景下传统霍尔传感器噪声高、温漂大等痛点，提供精细化电源管理方案，本轮融资将用于芯片研发迭代与市场拓展。",
-      "source": "36氪",
-      "date": "2026-06-22",
-      "fingerprint": "5caf696af472cf9c"
-    },
-    {
-      "title": "xAI发布Grok Skills并更新用于工具调用的Responses API",
-      "url": "https://www.infoq.cn/article/hmME4JhKTJUYJy9DNEJ2?utm_source=rss&utm_medium=article",
+      "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
+      "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
       "industry": "未分类",
-      "summary": "xAI发布Grok Skills功能，允许用户自定义AI助手能力，并更新Responses API以支持更灵活的工具调用功能。这是Grok大模型平台的开发者能力扩展。",
+      "summary": "介绍百度智能云推动企业级Agent安全落地的实践，重点关注企业在大模型智能体应用中的安全风险与防护方法。",
       "source": "InfoQ 中文",
-      "date": "2026-06-22",
-      "fingerprint": "b2ac526f8e20010d"
+      "date": "2026-11-23",
+      "fingerprint": "0e69756ea2b37be0"
     },
     {
-      "title": "优步通过实时信号与Listwise排序改进餐厅推荐",
-      "url": "https://www.infoq.cn/article/yz1xWttyNqlIdBbF7GOR?utm_source=rss&utm_medium=article",
-      "industry": "文娱",
-      "summary": "Uber 分享其如何利用实时用户信号（如位置、浏览历史）与 Listwise 排序学习方法改进餐厅推荐系统，提升推荐相关性",
-      "source": "InfoQ 中文",
-      "date": "2026-06-22",
-      "fingerprint": "176d44edaab45736"
-    },
-    {
-      "title": "从“机审+人审”到“AI-Native”：大模型与 Agent 驱动内容风控智能化升级｜AICon上海",
-      "url": "https://www.infoq.cn/article/qTF6xLMZmM5vJe0L9twb?utm_source=rss&utm_medium=article",
-      "industry": "文娱",
-      "summary": "探讨互联网平台内容风控从传统「机审+人审」模式向「AI-Native」架构演进，分享大模型与Agent技术如何赋能内容审核的智能化升级，涉及具体技术路径和实践经验。",
-      "source": "InfoQ 中文",
-      "date": "2026-06-22",
-      "fingerprint": "4137614df4989cb6"
-    },
-    {
-      "title": "从Replika到HereAfter：海外数字永生产品已跑通三条路径，国内机会在哪？",
-      "url": "https://www.woshipm.com/ai/6417927.html",
-      "industry": "文娱",
-      "summary": "文章系统梳理了海外AI数字永生产品的发展现状，总结出三条商业化路径，并深入探讨技术实现、身份同一性及伦理挑战等核心问题，为理解AI在情感陪伴领域落地提供参考。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "caa5fb119f25c5a0"
-    },
-    {
-      "title": "B端AI上线后没人用，问题可能不在模型",
-      "url": "https://www.woshipm.com/ai/6413943.html",
-      "industry": "制造",
-      "summary": "文章剖析B端AI产品上线后用户不愿使用的核心原因，指出问题往往不在模型能力，而是AI未能降低用户完成工作的总成本。具体分析数据来源透明化、结果可编辑性、风险分级机制等九大痛点，探讨如何让AI真正融入业务流程而非沦为摆设。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "9037bed520234be0"
-    },
-    {
-      "title": "七家诊所找了三个月，没找到「变美」的标签-深度学习和监督学习，各自能做什么",
-      "url": "https://www.woshipm.com/ai/6417848.html",
-      "industry": "医疗",
-      "summary": "文章以成都某医美连锁客户寻找AI解决方案的真实需求为切入点，分析深度学习在皮肤检测（图像识别）上的成熟应用，与监督学习在治疗方案推荐（效果标签难以定义）上的困境，探讨AI在医美行业的实际价值边界与落地局限。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "4458979ca203c771"
-    },
-    {
-      "title": "保利威直播官方Skill支持WorkBuddy调用，对话式运营管理企业直播",
-      "url": "https://www.woshipm.com/ai/6418019.html",
-      "industry": "文娱",
-      "summary": "保利威官方Skill上线WorkBuddy生态，用户可通过自然语言对话完成直播创建、频道配置、权限管理、商品上架、营销表单创建、数据统计等操作，实现从传统系统操作到对话执行的体验升级。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "a59c19f5f730aa61"
-    },
-    {
-      "title": "数据产品的 AI 实践1：在不确定中寻找确定",
-      "url": "https://www.woshipm.com/share/6417948.html",
-      "industry": "制造",
-      "summary": "文章探讨AI编程工具（如Claude）在数据部门的应用实践。作者指出当前数据仓库仍采用传统手写代码方式，通过对比前端80%的AI代码覆盖率，验证了AI生成SQL指标的可行性，同时揭示了元数据管理不完善等数据治理问题，说明AI应用正在倒逼企业数据基建升级。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "ffa5d67e0b09ecfd"
-    },
-    {
-      "title": "AI 助手分裂成两个物种，腾讯的Marvis 押对了",
-      "url": "https://www.woshipm.com/ai/6417924.html",
-      "industry": "文娱",
-      "summary": "文章深度体验腾讯AI工具Marvis，该产品突破传统对话框交互模式，可直接操控操作系统完成文件管理、软件安装等复杂任务。揭示AI竞争焦点正从「智商」转向「动手能力」，背后有微软、英特尔等技术加持，是下一代AI助手的重要探索。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "a0c76e2cd973692a"
-    },
-    {
-      "title": "微信开放A2A，交互的背后藏着设计师都在关注的未来趋势",
-      "url": "https://www.woshipm.com/ai/6415783.html",
-      "industry": "文娱",
-      "summary": "微信与手机厂商合作开放A2A（Agent-to-Agent）智能体互联能力，让手机AI语音助手可直接调用微信核心功能（发消息、打视频等），实现从\"点按\"到\"对话\"的交互方式转变，这是AI Agent在社交场景落地的具体案例。",
-      "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "d8c9e0d133586e44"
-    },
-    {
-      "title": "信任阶梯：如何让用户敢把任务交给 Agent",
-      "url": "https://www.woshipm.com/ai/6415576.html",
+      "title": "安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍",
+      "url": "https://www.infoq.cn/article/pdjVKiH3ONYjePlUDufv?utm_source=rss&utm_medium=article",
       "industry": "未分类",
-      "summary": "探讨AI Agent产品中用户信任建立的难题，提出信任校准、阶梯授权与边界感知三大机制，通过GitLab等案例揭示过度自动化与信任不足的双重陷阱，给出可复用的自主权分级框架，为Agent产品设计提供参考。",
+      "summary": "安谋科技推出“星辰100e”AIoT原型平台，面向边缘智能场景，官方称AI推理性能最高可提升340倍。",
+      "source": "InfoQ 中文",
+      "date": "2026-11-23",
+      "fingerprint": "9ca87573d04c2a93"
+    },
+    {
+      "title": "亚马逊云科技推出Well-Architected Agent预览版",
+      "url": "https://www.infoq.cn/article/LQuPgS5lcFDMEKhZSP5d?utm_source=rss&utm_medium=article",
+      "industry": "未分类",
+      "summary": "亚马逊云科技推出Well-Architected Agent预览版，利用大模型代理辅助云架构设计、评估与优化。",
+      "source": "InfoQ 中文",
+      "date": "2026-11-23",
+      "fingerprint": "ed4b9ce89cdd0515"
+    },
+    {
+      "title": "专访 Canva Research 中国负责人元玉慧：Canva 为什么押注「先规划，再生成」？",
+      "url": "https://www.woshipm.com/share/6498506.html",
+      "industry": "文娱",
+      "summary": "Canva Craft 采用“先规划、再生成”架构，通过先生成布局方案再生成图像，改善文字排版、元素布局与后续编辑能力，并在 DesignArena 综合榜排名第四。",
       "source": "人人都是产品经理",
-      "date": "2026-06-22",
-      "fingerprint": "6595927e08d39aca"
+      "date": "2026-11-23",
+      "fingerprint": "b2870ae177ec3ab2"
     },
     {
-      "title": "阿里发布视频生成模型HappyHorse 1.1：五大维度全面升级",
-      "url": "https://www.leiphone.com/category/industrynews/dDawO7xmw3NKpAb9.html",
+      "title": "一张照片变成3D模型，这个中国团队不到两年做到了1亿美元年化收入",
+      "url": "https://www.woshipm.com/chuangye/6497548.html",
       "industry": "文娱",
-      "summary": "阿里巴巴于6月22日发布视频生成模型HappyHorse 1.1，较1.0版本在动态表现力、主体一致性、指令遵循、视觉质感和音频能力五大维度进行系统性升级，针对动作迟缓、节奏不足等问题进行了优化，提升了运动建模与时序一致性能力。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "2cf0604082856794"
+      "summary": "Meshy AI将照片或文字生成可编辑3D模型，通过提供可直接使用的模型资产实现商业化，年化收入由100万美元增至1亿美元。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "5e2b7320c5477fc3"
     },
     {
-      "title": "AI黑客越来越凶？奇安信推出AI时代的全栈式产品矩阵",
-      "url": "https://www.leiphone.com/category/industrynews/Qf46ogEyAl3ohR5s.html",
-      "industry": "政务",
-      "summary": "奇安信发布AI时代全栈式安全产品矩阵，回应黑客用AI批量攻击新威胁。首发「威胁分析数字专家」以「对话即研判」为核心，覆盖IOC研判、样本归因、APT分析等场景。董事长齐向东指出AI武器化风险扩散，政企需建设「三位一体」内生安全纵深防御体系。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "fd5a381f8742444d"
+      "title": "FDE看现场：用户说的和做的，为什么总是不一样",
+      "url": "https://www.woshipm.com/share/6498551.html",
+      "industry": "未分类",
+      "summary": "某大型企业AI项目中，FDE发现员工实际仍以纸质申请和线下审批为主，与流程文档及访谈描述不符，强调现场观察对识别真实业务流的重要性。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "3ff844185269c5ef"
     },
     {
-      "title": "Robotaxi匍匐前进十年：烧掉千亿后，终于要赚钱了？",
-      "url": "https://www.leiphone.com/category/transportation/pb4PRACFvXFd32lY.html",
-      "industry": "物流",
-      "summary": "文章回顾Robotaxi十年发展历程，从2021年前资本热潮到2024年行业寒冬，再到2025年回暖。小马智行宣布广深单城盈利并计划2030年车队扩至10万辆；哈啰、Momenta等新玩家入局；国内市场Robotaxi融资超57亿元。文章同时呈现了行业对L4级自动驾驶商业模式的争议与反思。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "8936413b1ac2d6d6"
-    },
-    {
-      "title": "LiblibAI 母公司完成近 3 亿美元融资：AI 应用层开始进入「收入说话」的阶段",
-      "url": "https://www.leiphone.com/category/ai/M6tymyAI0col1cpj.html",
-      "industry": "文娱",
-      "summary": "AI 图像生成平台 LiblibAI 母公司完成近 3 亿美元融资，由天使投资者王小川参与。本轮融资显示 AI 应用层正从单纯技术竞争转向商业化验证阶段，平台收入能力成为核心评估指标。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "a8999add854add86"
-    },
-    {
-      "title": "Claude Code 修了几个小 bug，却揭开了 Agent 落地的大麻烦",
-      "url": "https://www.leiphone.com/category/ai/Fkjtf266Ai0l43XB.html",
-      "industry": "文娱",
-      "summary": "文章以 Anthropic 的 Claude Code 在修复 bug 过程中的发现为切入点，深入剖析 AI Agent 在实际软件开发和代码维护场景中面临的技术挑战，包括上下文管理、任务分解、多步骤推理等方面的局限性，为 AI 编程工具的工程落地提供有价值的实践洞察。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "a7d1e24f8cdff36f"
-    },
-    {
-      "title": "AI 太烧钱！微软选择「倒戈」DeepSeek",
-      "url": "https://www.leiphone.com/category/ai/66F6EZoPUvuBgKtF.html",
-      "industry": "制造",
-      "summary": "据报道微软在AI成本压力下选择采用DeepSeek开源模型，反映大厂在AI落地中对成本控制的考量，透露AI行业从盲目追求大模型向务实应用转型的信号。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "a9e65e928f84734f"
-    },
-    {
-      "title": "从代码到产线：恩和发布 BPL 协议语言，定义生物制造的“工业级编译器”",
-      "url": "https://www.leiphone.com/category/industrynews/YWWglepflccEwGzS.html",
-      "industry": "制造",
-      "summary": "恩和科技在 bioRxiv 发布 BPL（Biology Protocol Language）及其生成管线 BPL-COGEN，首次为生物实验协议建立形式化语言体系，旨在打通 Physical AI 进入物理世界的标准接口，为生物制造提供类似编译器的标准化工具。",
-      "source": "雷锋网",
-      "date": "2026-06-22",
-      "fingerprint": "3647645fa90a7161"
-    },
-    {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "industry": "制造",
-      "summary": "三星电子在全球范围内部署ChatGPT Enterprise和Codex，成为OpenAI最大规模的企业级AI部署之一。该部署面向三星全球员工，旨在提升工作效率和生产力，标志着AI工具在大型制造企业中的规模化应用落地。",
-      "source": "OpenAI Blog",
-      "date": "2026-06-22",
-      "fingerprint": "8f1f766367d241a6"
-    },
-    {
-      "title": "How Preply combines AI and human tutors to personalize learning",
-      "url": "https://openai.com/index/preply",
-      "industry": "教育",
-      "summary": "Preply 语言学习平台集成 OpenAI 技术，推出 AI 生成课程摘要功能，为学习者提供个性化反馈和语言练习，实现 AI 与人类导师协同教学的场景化应用",
-      "source": "OpenAI Blog",
-      "date": "2026-06-22",
-      "fingerprint": "fbf669447adfc7ad"
-    },
-    {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "url": "https://openai.com/index/bbva",
+      "title": "2027 下个 AI 爆发点：Agent 平台",
+      "url": "https://www.woshipm.com/ai/6498399.html",
       "industry": "金融",
-      "summary": "BBVA将ChatGPT Enterprise规模化部署至全球10万名员工，与OpenAI深度合作加速AI驱动的银行业务转型，成为金融业企业级AI应用的标杆案例。",
-      "source": "OpenAI Blog",
-      "date": "2026-06-22",
-      "fingerprint": "af53dae657373ea0"
+      "summary": "John Suh判断通用Agent操作系统将重塑应用软件，并以会计师事务所协作差异为依据分析其落地路径。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "fda92d2843baf3d4"
     },
     {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "industry": "文娱",
-      "summary": "OpenAI 发布天体物理学家 Chi-kwan Chan 使用 Codex AI 编程助手辅助构建黑洞模拟程序的案例，展示 AI 工具在极端物理学研究和爱因斯坦广义相对论验证中的实际应用价值。",
-      "source": "OpenAI Blog",
-      "date": "2026-06-22",
-      "fingerprint": "92149e932fe491d9"
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "WorkBuddy玩命更新，一个月连上十大新功能",
+      "url": "https://www.woshipm.com/ai/6498475.html",
       "industry": "未分类",
-      "summary": "OpenAI 宣布收购 Ona 公司，旨在通过 Ona 的安全持久云环境技术扩展 Codex 产品能力，使 AI 代理能够在企业工作流中长时间连续运行，提升企业级 AI 应用体验。",
-      "source": "OpenAI Blog",
-      "date": "2026-06-22",
-      "fingerprint": "d2014eb9561d8322"
+      "summary": "腾讯WorkBuddy一个月上线电脑与浏览器控制、远程操控、数据迁移、思维导图等十大功能，并与豆包工作、千问办公展开激烈竞争。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "c6203b2dbf5ba132"
+    },
+    {
+      "title": "AI小游戏也能有朋友圈，AlterU想让你的分身走进别人的世界",
+      "url": "https://www.woshipm.com/ai/6498393.html",
+      "industry": "文娱",
+      "summary": "AlterU让玩家数字分身进入他人创作的小游戏，并通过角色互动与场景变化增强游戏留存和社交体验。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "4df1bfd39a51c070"
+    },
+    {
+      "title": "更强的记忆大模型来了：英伟达联手记忆张量，摆脱“孟婆汤”",
+      "url": "https://www.woshipm.com/ai/6498389.html",
+      "industry": "未分类",
+      "summary": "MemTensor与英伟达发布MemT 1.0 Pro，基于Nemotron 3 Ultra构建554B参数记忆模型，可持久存储交互轨迹并降低提示词负担。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "d4d8216138b10af1"
+    },
+    {
+      "title": "「微信小微」日活超3000万，我整理了20个最常用的使用场景！",
+      "url": "https://www.woshipm.com/ai/6498385.html",
+      "industry": "未分类",
+      "summary": "微信AI助理“小微”日活超3000万，已应用于提醒、链接总结、翻译、点单等日常场景。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "3b691f45629d8d9d"
+    },
+    {
+      "title": "不用抽卡也能做绘本动画和科普视频！超实用Skill分享。",
+      "url": "https://www.woshipm.com/ai/6498387.html",
+      "industry": "教育",
+      "summary": "作者将静态透明素材、代码动效渲染和自动音画对齐封装为Skill，用于生成角色稳定的绘本科普视频及带字幕的英语互动学习网页。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "44128e17856fe83f"
+    },
+    {
+      "title": "阿里推出AI助手类“Musetu”App，试水演唱会小众赛道",
+      "url": "https://www.woshipm.com/ai/6498404.html",
+      "industry": "文娱",
+      "summary": "阿里云推出Musetu，利用多模态能力将演唱会照片和视频一键生成卡点视频、拼图、漫画及社交文案，探索大模型在演出内容制作中的细分场景。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "f177b247f76b9781"
+    },
+    {
+      "title": "AI营销实战2：AI时代的消费者：一个正在被重塑的物种",
+      "url": "https://www.woshipm.com/marketing/6497530.html",
+      "industry": "零售",
+      "summary": "消费者正转向AI助手完成商品发现、比较和下单，品牌需适配AI评价与推荐机制，重构内容、投放和触达策略。",
+      "source": "人人都是产品经理",
+      "date": "2026-11-23",
+      "fingerprint": "d8f58c9d8c8fe56b"
+    },
+    {
+      "title": "蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康",
+      "url": "https://www.leiphone.com/category/industrynews/VK4viDe2WQp64rON.html",
+      "industry": "医疗",
+      "summary": "蚂蚁称AI正推动健康管理从千人一方转向一人一方，其阿福服务已有1.5亿用户，并发布AI健康戒指。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "32a06c03bad522e0"
+    },
+    {
+      "title": "蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定",
+      "url": "https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html",
+      "industry": "医疗",
+      "summary": "蚂蚁阿福升级实时视频问诊、健康管理及硬件数据监测能力，并以百灵医疗模型和真人医生协同提供家庭健康服务。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "a8b5cf7353a1393e"
+    },
+    {
+      "title": "国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台",
+      "url": "https://www.leiphone.com/category/industrynews/Ljtu9TVFrPPeiBsX.html",
+      "industry": "医疗",
+      "summary": "蚂蚁阿福医生版上线PC工作台并接入UpToDate循证医学知识，支持病历整理、数据分析、医学PPT生成及患者管理。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "5ddf18bbb33275fc"
+    },
+    {
+      "title": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
+      "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html",
+      "industry": "制造",
+      "summary": "梵因动力G03 Pro T数据手套用于机器人遥操作及灵巧手训练数据采集，并在央视APEC节目中展示。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "e8f554ac50167566"
+    },
+    {
+      "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
+      "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
+      "industry": "物流",
+      "summary": "中通快递引入阿里云伶鹊AI客服，覆盖改地址、查件、派件确认等场景，日均呼入与外呼数十万通，下单转化率提升近20%。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "3b40e9ea7a9eb65b"
+    },
+    {
+      "title": "当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！",
+      "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+      "industry": "文娱",
+      "summary": "可灵图像4.0可自主生成设计方案，降低AI生图操作门槛，体现生成式AI在视觉创意设计中的应用。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "cffb9e343a297f4d"
+    },
+    {
+      "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
+      "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
+      "industry": "制造",
+      "summary": "灵掌机器人在世界智能制造博览会上展示9款灵巧手，覆盖工业抓取、危险环境作业、太空维修、科研及人形机器人等应用。",
+      "source": "雷锋网",
+      "date": "2026-11-23",
+      "fingerprint": "8428e85259d3c778"
+    },
+    {
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "industry": "未分类",
+      "summary": "Hugging Face 推出 Inkling 2 Mini 模型，面向本地 AI 环境，强调轻量部署与前沿性能。",
+      "source": "Hugging Face Blog",
+      "date": "2026-11-23",
+      "fingerprint": "7b870c6bf7d8c84c"
+    },
+    {
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "industry": "未分类",
+      "summary": "RadixArk 发布开源 27B 模型 DaisyRose-27B，主打在模型后训练阶段提升效率（如强化学习/蒸馏流程优化），在 Hugging Face 博客公开技术方案与权重，供开发者复现部署。",
+      "source": "Hugging Face Blog",
+      "date": "2026-11-23",
+      "fingerprint": "18fa77cfaa46b3b2"
+    },
+    {
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "industry": "未分类",
+      "summary": "IBM Research探讨时间序列模型在Streamhouse中的应用，通过流式数据处理支持实时分析、预测等场景。",
+      "source": "Hugging Face Blog",
+      "date": "2026-11-23",
+      "fingerprint": "87d24e8768009a1a"
     }
   ],
-  "signals": []
+  "signals": [
+    {
+      "title": "[内推]20261123 渣打银行 广州 & 天津 | 66 个在招岗位",
+      "url": "https://www.v2ex.com/t/1259153#reply0",
+      "signal_type": "job_market",
+      "signal_strength": 4,
+      "summary": "渣打银行广州28岗、天津38岗，均要求5年以上经验，硕士可放宽，支持部分居家办公，提供内推渠道。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "1f628feae257b99b"
+    },
+    {
+      "title": "招一位 AI 产品全栈工程师，跟我们一起做有趣的产品（远程办公）",
+      "url": "https://www.v2ex.com/t/1258604#reply21",
+      "signal_type": "job_market",
+      "signal_strength": 4,
+      "summary": "Hipo Hipo 招聘远程 AI 产品全栈工程师，与产品经理、设计师协作快速迭代并验证增长，要求资深全栈及 AI 编程能力。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "03fc7a08ccfbf9a7"
+    },
+    {
+      "title": "[上海 11.21 岗位更新] SHEIN 内推：算法/ Java /AI Agent/安全/测试/iOS/数据/数据库， 20-90k",
+      "url": "https://www.v2ex.com/t/1258789#reply1",
+      "signal_type": "job_market",
+      "signal_strength": 4,
+      "summary": "SHEIN在上海招聘60余个技术岗，涵盖算法、AI Agent、NLP、智能客服、数据及后端等，薪资约25K至90K。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "dfd8cdc9d137cfc3"
+    },
+    {
+      "title": "客户端单端 3 个人 4 周全部用 AI 做的功能，这周打算内测了",
+      "url": "https://www.v2ex.com/t/1259070#reply9",
+      "signal_type": "industry_trend",
+      "signal_strength": 3,
+      "summary": "三人四周用 AI 完成客户端功能并进入内测，生成代码规模和效率获管理层认可，但稳定性、质量与项目管理问题仍被忽视。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "af192e16c1c50c1b"
+    },
+    {
+      "title": "[求职] 9 年后端 / AI Agent 技术负责人，远程优先，期望月薪 5 万",
+      "url": "https://www.v2ex.com/t/1259023#reply1",
+      "signal_type": "job_market",
+      "signal_strength": 3,
+      "summary": "9 年后端经验的 AI Agent 技术负责人寻找远程新机会，期望月薪 5 万以上，具多 Agent 产品落地、浏览器工具链及模型应用经验。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "ad713b062d984a00"
+    },
+    {
+      "title": "许愿式编程会取代程序员吗？",
+      "url": "https://www.v2ex.com/t/1258629#reply42",
+      "signal_type": "startup_opportunity",
+      "signal_strength": 3,
+      "summary": "一团队开发通过自然语言许愿生成应用的 Agent，已获天使轮，并认为模型正快速替代传统编码与架构能力。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "c1726a2deaffc895"
+    },
+    {
+      "title": "我司全面禁止 AI Coding，一夜之间回到古法编程时代",
+      "url": "https://www.v2ex.com/t/1258200#reply259",
+      "signal_type": "industry_trend",
+      "signal_strength": 3,
+      "summary": "某公司因线上故障与误删数据，全面禁止 AI 直接生成代码，仅允许其辅助分析和方案设计。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "825fa2c0ecb47d0b"
+    },
+    {
+      "title": "[求助帖] 三年前 nodejs 全栈开发转行，现想转回 AI agent 开发还有戏吗？工作好找吗？",
+      "url": "https://www.v2ex.com/t/1259004#reply13",
+      "signal_type": "job_market",
+      "signal_strength": 2,
+      "summary": "一位有 Node.js 经验但离开开发行业三年的开发者，计划学习 Python 和 AI Agent，咨询转型就业机会及职业空窗期影响。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "7cf30a4d70dd676f"
+    },
+    {
+      "title": "分享一个简历生成工具",
+      "url": "https://www.v2ex.com/t/1258725#reply4",
+      "signal_type": "startup_opportunity",
+      "signal_strength": 2,
+      "summary": "开发者开源了一款本地存储、支持备份恢复的AI简历生成与维护工具，可作为求职工具创业的轻量案例参考。",
+      "source": "V2EX 招聘频道（AI 相关）",
+      "date": "2026-11-23",
+      "fingerprint": "9262a95989a747db"
+    }
+  ]
 };
